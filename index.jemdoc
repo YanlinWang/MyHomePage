@@ -1,36 +1,43 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
-==Euhanna Ghadimi 
+# jemdoc: {index.html}, nofooter  
+==Yanlin Wang (王焱林) 
 
 ~~~
-{}{img_left}{photos/bio.jpg}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
-PhD,\n [http://www.kth.se/ees/omskolan/organisation/avdelningar/ac?l=en_UK Automatic Control Department], \n[http://www.kth.se Royal Institute of Technology (KTH)]\n
-Osquldas v\&aumlg 10 \n
-100 44 Stockholm, Sweden \n 
-Phone: \+46 8 790 7000 \n
-Fax: \+46 8 790 7329\n
-E-post: /euhanna/ \[@\] kth \[DOT\] se
+{}{img_left}{pic/bio.jpg}{alt text}{131}{160}{https://yanlinwang.github.io/}
+Researcher,\n [https://www.msra.cn/ Software Analytics Group], \n[https://www.msra.cn/ Microsoft Research Asia (MSRA)]\n
+No.5 Danlin Street \n
+Haidian District, Beijing, China \n
+E-mail: /yanlwang/ \[@\] microsoft \[DOT\] com
 ~~~
 
 == About me
-I received the B.S. and M.Sc. degrees in computer engineering from Iran University of Science and Technology ([http://www.iust.ac.ir IUST]), and the [http://ece.ut.ac.ir/ University of Tehran], Iran, in 2005 and 2008, respectively. In April 2015, I received the PhD degree in Telecommunications under the supervision of 
- [http://www.people.kth.se/~mikaelj/ Prof. Mikael Johansson] and  [http://www.people.kth.se/~carlofi/ Prof. Carlo Fischione] at [http:www.kth.se KTH].  
+I received the B.S. degree in computer science from Zhejiang University in 2014. In July 2019, I received the PhD degree in computer science under the supervision of 
+ [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira]. In September 2019, I joined the software analytics group at [https://www.msra.cn/ Microsoft Research Asia (MSRA)].
 
 == Research
 My research interests include 
-- Convex Optimisation  
-- Distributed Algorithms
-- Real-time Sensor Networking
-- Wireless Networks
-- Machine Learning
+- Programming languages
+- Software engineering
+- Artificial intelligence
 
 [research.html Find out more].
-=== Recent Publications 
-. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson, \"Global convergence of the heavy-ball method for convex optimization\",  In ECC'15: European Control Conference, 2015.
-. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson \" Optimal parameter selection for the alternating direction method of
-multipliers (ADMM): quadratic problems \", IEEE Transactions on Automatic Control, 2015. \[[http://arxiv.org/abs/1306.2454 arxiv]\]
-. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \"The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
-. E. Ghadimi, O. Landsiedel, P. Soldati, S. Duquennoy, and M. Johansson, \"Opportunistic Routing in Low Duty-Cycle Wireless Sensor Networks\", ACM Transactions on Senor Networks, 2014. \[[pub/oppTOSN.pdf pdf]\]
+=== Publications 
+Note: * for corresponding author.
+. *Yanlin Wang* and Hui Li, ``Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs.'' In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (AAAI 2021, CCF-A).
+. Hui Li, *Yanlin Wang**, Ziyu Lyu and Jieming Shi, ``Multi-task Learning for Recommendation over Heterogeneous Information Network.'' In IEEE Transactions on Knowledge and Data Engineering (TKDE 2020, CCF-A).
+. *Yanlin Wang*, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto, ``FHJ: A Formal Model for Hierarchical Dispatching and Overriding.'' In Proceedings of the 32nd European Conference on Object-Oriented Programming. (ECOOP 2018, CCF-B).
+. *Yanlin Wang*, Haoyuan Zhang, Marco Servetto and Bruno C. d. S. Oliveira, ``Classless Java.'' In International Conference on Generative Programming: Concepts and Experiences. (GPCE 2016, EI index).
+. *Yanlin Wang*, Bruno C. d. S. Oliveira, ``The Expression Problem, Trivially!'' In Proceedings of the 15th International Conference on Modularity. (Modularity 2016, EI index, *Best Paper Award*).
+. *Yanlin Wang*, Tomas Tauber and Bruno C. d. S. Oliveira, ``Product Lines of Interpreters Using Truffle with Object Algebras.'' In Proceedings of the 1st Truffle/Graal Languages Workshop, 29th European Conference on Object-Oriented Programming. (Truffle@ECOOP 2015).
 
-[publications.html Full list of publications].
-\n
+=== Professional services
+- Program Committee: ECOOP 2019 Doc Symposium
+- Reviewer/Subreviewer: AAAI, ICSE, ESOP, GPCE, Modularity, etc.
+
+== Teaching Assistant (taught in English)
+- Computer Programming, The University of Hong Kong, 2016
+- Functional Programming, The University of Hong Kong, 2016
+- Object-Oriented Programming and Java, The University of Hong Kong, 2015
+- Computer Programming, The University of Hong Kong, 2014
+
+
 [cv.pdf A brief cv].
