@@ -1,9 +1,9 @@
 # jemdoc: {index.html}, nofooter  
-==Yanlin Wang (王焱林) 
+==Yanlin Wang's  Homepage (王焱林)
 
 ~~~
 {}{img_left}{pic/bio.jpg}{alt text}{131}{160}{https://yanlinwang.github.io/}
-[https://www.microsoft.com/en-us/research/people/yanlwang/ Researcher],\n 
+[https://www.microsoft.com/en-us/research/people/yanlwang/ Senior Researcher],\n 
 [https://www.msra.cn/ Software Analytics Group], \n
 [https://www.msra.cn/ Microsoft Research Asia (MSRA)]\n
 No.5 Danlin Street \n
@@ -17,12 +17,14 @@ I received the B.S. degree in computer science from Zhejiang University in 2014.
 
 == Research
 My research interests include 
+- Artificial intelligence
+- Recommender systems
 - Programming languages
 - Software engineering
-- Artificial intelligence
 
 === Publications 
 Note: * for corresponding author.
+. Wei Tao, *Yanlin Wang**, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang and Wenqiang Zhang, ``On the Evaluation of Commit Message Generation Models: An Experimental Study'' in 37th International Conference on Software Maintenance and Evolution. (ICSME 2021, CCF-B).
 . *Yanlin Wang* and Hui Li, ``Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs.'' In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (AAAI 2021, CCF-A).
 . Hui Li, *Yanlin Wang**, Ziyu Lyu and Jieming Shi, ``Multi-task Learning for Recommendation over Heterogeneous Information Network.'' In IEEE Transactions on Knowledge and Data Engineering (TKDE 2020, CCF-A).
 . *Yanlin Wang*, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto, ``FHJ: A Formal Model for Hierarchical Dispatching and Overriding.'' In Proceedings of the 32nd European Conference on Object-Oriented Programming. (ECOOP 2018, CCF-B).
