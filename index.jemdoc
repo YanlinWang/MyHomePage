@@ -28,29 +28,30 @@ Note: * for corresponding author.
 . On the Evaluation of Commit Message Generation Models: An Experimental Study \n
   Wei Tao, *Yanlin Wang**, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang and Wenqiang Zhang \n  
   In 37th International Conference on Software Maintenance and Evolution. (ICSME 2021, CCF-B). \n
-  「[https://arxiv.org/pdf/2107.05373.pdf pdf], [https://github.com/DeepSoftwareAnalytics/CommitMsgEmpirical code]」
+  \[[https://arxiv.org/pdf/2107.05373.pdf pdf]\]
+  \[[https://github.com/DeepSoftwareAnalytics/CommitMsgEmpirical code]\]
 . Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs. \n
   *Yanlin Wang* and Hui Li \n 
   In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (AAAI 2021, CCF-A).\n
-   「[https://arxiv.org/pdf/2103.09499.pdf pdf]」
+   \[[https://arxiv.org/pdf/2103.09499.pdf pdf]\]
 . Multi-task Learning for Recommendation over Heterogeneous Information Network.\n
   Hui Li, *Yanlin Wang**, Ziyu Lyu and Jieming Shi \n  
   In IEEE Transactions on Knowledge and Data Engineering (TKDE 2020, CCF-A).\n
-  「[https://ieeexplore.ieee.org/document/9051843 link]」
-. FHJ: A Formal Model for Hierarchical Dispatching and Overriding. 」\n
+  \[[https://ieeexplore.ieee.org/document/9051843 link]\]
+. FHJ: A Formal Model for Hierarchical Dispatching and Overriding. \]\n
   *Yanlin Wang*, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto \n 
   In Proceedings of the 32nd European Conference on Object-Oriented Programming. (ECOOP 2018, CCF-B).\n
-  「[https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf pdf]
+  \[[https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf pdf]\]
 . Classless Java. \n
   *Yanlin Wang*, Haoyuan Zhang, Marco Servetto and Bruno C. d. S. Oliveira \n 
   In International Conference on Generative Programming: Concepts and Experiences. (GPCE 2016, EI index).\n
-  「[https://i.cs.hku.hk/~bruno/papers/gpce2016.pdf pdf], 
-    [https://github.com/YanlinWang/classless-java code]」
+  \[[https://i.cs.hku.hk/~bruno/papers/gpce2016.pdf pdf]\] 
+  \[[https://github.com/YanlinWang/classless-java code]\]
 . The Expression Problem, Trivially! \n
   *Yanlin Wang*, Bruno C. d. S. Oliveira \n 
   In Proceedings of the 15th International Conference on Modularity. (Modularity 2016, EI index, *Best Paper Award*).\n
-  「[https://dl.acm.org/doi/10.1145/2889443.2889448 link], 
-    [https://i.cs.hku.hk/~bruno/papers/Modularity2016.pdf pdf]」
+  \[[https://dl.acm.org/doi/10.1145/2889443.2889448 link]\]
+  \[[https://i.cs.hku.hk/~bruno/papers/Modularity2016.pdf pdf]\]
 . Product Lines of Interpreters Using Truffle with Object Algebras. \n
   *Yanlin Wang*, Tomas Tauber and Bruno C. d. S. Oliveira \n 
   In Proceedings of the 1st Truffle/Graal Languages Workshop, 29th European Conference on Object-Oriented Programming. (Truffle@ECOOP 2015).
@@ -58,10 +59,10 @@ Note: * for corresponding author.
 === Preprints
 . Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search \n
   Lun Du, Xiaozhou Shi, *Yanlin Wang*, Ensheng Shi, Shi Han, Dongmei Zhang \n
-  「[https://arxiv.org/pdf/2107.04773.pdf pdf]」
+  \[[https://arxiv.org/pdf/2107.04773.pdf pdf]\]
 . CoCoSum: Contextual Code Summarization with Multi-Relational Graph Neural Network \n
   *Yanlin Wang*, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang\n
-  「[https://arxiv.org/pdf/2107.01933.pdf pdf]」
+  \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
 
 == Professional services
 - Program Committee: ESEC/FSE 2021 (IVR), ECOOP 2019 Doc Symposium
