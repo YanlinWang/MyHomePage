@@ -31,7 +31,7 @@ Note: * for corresponding author.
 
 === Conferences and Journals
 . CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees \n
-  Ensheng Shi#, Yanlin Wang#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
+  Ensheng Shi\#, *Yanlin Wang*\#\*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   *EMNLP 2021*, CCF-B
 . Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search \n
   Lun Du, Xiaozhou Shi, *Yanlin Wang*, Ensheng Shi, Shi Han, Dongmei Zhang \n
