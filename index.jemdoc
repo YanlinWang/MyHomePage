@@ -34,6 +34,7 @@ Note: * for corresponding author, \# for equal contribution.
   Ensheng Shi\#, *Yanlin Wang*\#\*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*, CCF-B). \n
   \[[https://arxiv.org/pdf/2108.12987.pdf pdf]\]
+  \[[https://github.com/DeepSoftwareAnalytics/CAST code]\]
 . Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search \n
   Lun Du, Xiaozhou Shi, *Yanlin Wang*, Ensheng Shi, Shi Han, Dongmei Zhang \n
   In 30th ACM International Conference on Information and Knowledge Management. (*CIKM 2021*, CCF-B). \n
