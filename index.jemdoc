@@ -26,10 +26,20 @@ My research interests include:
 - Programming languages
 - Software engineering
 
+#== News
+#- (Pinned) I am currently on the program committee of Scala 2022 and ESEC/FSE 2022 industry track. Please consider submitting a paper!
+#- Two papers accepted at ACL 2022.
+
 == Publications 
 Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. Accelerating Code Search with Deep Hashing and Code Classification \n
+  Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
+  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
+. UniXcoder: Unified Cross-Modal Pre-training for Code Representation \n
+  Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin \n
+  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
 . On the Evaluation of Neural Code Summarization \n
   Ensheng Shi, *Yanlin Wang*\*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun\* \n
   In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
@@ -79,12 +89,10 @@ Note: * for corresponding author, \# for equal contribution.
   *Yanlin Wang*, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang\n
   Arxiv, 2021. \n
   \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
-. Neural Code Summarization: How Far Are We? \n
-  Ensheng Shi, *Yanlin Wang*\*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun\* \n
-  \[[https://arxiv.org/pdf/2107.07112.pdf pdf]\]
+
 
 == Professional services
-- Program Committee: ESEC/FSE 2021 (IVR), ECOOP 2019 Doc Symposium
+- Program Committee: Scala 2022, FSE 2022 industry track, FSE 2021 (IVR), ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 == Teaching Assistant (taught in English)
