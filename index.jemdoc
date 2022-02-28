@@ -41,7 +41,7 @@ Note: * for corresponding author, \# for equal contribution.
   Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin \n
   In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
 . On the Evaluation of Neural Code Summarization \n
-  Ensheng Shi, Yanlin Wang*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun* \n
+  Ensheng Shi, Yanlin Wang\*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun\* \n
   In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
 . CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees \n
   Ensheng Shi\#, Yanlin Wang\#\*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
@@ -66,7 +66,7 @@ Note: * for corresponding author, \# for equal contribution.
   Hui Li, Yanlin Wang\*, Ziyu Lyu and Jieming Shi \n  
   In IEEE Transactions on Knowledge and Data Engineering (*TKDE 2020*, CCF-A).\n
   \[[https://ieeexplore.ieee.org/document/9051843 link]\]
-. FHJ: A Formal Model for Hierarchical Dispatching and Overriding. \]\n
+. FHJ: A Formal Model for Hierarchical Dispatching and Overriding. \n
   Yanlin Wang, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto \n 
   In Proceedings of the 32nd European Conference on Object-Oriented Programming. (*ECOOP 2018*, CCF-B).\n
   \[[https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf pdf]\]
@@ -92,7 +92,7 @@ Note: * for corresponding author, \# for equal contribution.
 
 
 == Professional services
-- Program Committee: Scala 2022, FSE 2022 industry track, FSE 2021 (IVR), ECOOP 2019 Doc Symposium
+- Program Committee: Scala 2022, FSE 2022 Industry Track, FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 == Teaching Assistant (taught in English)
