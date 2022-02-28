@@ -43,7 +43,8 @@ Note: * for corresponding author, \# for equal contribution.
 . On the Evaluation of Neural Code Summarization \n
   Ensheng Shi, Yanlin Wang\*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun\* \n
   In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
-  \[[papers/icse2022codesumeval.pdf pdf]\]
+  \[[papers/icse2022codesumeval.pdf pdf]\] 
+  \[[https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation code]\]
 . CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees \n
   Ensheng Shi\#, Yanlin Wang\#\*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*, CCF-B). \n
