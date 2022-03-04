@@ -35,27 +35,27 @@ My research interests include:
 #- *2020/12.* New paper accepted at AAAI 2021.
 
 == Publications 
-Note: * for corresponding author, \# for equal contribution.
+#Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
-. Accelerating Code Search with Deep Hashing and Code Classification \n
-  Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
+. *Accelerating Code Search with Deep Hashing and Code Classification* \n
+  Wenchao Gu, *Yanlin Wang*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
   In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
-. UniXcoder: Unified Cross-Modal Pre-training for Code Representation \n
-  Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin \n
+. *UniXcoder: Unified Cross-Modal Pre-training for Code Representation* \n
+  Daya Guo, Shuai Lu, Nan Duan, *Yanlin Wang*, Ming Zhou, Jian Yin \n
   In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
 . On the Evaluation of Neural Code Summarization \n
-  Ensheng Shi, Yanlin Wang\*, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun\* \n
+  Ensheng Shi, Yanlin Wang, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun \n
   In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
   \[[papers/icse2022codesumeval.pdf pdf]\] 
   \[[https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation code]\]
 . CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees \n
-  Ensheng Shi\#, Yanlin Wang\#\*, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
+  Ensheng Shi\#, *Yanlin Wang*\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*, CCF-B). \n
   \[[https://aclanthology.org/2021.emnlp-main.332.pdf pdf]\]
   \[[https://github.com/DeepSoftwareAnalytics/CAST code]\]
 . Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search \n
-  Lun Du, Xiaozhou Shi, Yanlin Wang, Ensheng Shi, Shi Han, Dongmei Zhang \n
+  Lun Du, Xiaozhou Shi, *Yanlin Wang*, Ensheng Shi, Shi Han, Dongmei Zhang \n
   In 30th ACM International Conference on Information and Knowledge Management. (*CIKM 2021*, CCF-B). \n
   \[[https://arxiv.org/pdf/2107.04773.pdf pdf]\]
   \[[https://github.com/Xzh0u/MuCoS code]\]
