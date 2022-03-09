@@ -28,6 +28,7 @@ My research interests include:
 
 == Recent news
 - *(Pinned)* I am currently on the program committee of [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2022/03.* New paper accepted at MSR 2022.
 - *2022/02.* Two papers accepted at ACL 2022.
 - *2021/12.* New paper accepted at ICSE 2022.
 - *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
@@ -49,6 +50,9 @@ My research interests include:
   In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
   \[[papers/icse2022codesumeval.pdf pdf]\] 
   \[[https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation code]\]
+. *LibDB: An Effective and Efficient Framework for Detecting Third-Party Libraries in Binaries* \n
+  Wei Tang, Yanlin Wang, Hongyu Zhang, Shi Han, Ping Luo, Dongmei Zhang \n
+  In Mining Software Repositories 2022. (*MSR 2022*, CCF-C). \n
 . *CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n
   Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*, CCF-B). \n
@@ -95,6 +99,8 @@ My research interests include:
   Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang\n
   Arxiv, 2021. \n
   \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
+. ECMG: Exemplar-based Commit Message Generation \n
+  Ensheng Shi, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
 
 
 == Professional services
