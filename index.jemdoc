@@ -41,53 +41,53 @@ My research interests include:
 === Conferences and Journals
 . *Accelerating Code Search with Deep Hashing and Code Classification* \n
   Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
-  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
+  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*). \n
 . *UniXcoder: Unified Cross-Modal Pre-training for Code Representation* \n
   Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin \n
-  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*, CCF-A). \n
+  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*). \n
 . *On the Evaluation of Neural Code Summarization* \n
   Ensheng Shi, Yanlin Wang, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun \n
-  In International Conference on Software Engineering. (*ICSE 2022*, CCF-A). \n
+  In International Conference on Software Engineering. (*ICSE 2022*). \n
   \[[papers/icse2022codesumeval.pdf pdf]\] 
   \[[https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation code]\]
 . *LibDB: An Effective and Efficient Framework for Detecting Third-Party Libraries in Binaries* \n
   Wei Tang, Yanlin Wang, Hongyu Zhang, Shi Han, Ping Luo, Dongmei Zhang \n
-  In Mining Software Repositories 2022. (*MSR 2022*, CCF-C). \n
+  In Mining Software Repositories 2022. (*MSR 2022*). \n
 . *CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n
   Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
-  In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*, CCF-B). \n
+  In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*). \n
   \[[https://aclanthology.org/2021.emnlp-main.332.pdf pdf]\]
   \[[https://github.com/DeepSoftwareAnalytics/CAST code]\]
 . *Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search* \n
   Lun Du, Xiaozhou Shi, Yanlin Wang, Ensheng Shi, Shi Han, Dongmei Zhang \n
-  In 30th ACM International Conference on Information and Knowledge Management. (*CIKM 2021*, CCF-B). \n
+  In 30th ACM International Conference on Information and Knowledge Management. (*CIKM 2021*). \n
   \[[https://arxiv.org/pdf/2107.04773.pdf pdf]\]
   \[[https://github.com/Xzh0u/MuCoS code]\]
 . *On the Evaluation of Commit Message Generation Models: An Experimental Study* \n
   Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang and Wenqiang Zhang \n  
-  In 37th International Conference on Software Maintenance and Evolution. (*ICSME 2021*, CCF-B). \n
+  In 37th International Conference on Software Maintenance and Evolution. (*ICSME 2021*). \n
   \[[https://arxiv.org/pdf/2107.05373.pdf pdf]\]
   \[[https://github.com/DeepSoftwareAnalytics/CommitMsgEmpirical code]\]
 . *Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs.* \n
   Yanlin Wang and Hui Li \n 
-  In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (*AAAI 2021*, CCF-A).\n
+  In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (*AAAI 2021*).\n
    \[[https://arxiv.org/pdf/2103.09499.pdf pdf]\]
 . *Multi-task Learning for Recommendation over Heterogeneous Information Network.*\n
   Hui Li, Yanlin Wang, Ziyu Lyu and Jieming Shi \n  
-  In IEEE Transactions on Knowledge and Data Engineering (*TKDE 2020*, CCF-A).\n
+  In IEEE Transactions on Knowledge and Data Engineering (*TKDE 2020*).\n
   \[[https://ieeexplore.ieee.org/document/9051843 link]\]
 . *FHJ: A Formal Model for Hierarchical Dispatching and Overriding.* \n
   Yanlin Wang, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto \n 
-  In Proceedings of the 32nd European Conference on Object-Oriented Programming. (*ECOOP 2018*, CCF-B).\n
+  In Proceedings of the 32nd European Conference on Object-Oriented Programming. (*ECOOP 2018*).\n
   \[[https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf pdf]\]
 . *Classless Java.* \n
   Yanlin Wang, Haoyuan Zhang, Marco Servetto and Bruno C. d. S. Oliveira \n 
-  In International Conference on Generative Programming: Concepts and Experiences. (*GPCE 2016*, EI index).\n
+  In International Conference on Generative Programming: Concepts and Experiences. (*GPCE 2016*).\n
   \[[https://i.cs.hku.hk/~bruno/papers/gpce2016.pdf pdf]\] 
   \[[https://github.com/YanlinWang/classless-java code]\]
 . *The Expression Problem, Trivially!* \n
   Yanlin Wang, Bruno C. d. S. Oliveira \n 
-  In Proceedings of the 15th International Conference on Modularity. (*Modularity 2016*, EI index, *Best Paper Award*).\n
+  In Proceedings of the 15th International Conference on Modularity. (*Modularity 2016*, *Best Paper Award*).\n
   \[[https://dl.acm.org/doi/10.1145/2889443.2889448 link]\]
   \[[https://i.cs.hku.hk/~bruno/papers/Modularity2016.pdf pdf]\]
 . *Product Lines of Interpreters Using Truffle with Object Algebras.* \n
@@ -104,7 +104,7 @@ My research interests include:
 
 
 == Professional services
-- Program Committee: [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Program Committee: [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 == Teaching Assistant (taught in English)
