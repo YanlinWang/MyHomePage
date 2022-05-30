@@ -28,6 +28,7 @@ My research interests include:
 
 == Recent news
 - *(Pinned)* I am currently on the program committee of [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2022/05.* New paper accepted at KDD 2022 Applied Data Science Track.
 - *2022/03.* New paper accepted at MSR 2022.
 - *2022/02.* Two papers accepted at ACL 2022.
 - *2021/12.* New paper accepted at ICSE 2022.
@@ -39,6 +40,10 @@ My research interests include:
 #Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. *No One Left Behind: Inclusive Federated Learning over Heterogeneous Devices* \n
+  Ruixuan Liu, Fangzhao Wu, Chuhan Wu, Yanlin Wang, Lingjuan Lyu, Hong Chen, Xing Xie \n
+  In ACM SIGKDD 2022 Applied Data Science Track. (*KDD 2022*). \n
+  \[[https://arxiv.org/abs/2202.08036 pdf]\]
 . *Accelerating Code Search with Deep Hashing and Code Classification* \n
   Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
   In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*). \n
