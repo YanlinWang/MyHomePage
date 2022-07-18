@@ -61,6 +61,8 @@ My research interests include:
 . *LibDB: An Effective and Efficient Framework for Detecting Third-Party Libraries in Binaries* \n
   Wei Tang, Yanlin Wang, Hongyu Zhang, Shi Han, Ping Luo, Dongmei Zhang \n
   In Mining Software Repositories 2022. (*MSR 2022*). \n
+  \[[https://arxiv.org/abs/2204.10232 pdf]\] 
+  \[[https://github.com/DeepSoftwareAnalytics/LibDB code]\]
 . *CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n
   Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*). \n
