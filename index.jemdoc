@@ -1,24 +1,24 @@
 # jemdoc: {index.html}, nofooter  
-==Yanlin Wang's  Homepage (王焱林)
+==Yanlin Wang's  Homepage
 
 ~~~
 {}{img_left}{pic/bio.jpg}{alt text}{150}{160}{https://yanlin.info/}
-[https://www.microsoft.com/en-us/research/people/yanlwang/ Senior Researcher]\n 
-Data, Knowledge, and Intelligence (DKI) group, \n
-Microsoft Research Asia (MSRA)\n
-No.5 Danlin Street \n
-Haidian District, Beijing, China \n
-E-mail: /yanlwang/ \[@\] microsoft \[DOT\] com
+Assistant Professor \n 
+[https://sse.sysu.edu.cn/ School of Software Engineering] \n
+[https://www.sysu.edu.cn Sun Yat-sen University] \n
+E-mail: /wangylin36/@mail.sysu.edu.cn
 ~~~
 
 == About me
-I'm currently a senior researcher at Microsoft Research Asia. I received the B.S. degree in computer science from Zhejiang University and the PhD degree from the University of Hong Kong under the supervision of 
- [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira]. In 2019, I joined the Data, Knowledge, and Intelligence (DKI) group at MSRA.
+I joined Software Engineering School, Sun Yat-sen University as a assistant professor in July 2022. 
+Previously, I worked at [https://www.microsoft.com/en-us/research/people/yanlwang/ Microsoft Research Asia], Data, Knowledge, and Intelligence (DKI) group as a senior researcher. 
+I received the B.S. degree in computer science from Zhejiang University and the PhD degree from the University of Hong Kong under the supervision of 
+ [https://www.cs.hku.hk/~bruno Prof. Bruno C. d. S. Oliveira].
 
-~~~
-{}{raw}
-<p style="color:#BB0000";><strong>Our lab has several intern positions. If you are a self-motivated student with strong interests in Software Engineering, Programming Languages, and/or Deep Learning, etc.,  please send me your CV.</strong></p> 
-~~~
+#~~~
+#{}{raw}
+#<p style="color:#BB0000";><strong>Our lab has several intern positions. If you are a self-motivated student with strong interests in Software Engineering, Programming Languages, and/or Deep Learning, etc.,  please send me your CV.</strong></p> 
+#~~~
 
 My research interests include: 
 - Software engineering
