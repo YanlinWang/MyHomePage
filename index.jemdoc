@@ -27,7 +27,8 @@ My research interests include:
 - Recommender systems
 
 == Recent news
-- *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2022/11.* New paper accepted at AAAI 2023.
 - *2022/10.* New paper accepted at WSDM 2023.
 - *2022/10.* Two papers accepted at EMNLP 2022.
 - *2022/09.* New paper accepted at EMSE 2022.
@@ -46,6 +47,7 @@ My research interests include:
 . *A large-scale empiricalstudy of commit message generation: models, datasets and evaluation* \n
   Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Wenqiang Zhang \n
   In Empirical Software Engineering. (*EMSE 2022*). \n
+  \[[https://dl.acm.org/doi/abs/10.1007/s10664-022-10219-1 pdf]\]
 . *Revisiting Code Search in a Two-Stage Paradigm* \n
   Fan Hu, Yanlin Wang, Lun Du, Xirong Li, Hongyu Zhang, Shi Han, Dongmei Zhang \n
   In 15th ACM International WSDM Conference. (*WSDM 2023*). \n
@@ -130,7 +132,7 @@ My research interests include:
 
 
 == Professional services
-- Program Committee: [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Program Committee: [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 == Teaching Assistant (taught in English)
