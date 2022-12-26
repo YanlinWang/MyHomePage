@@ -35,15 +35,19 @@ My research interests include:
 - *2022/05.* New paper accepted at KDD 2022 Applied Data Science Track.
 - *2022/03.* New paper accepted at MSR 2022.
 - *2022/02.* Two papers accepted at ACL 2022.
-- *2021/12.* New paper accepted at ICSE 2022.
-- *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
-- *2021/06.* New paper accepted at ICSME 2021.
+#- *2021/12.* New paper accepted at ICSE 2022.
+#- *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
+#- *2021/06.* New paper accepted at ICSME 2021.
 #- *2020/12.* New paper accepted at AAAI 2021.
 
 == Publications 
 #Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. *Guiding the PLMs with Semantic Anchors as Intermediate Supervision: Towards Interpretable Semantic Parsing* \n
+  Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
+  In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (*AAAI 2023*). \n
+  \[[https://arxiv.org/abs/2210.01425 pdf]\]
 . *A large-scale empiricalstudy of commit message generation: models, datasets and evaluation* \n
   Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Wenqiang Zhang \n
   In Empirical Software Engineering. (*EMSE 2022*). \n
