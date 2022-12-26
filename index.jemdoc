@@ -28,6 +28,7 @@ My research interests include:
 
 == Recent news
 - *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2022/12.* New paper accepted at ICSE 2023.
 - *2022/11.* New paper accepted at AAAI 2023.
 - *2022/10.* New paper accepted at WSDM 2023.
 - *2022/10.* Two papers accepted at EMNLP 2022.
@@ -44,6 +45,9 @@ My research interests include:
 #Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. *CoCoSoDa: Effective Contrastive Learning for Code Search* \n
+  Ensheng Shi, Yanlin Wang, Wenchao Gu, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
+  In proceedings of the 45th IEEE/ACM International Conference on Software Engineering (*ICSE 2023*). \n
 . *Guiding the PLMs with Semantic Anchors as Intermediate Supervision: Towards Interpretable Semantic Parsing* \n
   Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
   In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (*AAAI 2023*). \n
