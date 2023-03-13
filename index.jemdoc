@@ -45,6 +45,9 @@ My research interests include:
 #Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. *Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing* \n
+  Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
+  In Proceedings of the 36th AAAI Conference on Artificial Intelligence. (*AAAI 2023*).\n
 . *CoCoSoDa: Effective Contrastive Learning for Code Search* \n
   Ensheng Shi, Yanlin Wang, Wenchao Gu, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In proceedings of the 45th IEEE/ACM International Conference on Software Engineering (*ICSE 2023*). \n
