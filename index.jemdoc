@@ -63,6 +63,9 @@ My research interests include:
 . *Toward Automated Detecting Unanticipated Price Feed in Smart Contract* \n 
   Yifan Mo, Jiachi Chen, Yanlin Wang, Zibin Zheng \n 
   In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
+. *CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n 
+  Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
+  In Empirical Software Engineering (*EMSE 2023, CCF-B*) \n
 . *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search*  \n 
   Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng \n 
   In 39th IEEE International Conference on Software Maintenance and Evolution. (*ICSME 2023, CCF-B*) \n 
