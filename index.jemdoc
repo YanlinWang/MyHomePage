@@ -27,7 +27,12 @@ My research interests include:
 - Recommender systems
 
 == Recent news
-- *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *(Pinned)* I am currently on the program committee of [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2023/07.* One research paper on issue link recovery was accepted by ASE 2023. Congratulations to Chenyuan!
+- *2023/06.* One research paper on code search utilizing ChatGPT was accepted by ICSME 2023. Congratulations to Lianghong!
+- *2023/05.* Four research papers on efficient finetuning of pretrained code models, rename refactoring, detecting price manipulation vulnerabilities in DeFi protocols, and detecting unanticipated price feed in smart contract were accepted by ISSTA 2023. Congratulations to Ensheng, Hao, Queping, and Yifan!
+- *2023/05.* Our research project MemoryBank for enhancing LLMs with long-term memory was released, check it out! https://arxiv.org/abs/2305.10250
+- *2023/04.* Our benchmark AGIEval for accessing foundation models was released, check it out! https://arxiv.org/abs/2304.06364
 - *2022/12.* New paper accepted at ICSE 2023.
 - *2022/11.* New paper accepted at AAAI 2023.
 - *2022/10.* New paper accepted at WSDM 2023.
@@ -45,6 +50,21 @@ My research interests include:
 #Note: * for corresponding author, \# for equal contribution.
 
 === Conferences and Journals
+. *Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond* \n 
+  Ensheng Shi, Yanlin Wang, Hongyu Zhang, Lun Du, Shi Han, Dongmei Zhang, Hongbin Sun \n
+  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
+. *Re2BERT: A Two-stage Pre-trained Framework for Automatic Rename Refactoring* \n
+  Hao Liu, Yanlin Wang, Zhao Wei, Yong Xu, Juhong Wang, Hui Li, Rongrong Ji \n 
+  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
+. *DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols* \n 
+  Queping Kong, Jiachi Chen, Yanlin Wang, Zigui Jiang, Zibin Zheng \n 
+  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
+. *Toward Automated Detecting Unanticipated Price Feed in Smart Contract* \n 
+  Yifan Mo, Jiachi Chen, Yanlin Wang, Zibin Zheng \n 
+  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
+. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search*  \n 
+  Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng \n 
+  In 39th IEEE International Conference on Software Maintenance and Evolution. (*ICSME 2023, CCF-B*) \n 
 . *PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation* \n
   KDD 2023 Applied Data Science (*KDD 2023*). \n
 . *Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing* \n
@@ -139,23 +159,32 @@ My research interests include:
 
 === Preprints
 . CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network \n
-  Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang\n
-  Arxiv, 2021. \n
+  Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang \n
   \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
+. AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models \n 
+  Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan \n   
+  \[ [https://arxiv.org/abs/2304.06364 pdf] \] \n 
+. MemoryBank: Enhancing Large Language Models with Long-Term Memory \n 
+  Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang \n 
+  \[ [https://arxiv.org/abs/2305.10250 pdf]\] \n 
 
 
 == Professional services
-- Program Committee: [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Program Committee: [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
-== Teaching Assistant (taught in English)
-- Computer Programming, The University of Hong Kong, 2016
-- Functional Programming, The University of Hong Kong, 2016
-- Object-Oriented Programming and Java, The University of Hong Kong, 2015
-- Computer Programming, The University of Hong Kong, 2014
+== Teaching
+- AI Revolution: Decoding Large Models (AI革命：解码大模型), Sun Yat-sen University, 2023 Fall.
+- Principles of Compilers (编译原理), Sun Yat-sen University, 2023 Fall.
+- Principles of Compilers (编译原理), Sun Yat-sen University, 2023 Spring.
+- Software Source Codes Analysis (软件源代码分析), Sun Yat-sen University, 2022 Fall.
+- (TA) Computer Programming, The University of Hong Kong, 2016
+- (TA) Functional Programming, The University of Hong Kong, 2016
+- (TA) Object-Oriented Programming and Java, The University of Hong Kong, 2015
+- (TA) Computer Programming, The University of Hong Kong, 2014
 
 == Useful Links
-Deadlines: [https://ddl.yanlin.info ddl-ours], [https://ccfddl.github.io/ ddl-all] \n
+Deadlines: [https://ccfddl.github.io/ ddl-all] \n # [https://ddl.yanlin.info ddl-ours], 
 CCF list: [https://ccf.atom.im/ ccf.atom.im]
 
 # [cv.pdf A brief cv].
