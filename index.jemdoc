@@ -58,46 +58,45 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 . *SoTaNa: The Open-Source Software Development Assistant* \[[https://arxiv.org/abs/2308.13416 preprint]\]\n
   Ensheng Shi, Fengji Zhang, Yanlin Wang, Bei Chen, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n  
 . *Towards an Understanding of Large Language Models in Software Engineering Tasks* \[[https://arxiv.org/abs/2308.11396 preprint]\]\n 
-  Chong Chen, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng \n  
+  Zibin Zheng, Kaiwen Ning, Jiachi Chen, Yanlin Wang, Wenqing Chen, Lianghong Guo, Weicheng Wang \n  
 . *When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?* \[[https://arxiv.org/abs/2309.05520 preprint]\]\n 
-  Zibin Zheng, Kaiwen Ning, Jiachi Chen, Yanlin Wang, Wenqing Chen, Lianghong Guo, Weicheng Wang \n 
+  Chong Chen, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng \n 
 . *AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models* \[[https://arxiv.org/abs/2304.06364 preprint]\]\n 
   Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan \n    
 . *MemoryBank: Enhancing Large Language Models with Long-Term Memory*   \[[https://arxiv.org/abs/2305.10250 preprint]\] \n  
   Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang \n 
-. *Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond* \n 
+. *Code Search Debiasing: Improve Search Results beyond Overall Ranking Performance* \n 
+  Sheng Zhang, Hui Li, Yanlin Wang, Zhao Wei, yong xu, Juhong Wang, Rongrong Ji (*EMNLP 2023 Findings, CCF-B*).\n 
+. *Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond* \[[https://dl.acm.org/doi/abs/10.1145/3597926.3598036 pdf]\] \n 
   Ensheng Shi, Yanlin Wang, Hongyu Zhang, Lun Du, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Re2BERT: A Two-stage Pre-trained Framework for Automatic Rename Refactoring* \n
+. *Re2BERT: A Two-stage Pre-trained Framework for Automatic Rename Refactoring* \[[https://arxiv.org/abs/2305.17708 pdf]\] \n
   Hao Liu, Yanlin Wang, Zhao Wei, Yong Xu, Juhong Wang, Hui Li, Rongrong Ji \n 
   In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols* \n 
+. *DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols* \[[https://dl.acm.org/doi/pdf/10.1145/3597926.3598124 pdf]\]\n 
   Queping Kong, Jiachi Chen, Yanlin Wang, Zigui Jiang, Zibin Zheng \n 
   In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Toward Automated Detecting Unanticipated Price Feed in Smart Contract* \n 
+. *Toward Automated Detecting Unanticipated Price Feed in Smart Contract*\[[https://dl.acm.org/doi/abs/10.1145/3597926.3598133 pdf]\] \n 
   Yifan Mo, Jiachi Chen, Yanlin Wang, Zibin Zheng \n 
   In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Snippet Comment Generation Based on Code Context Expansion* \n 
+. *Snippet Comment Generation Based on Code Context Expansion* \[[https://dl.acm.org/doi/10.1145/3611664 pdf]\]\n 
   Hanyang Guo, Xiangping Chen, Yuan Huang, Yanlin Wang, Xi Ding, Zibin Zheng, Xiaocong Zhou, Hong-Ning Dai \n 
   In ACM Transactions on Software Engineering and Methodology (*TOSEM 2023, CCF-A*) \n 
-. *CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n 
+. *CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees*\[[https://link.springer.com/article/10.1007/s10664-023-10378-9 pdf]\] \n 
   Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In Empirical Software Engineering (*EMSE 2023, CCF-B*) \n
-. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search*  \n 
+. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search* \[[papers/ChatDance-icsme23.pdf pdf]\]  \n 
   Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng \n 
   In 39th IEEE International Conference on Software Maintenance and Evolution. (*ICSME 2023, CCF-B*) \n 
-. *PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation* \n
+. *PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation*\[[https://dl.acm.org/doi/abs/10.1145/3580305.3599889 pdf]\] \n
+  Ruixuan Liu, Yang Cao, Yanlin Wang, Lingjuan Lyu, Yun Chen, Hong Chen \n
   KDD 2023 Applied Data Science (*KDD 2023*). \n
-. *Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing* \n
+. *Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing*\[[https://ojs.aaai.org/index.php/AAAI/article/view/26572 pdf]\] \n
   Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
   In Proceedings of the 36th AAAI Conference on Artificial Intelligence. (*AAAI 2023*).\n
-. *CoCoSoDa: Effective Contrastive Learning for Code Search* \n
+. *CoCoSoDa: Effective Contrastive Learning for Code Search* \[[https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00185 pdf]\]\n
   Ensheng Shi, Yanlin Wang, Wenchao Gu, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In proceedings of the 45th IEEE/ACM International Conference on Software Engineering (*ICSE 2023*). \n
-. *Guiding the PLMs with Semantic Anchors as Intermediate Supervision: Towards Interpretable Semantic Parsing* \n
-  Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
-  In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (*AAAI 2023*). \n
-  \[[https://arxiv.org/abs/2210.01425 pdf]\]
 . *A large-scale empiricalstudy of commit message generation: models, datasets and evaluation* \n
   Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Wenqiang Zhang \n
   In Empirical Software Engineering. (*EMSE 2022*). \n
@@ -114,6 +113,8 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   Haochen Li, Chunyan Miao, Yanxian Huang, Yuan Huang, Hongyu Zhang and Yanlin Wang \n
   In The 2022 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2022*). \n
   \[[https://arxiv.org/abs/2208.11274v1 pdf]\]
+. *An overview of Web3.0 Technology: Infrastructure, Applications, and Popularity* \[[https://arxiv.org/abs/2305.00427 preprint]\]  \n
+  Renke Huang, Jiachi Chen, Yanlin Wang, Tingting Bi, Zibin Zheng \n
 . *No One Left Behind: Inclusive Federated Learning over Heterogeneous Devices* \n
   Ruixuan Liu, Fangzhao Wu, Chuhan Wu, Yanlin Wang, Lingjuan Lyu, Hong Chen, Xing Xie \n
   In ACM SIGKDD 2022 Applied Data Science Track. (*KDD 2022*). \n
