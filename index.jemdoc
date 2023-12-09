@@ -33,6 +33,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Recent news
 - *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/fse-2024 FSE 2024], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2023/12.* Our research paper MemoryBank (enhancing LLMs with long-term memory) was accepted by AAAI 2024. Congrats to Wanjun and Lianghong!
 - *2023/07.* One research paper on issue link recovery was accepted by ASE 2023. Congratulations to Chenyuan!
 - *2023/06.* One research paper on code search utilizing ChatGPT was accepted by ICSME 2023. Congratulations to Lianghong!
 - *2023/05.* Four research papers were accepted by ISSTA 2023. Congratulations to Ensheng, Hao, Queping, and Yifan!
@@ -65,6 +66,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan \n    
 . *MemoryBank: Enhancing Large Language Models with Long-Term Memory*   \[[https://arxiv.org/abs/2305.10250 preprint]\] \n  
   Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang \n 
+  In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (*AAAI 2024*).\n
 . *Code Search Debiasing: Improve Search Results beyond Overall Ranking Performance* \n 
   Sheng Zhang, Hui Li, Yanlin Wang, Zhao Wei, yong xu, Juhong Wang, Rongrong Ji (*EMNLP 2023 Findings, CCF-B*).\n 
 . *Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond* \[[https://dl.acm.org/doi/abs/10.1145/3597926.3598036 pdf]\] \n 
@@ -195,7 +197,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 
 == Professional services
-- Program Committee: [https://conf.researchr.org/home/fse-2024 FSE 2024], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Program Committee: [https://conf.researchr.org/home/fse-2024 FSE 2024], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://llm4code.github.io/ LLM4Code 2024 Workshop], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 == Teaching
