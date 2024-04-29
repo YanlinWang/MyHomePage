@@ -33,6 +33,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Recent news
 - *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/fse-2024 FSE 2024 Industry], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
+- *2024/02.* Our research paper Tackling Long Code Search with Splitting, Encoding, and Aggregating was accepted by COLING 2024. Congrats to Fan!
 - *2024/01.* Our research paper KADEL was accepted by TOSEM 2024. Congrats to Wei!
 - *2023/12.* Our research paper SparseCoder (Identifier-Aware Sparse Transformer for File-Level Code Summarization) was accepted by SANER 2024. Congrats to Yanxian!
 - *2023/12.* Our research paper MemoryBank (enhancing LLMs with long-term memory) was accepted by AAAI 2024. Congrats to Wanjun and Lianghong!
@@ -56,8 +57,13 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Publications 
 #Note: * for corresponding author, \# for equal contribution.
+. *Tackling Long Code Search with Splitting, Encoding, and Aggregating.*  \n 
+  Fan Hu, Yanlin Wang\*, Lun Du, Hongyu Zhang, Dongmei Zhang and Xirong Li \n 
+  International Conference on Computational Linguistics, Language Resources and Evaluation. (*LREC-COLING 2024, CCF-B*) \n
 . *MoonBit: Explore the Design of an AI-Friendly Programming Language.* In LLM4Code Workshop 2024.\n 
   Haoxiang Fei, Yu Zhang, Hongbo Zhang, Yanlin Wang, Qing Liu \n 
+. *An Empirical Study on Low Code Programming using Traditional vs Large Language Model Support.* \[[https://arxiv.org/abs/2402.01156 preprint]\]\n
+  Yongkun Liu, Jiachi Chen, Tingting Bi, John Grundy, Yanlin Wang, Ting Chen, Yutian Tang, Zibin Zheng \n
 . *KADEL: Knowledge-Aware Denoising Learning for Commit Message Generation.* \[[https://arxiv.org/abs/2401.08376 pdf] \] \n
   Wei Tao, Yucheng Zhou, Yanlin Wang\*, Hongyu Zhang, Haofen Wang, Wenqiang Zhang\* \n 
   ACM Transactions on Software Engineering and Methodology 2024. (*TOSEM 2024, CCF-A*) \n
@@ -209,7 +215,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 
 == Services
-- Program Committee: [https://conf.researchr.org/home/fse-2024 FSE 2024 Industry], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://llm4code.github.io/ LLM4Code 2024 Workshop], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Program Committee: Internetware 2024, [https://conf.researchr.org/home/fse-2024 FSE 2024 Industry], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://llm4code.github.io/ LLM4Code 2024 Workshop], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: ICSE, FSE, ASE, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 - [https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee Internetware 2024 Tool Demonstration Track Co-Chair]
 
