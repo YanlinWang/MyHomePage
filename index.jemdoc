@@ -57,6 +57,20 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Publications 
 #Note: * for corresponding author, \# for equal contribution.
+. *When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention* (*ISSTA 2024, CCF-A*) \n
+  Lianghong Guo, Yanlin Wang\*, Ensheng Shi, Wanjun Zhong, Hongyu Zhang, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng. \n
+. *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
+  Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
+. *Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow* (*ISSTA 2024, CCF-A*) \n
+  Jiachi Chen, Chong Chen, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng \n
+. *Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models* \[[https://arxiv.org/abs/2407.00456 preprint] \] \n 
+  Yanlin Wang, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Zibin Zheng \n
+. *Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts* (*ICSE 2025, CCF-A*) \n
+  Jiashuo Zhang, Yiming Shen, Jiachi Chen, Jianzhong Su, Yanlin Wang, Ting Chen, Jianbo Gao, Zhong Chen
+. *Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution* (*ICSE 2025, CCF-A*) \n
+  Shuo Yang, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
+. *CoSQA+: Enhancing Code Search Dataset with Matching Code* \[[https://arxiv.org/abs/2406.11589 preprint] \] \n 
+  Jing Gong, Yanghui Wu, Linxi Liang, Zibin Zheng, Yanlin Wang \n
 . *YODA: Teacher-Student Progressive Learning for Language Models* \[[https://arxiv.org/abs/2401.15670 preprint]\] \n 
   Jianqiao Lu, Wanjun Zhong, Yufei Wang, Zhijiang Guo, Qi Zhu, Wenyong Huang, Yanlin Wang, Fei Mi, Baojun Wang, Yasheng Wang, Lifeng Shang, Xin Jiang, Qun Liu \n 
 . *Tackling Long Code Search with Splitting, Encoding, and Aggregating.*  \n 
@@ -218,11 +232,20 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Services
 - Chair/Co-chair: 
-  -- [https://conf.researchr.org/home/fse-2025 FSE 2025, Proceeding Co-chair]
+  -- [https://conf.researchr.org/home/fse-2025 FSE 2025, Organizing Committee, Proceeding Co-chair]
   -- [https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee Internetware 2024, Tool Demonstration Track Co-Chair]
   -- [https://www.aiahpc.org/gflgptex AIAHPC 2024, Program Co-chair]
-- Program Committee: Internetware 2024, [https://conf.researchr.org/home/fse-2024 FSE 2024 Industry], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://llm4code.github.io/ LLM4Code 2024 Workshop], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track], FSE 2021 IVR, ECOOP 2019 Doc Symposium
-- Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, ICSE, FSE, ASE, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
+  -- [https://conf.researchr.org/track/apsec-2024/apsec-2024-doctoral-symposium APSEC 2024, Doctoral Symposium Co-chair]
+- Program Committee: 
+  -- [https://conf.researchr.org/track/fse-2025/fse-2025-research-papers FSE 2025] 
+  -- [https://2024.issta.org/track/issta-2024-papers ISSTA 2024]
+  -- [https://conf.researchr.org/home/icse-2024 ICSE 2024]
+  -- [https://conf.researchr.org/home/fse-2024 FSE Industry 2024, 2023, 2022]
+  -- [https://conf.researchr.org/track/internetware-2024/internetware-2024-research? Internetware 2024] 
+  -- [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]
+  -- [https://coling2022.org/ COLING 2022]
+  -- [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://llm4code.github.io/ LLM4Code 2024 Workshop], FSE 2021 IVR, ECOOP 2019 Doc Symposium
+- Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 
 == SCI Group
