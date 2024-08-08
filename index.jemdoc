@@ -39,6 +39,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 - *2024/07.* Our paper "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention" has been accepted by ISSTA 2024.
 - *2024/07.* Our paper "RLCoder: Reinforcement Learning for Repository-Level Code Completion" has been accepted by ICSE 2025.
 - *2024/07.* Our paper "Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow" has been accepted by ISSTA 2024.
+#- *2024/06.* 🏆 Our paper 教学论文CCEC 2024 二等奖。
 - *2024/02.* Our paper Tackling Long Code Search with Splitting, Encoding, and Aggregating was accepted by COLING 2024. Congrats to Fan!
 - *2024/01.* Our paper KADEL was accepted by TOSEM 2024. Congrats to Wei!
 - *2023/12.* Our paper SparseCoder (Identifier-Aware Sparse Transformer for File-Level Code Summarization) was accepted by SANER 2024. Congrats to Yanxian!
@@ -77,6 +78,8 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   Shuo Yang, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
 . *CoSQA+: Enhancing Code Search Dataset with Matching Code* \[[https://arxiv.org/abs/2406.11589 preprint] \] \n 
   Jing Gong, Yanghui Wu, Linxi Liang, Zibin Zheng, Yanlin Wang \n
+. *Make Heterophilic Graphs Better Fit GNN:A GraphRewiring Approach* (*TKDE 2024, CCF-A*)	\n 
+  Wendong Bi, Lun Du*, Qiang Fu, Yanlin Wang, Shi Han, and Dongmei Zhang \n 
 . *YODA: Teacher-Student Progressive Learning for Language Models* \[[https://arxiv.org/abs/2401.15670 preprint]\] \n 
   Jianqiao Lu, Wanjun Zhong, Yufei Wang, Zhijiang Guo, Qi Zhu, Wenyong Huang, Yanlin Wang, Fei Mi, Baojun Wang, Yasheng Wang, Lifeng Shang, Xin Jiang, Qun Liu \n 
 . *Tackling Long Code Search with Splitting, Encoding, and Aggregating.*  \n 
@@ -127,7 +130,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 . *CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees*\[[https://link.springer.com/article/10.1007/s10664-023-10378-9 pdf]\] \n 
   Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
   In Empirical Software Engineering (*EMSE 2023, CCF-B*) \n
-. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search* \[[papers/ChatDance-icsme23.pdf pdf]\]  \n 
+. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search* \[[papers/ChatDANCE-ICSME2023 pdf]\]  \n 
   Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng \n 
   In 39th IEEE International Conference on Software Maintenance and Evolution. (*ICSME 2023, CCF-B*) \n 
 . *PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation*\[[https://dl.acm.org/doi/abs/10.1145/3580305.3599889 pdf]\] \n
@@ -278,6 +281,8 @@ SCI for Source Code Intelligence. I am very fortunate to work with my talented s
 - (TA) Computer Programming, The University of Hong Kong. 2016, 2014
 - (TA) Functional Programming, The University of Hong Kong. 2016
 - (TA) Object-Oriented Programming and Java, The University of Hong Kong. 2015
+
+# == Projects，胡杨林2023、2024、开发项目、招联子课题、培育项目
 
 #== Awards
 #SocialMeta 2023 Distinguished TPC 
