@@ -63,13 +63,17 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 #- *2020/12.* New paper accepted at AAAI 2021.
 
 == Publications 
-#Note: * for corresponding author, \# for equal contribution.
-. *When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention* (*ISSTA 2024, CCF-A*) \n
-  Lianghong Guo, Yanlin Wang\*, Ensheng Shi, Wanjun Zhong, Hongyu Zhang, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng. \n
+#Note: * for corresponding author, \# for equal contribution
 . *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
   Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
-. *Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow* (*ISSTA 2024, CCF-A*) \n
+. *MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution* (*NeurIPS 2024, CCF-A*) \n
+. *When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention* (*ISSTA 2024, CCF-A*) (*+🏆Distinguished Paper Award🏆+*) \n
+  Lianghong Guo, Yanlin Wang\*, Ensheng Shi, Wanjun Zhong, Hongyu Zhang, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng. \n 
+. *Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow* (*ISSTA 2024, CCF-A*) (*+🏆Distinguished Paper Award🏆+*) \n
   Jiachi Chen, Chong Chen, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng \n
+. *RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code* (*ASE 2024, CCF-A*) \n
+  Jiachi Chen, Qingyuan Zhong, Yanlin Wang, Kaiwen Ning, Yongkun Liu, Zenan Xu, Zhe Zhao, Ting Chen, Zibin Zheng \n
+  In The 39th ACM/IEEE International Conference on Automated Software Engineering.
 . *Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models* \[[https://arxiv.org/abs/2407.00456 preprint] \] \n 
   Yanlin Wang, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Zibin Zheng \n
 . *Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts* (*ICSE 2025, CCF-A*) \n
