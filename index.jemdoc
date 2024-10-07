@@ -65,6 +65,10 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 == Publications 
 #Note: * for corresponding author, \# for equal contribution
+. *Agents in Software Engineering: Survey, Landscape, and Vision* \[[https://arxiv.org/abs/2409.09030 preprint] \] \n 
+  Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng \n
+. *LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation* \[[https://arxiv.org/abs/2409.20550 preprint] \] \n 
+  Ziyao Zhang, Yanlin Wang, Chong Wang, Jiachi Chen, Zibin Zheng
 . *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
   Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
 . *MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution* (*NeurIPS 2024, CCF-A*) \n
@@ -263,25 +267,25 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 - Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 
-== SCI Group
-SCI for Source Code Intelligence. I am very fortunate to work with my talented students and collaborators:
+#== SCI Group
+#SCI for Source Code Intelligence. I am very fortunate to work with my talented students and collaborators:
 
-- Master Students: 
-  -- 2024: [https://jty1128.github.io/ Tianyue Jiang(江天玥)],
-           [https://2164962995.github.io/ZhangZiyao.github.io/ Ziyao Zhang(张梓垚)]
-  -- 2023: [https://wangyanli3630.github.io/ Yanli Wang (王岩立)],
-           [https://gnohgnailoug.github.io/ Lianghong Guo(郭亮宏)], 
-           [https://zhengdewu.github.io/ Dewu Zheng(郑德武)], 
-           [https://dingzhen778.github.io/ Runhan Jiang(江润汉)]
-  -- 2022: [https://huangyx316.github.io/YanxianHuang.github.io/ Yanxian Huang(黄炎贤)], 
-           [https://jiadwu2.github.io/ Jiadong Wu(伍嘉栋)]
+#- Master Students: 
+#  -- 2024: [https://jty1128.github.io/ Tianyue Jiang(江天玥)],
+#           [https://2164962995.github.io/ZhangZiyao.github.io/ Ziyao Zhang(张梓垚)]
+#  -- 2023: [https://wangyanli3630.github.io/ Yanli Wang (王岩立)],
+#           [https://gnohgnailoug.github.io/ Lianghong Guo(郭亮宏)], 
+#           [https://zhengdewu.github.io/ Dewu Zheng(郑德武)], 
+#           [https://dingzhen778.github.io/ Runhan Jiang(江润汉)]
+#  -- 2022: [https://huangyx316.github.io/YanxianHuang.github.io/ Yanxian Huang(黄炎贤)], 
+#           [https://jiadwu2.github.io/ Jiadong Wu(伍嘉栋)]
 
-- MSRA Students: [https://enshengshi.github.io/ Ensheng Shi(石恩升)], [https://itaowe.com/ Wei Tao(陶玮)], etc (There are some more, not added yet...)
+#- MSRA Students: [https://enshengshi.github.io/ Ensheng Shi(石恩升)], [https://itaowe.com/ Wei Tao(陶玮)], etc (There are some more, not added yet...)
 
 
 == Teaching
+- Principles of Compilers (编译原理), Sun Yat-sen University. 2023 Spring, 2023 Fall, 2024 Fall.
 - AI Revolution: Decoding Large Models (AI革命：解码大模型), Sun Yat-sen University. 2023 Fall.
-- Principles of Compilers (编译原理), Sun Yat-sen University. 2023 Spring, 2023 Fall.
 - Software Source Codes Analysis (软件源代码分析), Sun Yat-sen University. 2022 Fall.
 - (TA) Computer Programming, The University of Hong Kong. 2016, 2014
 - (TA) Functional Programming, The University of Hong Kong. 2016
