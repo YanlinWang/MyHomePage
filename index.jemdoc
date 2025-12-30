@@ -337,19 +337,16 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   -- Workshop Co-Chair in Organizing Committee for APSEC 2025
   -- Publicity Co-Chair for Internetware 2025
 - Program Committee: 
-  -- ICSE 2026 
-  ##-- ASE 2025 [ing]
-  -- [https://conf.researchr.org/track/issta-2025/issta-2025-papers ISSTA 2025]
-  -- [https://conf.researchr.org/track/fse-2025/fse-2025-research-papers FSE 2025] 
-  -- [https://2024.issta.org/track/issta-2024-papers ISSTA 2024]
-  -- [https://conf.researchr.org/home/icse-2024 ICSE 2024]
-  -- [https://conf.researchr.org/home/fse-2025 FSE Industry 2025, 2024, 2023, 2022]
-  -- [https://conf.researchr.org/track/internetware-2024/internetware-2024-research? Internetware 2024] 
-  -- [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]
-  -- [https://coling2022.org/ COLING 2022]
-  -- Workshops: LLMapp 2025, SWGeno25@FSE
-  -- [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://llm4code.github.io/ LLM4Code 2024 Workshop], FSE 2021 IVR, ECOOP 2019 Doc Symposium
-- Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
+  -- ICSE 2024, 2025, 2026 
+  -- ASE 2025
+  -- ISSTA 2024, 2025, 2026.
+  -- FSE 2025, 2026
+  -- FSE Industry Track 2022, 2023, 2024, 2025
+  -- Internetware 2024
+  -- ICSME 2022 industry track
+  -- COLING 2022
+  -- Others: LLMapp 2025, SWGeno25@FSE, Scala 2022, LLM4Code 2024 Workshop, FSE 2021 IVR, ECOOP 2019 Doc Symposium
+#- Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
 
 #== SCI Group
@@ -369,7 +366,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 
 == Teaching
-- Principles of Compilers (编译原理), Sun Yat-sen University. 2023 Spring, 2023 Fall, 2024 Fall.
+- Principles of Compilers (编译原理), Sun Yat-sen University. 2023 Spring, 2023 Fall, 2024 Fall, 2025 Fall.
 - AI Revolution: Decoding Large Models (AI革命：解码大模型), Sun Yat-sen University. 2023 Fall.
 - Software Source Codes Analysis (软件源代码分析), Sun Yat-sen University. 2022 Fall.
 - (TA) Computer Programming, The University of Hong Kong. 2016, 2014
