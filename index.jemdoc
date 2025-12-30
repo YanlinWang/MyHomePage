@@ -69,6 +69,8 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng \n
 . *LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation* \[[https://arxiv.org/abs/2409.20550 preprint] \] \n 
   Ziyao Zhang, Yanlin Wang, Chong Wang, Jiachi Chen, Zibin Zheng
+. Towards more realistic evaluation of LLM-based code generation: an experimental study and beyond \[[https://arxiv.org/abs/2406.06918 preprint] \] \n 
+  Dewu Zheng, Yanlin Wang, Ensheng Shi, Ruikai Zhang, Yuchi Ma, Hongyu Zhang, Zibin Zheng
 . *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
   Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
 . *MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution* (*NeurIPS 2024, CCF-A*) \n
