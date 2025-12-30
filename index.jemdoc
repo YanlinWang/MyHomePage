@@ -1,6 +1,6 @@
 # jemdoc: {index.html}, nofooter  
 # ./jemdoc index.jemdoc
-==Yanlin Wang's  Homepage
+==Yanlin Wang (王焱林)'s  Homepage
 
 ~~~
 {}{img_left}{pic/bio2.png}{alt text}{220}{130}{https://yanlin.info/}
@@ -32,43 +32,121 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 
 
 == Recent news
-- *(Pinned)* I am currently on the program committee of [https://conf.researchr.org/home/issta-2025 ISSTA 2025], [https://conf.researchr.org/home/fse-2024 FSE 2024 Industry], [https://2024.issta.org/track/issta-2024-papers ISSTA 2024], [https://conf.researchr.org/home/icse-2024 ICSE 2024], [https://2023.esec-fse.org/track/fse-2023-industry FSE 2023 Industry Track], [https://coling2022.org/ COLING 2022], [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry FSE 2022 industry track], and [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]. Please consider submitting a paper!
-- *2024-09-15.* 🏆 Our work on LLM code generation acceleration receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
-- *2024-09-15.* 🏆 Our work on identifying code security issues receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
-- *2024-07-24.* 🏆 Our paper receives the ACM SIGSOFT Distinguished Paper Award at Intermetware 2024.
-- *2024-07-24.* 🏆 I am honored to receive the Distinguished Reviewer Award of Internetware 2024. Thank you for the recognition!
-- *2024/07.* Our paper "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention" has been accepted by ISSTA 2024.
-- *2024/07.* Our paper "RLCoder: Reinforcement Learning for Repository-Level Code Completion" has been accepted by ICSE 2025.
-- *2024/07.* Our paper "Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow" has been accepted by ISSTA 2024.
-#- *2024/06.* 🏆 Our paper 教学论文CCEC 2024 二等奖。
-- *2024/02.* Our paper Tackling Long Code Search with Splitting, Encoding, and Aggregating was accepted by COLING 2024. Congrats to Fan!
-- *2024/01.* Our paper KADEL was accepted by TOSEM 2024. Congrats to Wei!
-- *2023/12.* Our paper SparseCoder (Identifier-Aware Sparse Transformer for File-Level Code Summarization) was accepted by SANER 2024. Congrats to Yanxian!
-- *2023/12.* Our paper MemoryBank (enhancing LLMs with long-term memory) was accepted by AAAI 2024. Congrats to Wanjun and Lianghong!
-- *2023/07.* One paper on issue link recovery was accepted by ASE 2023. Congratulations to Chenyuan!
-- *2023/06.* One paper on code search utilizing ChatGPT was accepted by ICSME 2023. Congratulations to Lianghong!
-- *2023/05.* Four research papers were accepted by ISSTA 2023. Congratulations to Ensheng, Hao, Queping, and Yifan!
-- *2023/05.* Our research project MemoryBank for enhancing LLMs with long-term memory was released, [https://arxiv.org/abs/2305.10250 check it out]! 
-- *2023/04.* Our benchmark AGIEval for accessing foundation models was released, [https://arxiv.org/abs/2304.06364 check it out]!
-- *2022/12.* New paper accepted at ICSE 2023.
-- *2022/11.* New paper accepted at AAAI 2023.
-- *2022/10.* New paper accepted at WSDM 2023.
-- *2022/10.* Two papers accepted at EMNLP 2022.
-- *2022/09.* New paper accepted at EMSE 2022.
-- *2022/05.* New paper accepted at KDD 2022 Applied Data Science Track.
-- *2022/03.* New paper accepted at MSR 2022.
-- *2022/02.* Two papers accepted at ACL 2022.
-#- *2021/12.* New paper accepted at ICSE 2022.
-#- *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
-#- *2021/06.* New paper accepted at ICSME 2021.
-#- *2020/12.* New paper accepted at AAAI 2021.
+
+~~~
+{}{raw}
+<!-- 美观版垂直滚动条 - 学术动态展示（无<li>、无行间距） -->
+<div style="
+  /* 容器基础样式 */
+  height: 200px; /* 固定高度，触发垂直滚动 */
+  width: 100%; /* 自适应宽度，可按需调整为固定值（如800px） */
+  overflow-y: auto; /* 仅垂直滚动，隐藏水平滚动条 */
+  border: 1px solid #e0e0e0; /* 浅灰色边框，柔和不刺眼 */
+  border-radius: 8px; /* 圆角设计，更美观 */
+  padding: 20px; /* 内边距，让内容不贴边 */
+  background-color: #fafafa; /* 浅灰背景，区分页面主体 */
+  font-family: 'Segoe UI', Arial, sans-serif; /* 通用美观字体 */
+  line-height: 1.6; /* 行高优化，提升可读性 */
+  color: #333; /* 字体颜色，柔和不刺眼 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* 轻微阴影，增加立体感 */
+">
+  <!-- 学术动态内容（无<li>标签、无行间距，用<br>实现换行分隔） -->
+  <div style="margin: 0; padding: 0;">
+    <strong>(Pinned)</strong> I am currently on the program committee of <a href="https://conf.researchr.org/home/issta-2025" target="_blank" style="color: #0066cc; text-decoration: none;">ISSTA 2025</a>, <a href="https://conf.researchr.org/home/fse-2024" target="_blank" style="color: #0066cc; text-decoration: none;">FSE 2024 Industry</a>, <a href="https://2024.issta.org/track/issta-2024-papers" target="_blank" style="color: #0066cc; text-decoration: none;">ISSTA 2024</a>, <a href="https://conf.researchr.org/home/icse-2024" target="_blank" style="color: #0066cc; text-decoration: none;">ICSE 2024</a>, <a href="https://2023.esec-fse.org/track/fse-2023-industry" target="_blank" style="color: #0066cc; text-decoration: none;">FSE 2023 Industry Track</a>, <a href="https://coling2022.org/" target="_blank" style="color: #0066cc; text-decoration: none;">COLING 2022</a>, <a href="https://2022.ecoop.org/home/scala-ecoop-2022" target="_blank" style="color: #0066cc; text-decoration: none;">Scala 2022</a>, <a href="https://2021.icse-conferences.org/track/fse-2022/fse-2022-industry" target="_blank" style="color: #0066cc; text-decoration: none;">FSE 2022 industry track</a>, and <a href="https://icsme2021.github.io/cfp/IndustryTrack.html" target="_blank" style="color: #0066cc; text-decoration: none;">ICSME 2022 industry track</a>. Please consider submitting a paper!
+    <br>
+    *2024-09-15.* 🏆 Our work on LLM code generation acceleration receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
+    <br>
+    *2024-09-15.* 🏆 Our work on identifying code security issues receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
+    <br>
+    *2024-07-24.* 🏆 Our paper receives the ACM SIGSOFT Distinguished Paper Award at Intermetware 2024.
+    <br>
+    *2024-07-24.* 🏆 I am honored to receive the Distinguished Reviewer Award of Internetware 2024. Thank you for the recognition!
+    <br>
+    *2024/07.* Our paper "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention" has been accepted by ISSTA 2024.
+    <br>
+    *2024/07.* Our paper "RLCoder: Reinforcement Learning for Repository-Level Code Completion" has been accepted by ICSE 2025.
+    <br>
+    *2024/07.* Our paper "Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow" has been accepted by ISSTA 2024.
+    <br>
+    *2024/06.* 🏆 Our paper 教学论文CCEC 2024 二等奖。
+    <br>
+    *2024/02.* Our paper Tackling Long Code Search with Splitting, Encoding, and Aggregating was accepted by COLING 2024. Congrats to Fan!
+    <br>
+    *2024/01.* Our paper KADEL was accepted by TOSEM 2024. Congrats to Wei!
+    <br>
+    *2023/12.* Our paper SparseCoder (Identifier-Aware Sparse Transformer for File-Level Code Summarization) was accepted by SANER 2024. Congrats to Yanxian!
+    <br>
+    *2023/12.* Our paper MemoryBank (enhancing LLMs with long-term memory) was accepted by AAAI 2024. Congrats to Wanjun and Lianghong!
+    <br>
+    *2023/07.* One paper on issue link recovery was accepted by ASE 2023. Congratulations to Chenyuan!
+    <br>
+    *2023/06.* One paper on code search utilizing ChatGPT was accepted by ICSME 2023. Congratulations to Lianghong!
+    <br>
+    *2023/05.* Four research papers were accepted by ISSTA 2023. Congratulations to Ensheng, Hao, Queping, and Yifan!
+    <br>
+    *2023/05.* Our research project MemoryBank for enhancing LLMs with long-term memory was released, <a href="https://arxiv.org/abs/2305.10250" target="_blank" style="color: #0066cc; text-decoration: none;">check it out</a>!
+    <br>
+    *2023/04.* Our benchmark AGIEval for accessing foundation models was released, <a href="https://arxiv.org/abs/2304.06364" target="_blank" style="color: #0066cc; text-decoration: none;">check it out</a>!
+    <br>
+    *2022/12.* New paper accepted at ICSE 2023.
+    <br>
+    *2022/11.* New paper accepted at AAAI 2023.
+    <br>
+    *2022/10.* New paper accepted at WSDM 2023.
+    <br>
+    *2022/10.* Two papers accepted at EMNLP 2022.
+    <br>
+    *2022/09.* New paper accepted at EMSE 2022.
+    <br>
+    *2022/05.* New paper accepted at KDD 2022 Applied Data Science Track.
+    <br>
+    *2022/03.* New paper accepted at MSR 2022.
+    <br>
+    *2022/02.* Two papers accepted at ACL 2022.
+    <br>
+    *2021/12.* New paper accepted at ICSE 2022.
+    <br>
+    *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
+    <br>
+    *2021/06.* New paper accepted at ICSME 2021.
+    <br>
+    *2020/12.* New paper accepted at AAAI 2021.
+  </div>
+</div>
+~~~
+
 
 == Publications 
 #Note: * for corresponding author, \# for equal contribution
-. *Agents in Software Engineering: Survey, Landscape, and Vision* \[[https://arxiv.org/abs/2409.09030 preprint] \] \n 
+. *SWE Data Construction, Automatically!* (*FSE 2026, CCF-A*) \n
+  Lianghong Guo, Yanlin Wang*, Caihua Li, Wei Tao, Pengyu Yang, Jiachi Chen, Haoyu Song, Duyu Tang, Zibin Zheng.
+. *Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation* (*ICSE 2026, CCF-A*) \n
+  Anji Li, Mingwei Liu, Zhenxi Chen, Zheng Pei, Zike Li, Dekun Dai, Yanlin Wang, Zibin Zheng.
+. *What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond* (*ICSE 2026, CCF-A*) \n
+  Wenchao Gu, Juntao Chen, Yanlin Wang\*, Tianyue Jiang, Xingzhe Li, Mingwei Liu, Xilin Liu, Yuchi Ma, Zibin Zheng.
+. *Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark* (*ICSE 2026, CCF-A*) \n
+  Dewu Zheng, Yanlin Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+. *OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution* (*ISSTA 2025, CCF-A*) \n
+  Lianghong Guo, Wei Tao, Runhan Jiang, Yanlin Wang\*, Jiachi Chen, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng.
+. *AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion* (*ASE 2025, CCF-A*) \n
+  Tianyue Jiang\#, Yanli Wang\#, Yanlin Wang\*, Daya Guo, Ensheng Shi, Yuchi Ma, Jiachi Chen, Zibin Zheng.
+. *DrainCode: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning* (*ASE 2025, CCF-A*) \n
+  Yanlin Wang, Jiadong Wu, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Chong Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+. *Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning* (*AAAI 2026, CCF-A*) \n
+  Jiayi Lin, Yanlin Wang\*, Yibiao Yang, Lei Zhang, Yutao Xie.
+. *RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust* (*ASE 2025, CCF-A*) \n
+  Guangsheng Ou, Mingwei Liu, Yuxuan Chen, Yanlin Wang, Xin Peng, Zibin Zheng.
+. *CodeCritic: Towards Effective Code Quality Evaluation with Large Language Models* (*ASE-J 2025, CCF-B*) \n 
+. *CoSQA+: Enhancing Code Search Evaluation with a Multi-Choice Benchmark and Test-Driven Agents* (*TSE 2025, CCF-A*) \n 
+  Jing Gong\#, Yanghui Wu\#, Linxi Liang\#, Yanlin Wang\*, Jiachi Chen, Mingwei Liu, and Zibin Zheng
+. *RepoTransBench: A Real-World Benchmark for Repository-Level Code Translation* (*TSE 2025, CCF-A*) \n 
+  Yanli Wang, Yanlin Wang\*, Suiquan Wang, Daya Guo, Jiachi Chen, John Grundy, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng
+. *Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks* (*ICPC 2025, CCF-B*) (*+🏆Distinguished Paper Award🏆+*) \n
+  Kang Yang, Xinjun Mao, Shangwen Wang, Yanlin Wang, Tanghaoran Zhang, Yihao Qin, Bo Lin, Zhang Zhang, Yao Lu, Kamal Al-Sabahi
+. *Agents in Software Engineering: Survey, Landscape, and Vision* (*ASE-J 2025, CCF-B*) \[[https://arxiv.org/abs/2409.09030 preprint] \] \n 
   Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng \n
-. *LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation* \[[https://arxiv.org/abs/2409.20550 preprint] \] \n 
-  Ziyao Zhang, Yanlin Wang, Chong Wang, Jiachi Chen, Zibin Zheng
+. *LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation* (*ISSTA 2025, CCF-A*) \[[https://arxiv.org/abs/2409.20550 preprint] \] \n 
+  Ziyao Zhang, Yanlin Wang\*, Chong Wang, Jiachi Chen, Zibin Zheng
 . Towards more realistic evaluation of LLM-based code generation: an experimental study and beyond \[[https://arxiv.org/abs/2406.06918 preprint] \] \n 
   Dewu Zheng, Yanlin Wang, Ensheng Shi, Ruikai Zhang, Yuchi Ma, Hongyu Zhang, Zibin Zheng
 . *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
@@ -81,7 +159,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
 . *RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code* (*ASE 2024, CCF-A*) \n
   Jiachi Chen, Qingyuan Zhong, Yanlin Wang, Kaiwen Ning, Yongkun Liu, Zenan Xu, Zhe Zhao, Ting Chen, Zibin Zheng \n
   In The 39th ACM/IEEE International Conference on Automated Software Engineering.
-. *Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models* \[[https://arxiv.org/abs/2407.00456 preprint] \] \n 
+. *Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models* (*FSE 2025, CCF-A*) \[[https://arxiv.org/abs/2407.00456 preprint] \] \n 
   Yanlin Wang, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Zibin Zheng \n
 . *Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts* (*ICSE 2025, CCF-A*) \n
   Jiashuo Zhang, Yiming Shen, Jiachi Chen, Jianzhong Su, Yanlin Wang, Ting Chen, Jianbo Gao, Zhong Chen
@@ -213,7 +291,7 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   Yanlin Wang and Hui Li \n 
   In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (*AAAI 2021*).\n
    \[[https://arxiv.org/pdf/2103.09499.pdf pdf]\]
-. CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network \n
+. CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network (*ASE-J 2025, CCF-B*)\n
   Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang \n
   \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
 . *Multi-task Learning for Recommendation over Heterogeneous Information Network.*\n
@@ -256,15 +334,20 @@ I received my B.S. degree from Zhejiang University and PhD degree from the Unive
   -- [https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee Internetware 2024, Tool Demonstration Track Co-Chair]
   -- [https://www.aiahpc.org/gflgptex AIAHPC 2024, Program Co-chair]
   -- [https://conf.researchr.org/track/apsec-2024/apsec-2024-doctoral-symposium APSEC 2024, Doctoral Symposium Co-chair]
+  -- Workshop Co-Chair in Organizing Committee for APSEC 2025
+  -- Publicity Co-Chair for Internetware 2025
 - Program Committee: 
+  -- ICSE 2026 
+  ##-- ASE 2025 [ing]
   -- [https://conf.researchr.org/track/issta-2025/issta-2025-papers ISSTA 2025]
   -- [https://conf.researchr.org/track/fse-2025/fse-2025-research-papers FSE 2025] 
   -- [https://2024.issta.org/track/issta-2024-papers ISSTA 2024]
   -- [https://conf.researchr.org/home/icse-2024 ICSE 2024]
-  -- [https://conf.researchr.org/home/fse-2024 FSE Industry 2024, 2023, 2022]
+  -- [https://conf.researchr.org/home/fse-2025 FSE Industry 2025, 2024, 2023, 2022]
   -- [https://conf.researchr.org/track/internetware-2024/internetware-2024-research? Internetware 2024] 
   -- [https://icsme2021.github.io/cfp/IndustryTrack.html ICSME 2022 industry track]
   -- [https://coling2022.org/ COLING 2022]
+  -- Workshops: LLMapp 2025, SWGeno25@FSE
   -- [https://2022.ecoop.org/home/scala-ecoop-2022 Scala 2022], [https://llm4code.github.io/ LLM4Code 2024 Workshop], FSE 2021 IVR, ECOOP 2019 Doc Symposium
 - Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
 
