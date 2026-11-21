@@ -1,579 +1,203 @@
-# jemdoc: {index.html}, nofooter
-# ./jemdoc -c site.conf index.jemdoc
-== 王焱林 | Yanlin Wang
+# jemdoc: {zh.html}, nofooter, title{王焱林 | Yanlin Wang}
+# make
 
 ~~~
 {}{raw}
 <nav class="site-nav" aria-label="主导航">
-  <a class="brand" href="#top" aria-label="返回首页">YL<span>·</span>AI</a>
-  <div class="nav-links">
-    <a href="#research">研究方向</a>
-    <a href="#recruitment">招生</a>
-    <a href="#publications">论文</a>
-    <a href="#projects">项目</a>
-    <a href="#team">团队</a>
-  </div>
-  <a class="nav-cta" href="mailto:wangylin36@mail.sysu.edu.cn">联系我</a>
+  <a href="#research">研究方向</a>
+  <a href="#publications">论文</a>
+  <a href="#news">动态</a>
+  <a href="#projects">项目</a>
+  <a href="#recruitment">招生</a>
+  <a href="#service">学术服务</a>
+  <a class="language-switch" href="index.html" lang="en" hreflang="en">English</a>
 </nav>
 
-<header class="hero" id="top">
-  <div class="hero-copy">
-    <p class="eyebrow">SUN YAT-SEN UNIVERSITY · ARTIFICIAL INTELLIGENCE</p>
-    <h1>王焱林 <span>Yanlin Wang</span></h1>
-    <p class="hero-role">中山大学副教授 · 博士生导师</p>
-    <p class="hero-lead">聚焦<strong>大模型、智能体与可信人工智能</strong>，探索具备推理、记忆、工具使用和自主协作能力的新一代智能系统。</p>
-    <p class="hero-bio">2022 年入选中山大学“百人计划”并加入软件工程学院，此前就职于微软。博士毕业于香港大学计算机科学系，师从 Bruno C. d. S. Oliveira 教授；本科毕业于浙江大学。</p>
-    <div class="hero-actions">
-      <a class="button button-primary" href="#recruitment">加入我们</a>
-      <a class="button button-secondary" href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
-      <a class="button button-ghost" href="https://sse.sysu.edu.cn/teacher/329" target="_blank" rel="noopener">学院主页 ↗</a>
-    </div>
-    <div class="hero-stats" aria-label="学术成果概览">
-      <div><strong>60+</strong><span>近年来发表论文</span></div>
-      <div><strong>20+</strong><span>CCF-A 类成果</span></div>
-      <div><strong>3×</strong><span>ACM 杰出论文奖</span></div>
-    </div>
+<header class="profile" id="top">
+  <div>
+    <h1>王焱林 <span lang="en">Yanlin Wang</span></h1>
+    <p>中山大学软件工程学院副教授、博士生导师</p>
+    <p>聚焦大模型、智能体与可信人工智能，探索具备推理、记忆、工具使用和自主协作能力的新一代智能系统，应用场景为软件智能体、问答、具身智能等。</p>
+    <p class="meta">本科毕业于浙江大学，在香港大学师从 Bruno C. d. S. Oliveira 教授，获计算机科学博士学位。2019 至 2022 年在微软亚洲研究院工作，合作导师为<a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">张冬梅</a>和<a href="https://www.microsoft.com/en-us/research/people/shihan/">韩石</a>。2022 年加入中山大学软件工程学院。</p>
+    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a> · <a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a> · <a href="https://sse.sysu.edu.cn/teacher/329">学院主页</a></p>
   </div>
-  <figure class="hero-portrait">
-    <img src="pic/bio2.png" alt="王焱林副教授" />
-    <figcaption>
-      <span>Associate Professor</span>
-      <strong>School of Software Engineering, SYSU</strong>
-    </figcaption>
-  </figure>
+  <img src="pic/bio2.png" width="806" height="462" alt="王焱林近照" />
 </header>
 
 <section class="section-block" id="research">
-  <div class="section-heading">
-    <div><p class="section-kicker">RESEARCH</p><h2>研究方向</h2></div>
-    <p>让大模型从“会回答”走向“会推理、会行动、会协作”，并在真实复杂环境中可靠地完成任务。</p>
-  </div>
-  <div class="research-grid">
-    <article class="research-card research-card-featured">
-      <span class="card-index">01</span>
-      <h3>大模型智能体与自主学习</h3>
-      <p>研究智能体的规划、推理、记忆、工具使用和多智能体协作，以及高质量轨迹构造、强化学习与自主进化。</p>
-      <div class="tag-list"><span>LLM Agents</span><span>Reasoning</span><span>Memory</span><span>RL</span></div>
-    </article>
-    <article class="research-card">
-      <span class="card-index">02</span>
-      <h3>大模型训练、评测与可信安全</h3>
-      <p>面向基础模型和智能体构建数据、基准与评测方法，研究高效训练、长上下文推理、幻觉、鲁棒性、隐私、安全与人工智能治理。</p>
-      <div class="tag-list"><span>Evaluation</span><span>Alignment</span><span>AI Safety</span><span>Governance</span></div>
-    </article>
-    <article class="research-card">
-      <span class="card-index">03</span>
-      <h3>智能代码生成与系统优化</h3>
-      <p>研究仓库级代码生成、测试、修复、评审与翻译，并拓展至芯片代码、鸿蒙等复杂工程场景的生成与性能优化。</p>
-      <div class="tag-list"><span>Code LLMs</span><span>Repository</span><span>Chip</span><span>HarmonyOS</span></div>
-    </article>
-    <article class="research-card">
-      <span class="card-index">04</span>
-      <h3>多模态、具身智能与 AI4Science</h3>
-      <p>探索视觉—语言—行动统一建模、虚实环境中的具身智能体，以及大模型辅助科学发现、知识推理和复杂决策。</p>
-      <div class="tag-list"><span>Multimodal</span><span>Embodied AI</span><span>AI4Science</span></div>
-    </article>
-  </div>
+  <h2>研究方向</h2>
+  <details class="research-theme" id="agents">
+    <summary>大模型智能体与自主学习</summary>
+    <div class="subtopics">
+      <h3>智能体的记忆、协作与软件修复</h3>
+      <p>一个软件问题可能需要多轮尝试才能解决。我们研究智能体怎样保留有用的经验、在定位和修复缺陷时分工，以及一种修复策略失效后如何尝试另一种策略。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2305.10250">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a> <small>(AAAI 2024)</small></li>
+        <li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</a> <small>(NeurIPS 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2607.18859">PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>仓库级代码生成与上下文检索</h3>
+      <p>补全一行代码所需的信息可能藏在另一个文件里。我们研究如何根据补全意图选择上下文，在关键 token 处触发检索，以及如何降低长代码的计算开销。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2407.19487">RLCoder: Reinforcement Learning for Repository-Level Code Completion</a> <small>(ICSE 2025)</small></li>
+        <li><a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion</a> <small>(ASE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.acl-long.1189/">From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01601">Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>从任务与执行轨迹中学习</h3>
+      <p>训练软件智能体，首先要把仓库中的问题变成可以运行和验证的任务。得到执行记录后，我们进一步研究哪些轨迹和步骤值得让智能体学习。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://doi.org/10.1145/3797119">SWE Data Construction, Automatically!</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27449">SWE-Prime: Fewer Trajectories, Better Performance</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="trustworthy-models">
+    <summary>大模型训练、评测与可信安全</summary>
+    <div class="subtopics">
+      <h3>代码表示、训练数据与学习过程</h3>
+      <p>源代码、语法结构与自然语言注释可以提供不同的训练信号。我们也研究如何重建代码预训练数据，以及如何让教师模型逐步增加训练问题的难度。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2022.acl-long.499/">UniXcoder: Unified Cross-Modal Pre-training for Code Representation</a> <small>(ACL 2022)</small></li>
+        <li><a href="https://arxiv.org/abs/2401.15670">YODA: Teacher-Student Progressive Learning for Language Models</a> <small>(arXiv 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2504.19444">Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks</a> <small>(ICPC 2025)</small></li>
+      </ul>
+      <h3>从能力测评到过程评估</h3>
+      <p>从人类考试题到跨文件推理和多轮代码评审，任务对模型的要求各不相同。我们设计相应的评测，也研究能否利用智能体的执行轨迹降低评测成本。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2024.findings-naacl.149/">AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</a> <small>(Findings of NAACL 2024)</small></li>
+        <li><a href="https://doi.org/10.1145/3808131">RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27442">From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench</a> <small>(ISSTA 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01603">Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>生成代码的可靠性与安全性</h3>
+      <p>通过测试的补丁仍可能遗漏评审要求、偏离项目风格，或引入安全问题。我们分析这些缺陷和代码幻觉在真实开发场景中怎样出现，以及怎样在评测中发现它们。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2409.20550">LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation</a> <small>(ISSTA 2025)</small></li>
+        <li><a href="https://arxiv.org/abs/2407.00456">Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models</a> <small>(FSE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.findings-acl.1786/">RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories</a> <small>(Findings of ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.04167">SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="embodied-science">
+    <summary>具身智能与 AI4Science</summary>
+    <div class="subtopics">
+      <h3>视觉证据与多模态推理</h3>
+      <p>智能体要根据环境调整行动，需要在推理时持续利用观测信息。VGPO 研究模型如何在多步推理中保留图像线索；OmniGIRL 则用带图的 GitHub 问题检验软件智能体是否能用上这些证据。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2026.acl-long.301/">Visually-Guided Policy Optimization for Multimodal Reasoning</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2505.04606">OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution</a> <small>(ISSTA 2025)</small></li>
+      </ul>
+      <h3>实验反馈与自主决策</h3>
+      <p>智能体能否根据一次实验的结果修正假设、选择下一步实验？我们从模型训练实验入手，在 RSI-Prime 中标注实验轨迹里的具体决策。将这类学习方法用于具身交互和科学实验，是我们希望继续探索的问题。</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2611.23138">RSI-Prime: Training Models to Train Models</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
 </section>
 
-<section class="recruitment-panel" id="recruitment">
-  <div class="recruitment-copy">
-    <p class="section-kicker">JOIN US · 研究与招生</p>
-    <h2>与优秀的人一起，做有影响力的人工智能研究</h2>
-    <p>每年招收 1–3 名推免与统考硕士研究生。欢迎对大模型、智能体、多模态、人工智能安全及 AI4Science 有热情的同学加入，也欢迎中山大学大二、大三本科生尽早参与科研。</p>
-    <p>课题组支持学生开展海内外学术交流，并积极提供产业实习、联合研究与继续深造机会。我们尤其期待好奇、自驱、愿意把想法做成系统和论文的同学。</p>
-  </div>
-  <div class="recruitment-contact">
-    <span>申请时请附</span>
-    <strong>简历 + 成绩单 + 兴趣方向</strong>
-    <a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn ↗</a>
-    <small>也可联系 yanlin-wang@outlook.com</small>
-  </div>
+<section class="section-block" id="news">
+  <h2>近期动态</h2>
+  <ul class="news-list">
+    <li><time datetime="2026-11">2026-11</time> <a href="https://arxiv.org/abs/2611.23138">RSI-Prime</a> 预印本发布。数据集记录了七类任务的 350 条训练实验轨迹，用于研究模型如何从实验决策中学习。</li>
+    <li><time datetime="2026-09">2026-09</time> 软件智能体系列工作围绕<a href="https://arxiv.org/abs/2609.04167">代码评审约束</a>、<a href="https://arxiv.org/abs/2609.01603">轨迹感知评测</a>、<a href="https://arxiv.org/abs/2608.27449">训练轨迹选择</a>和<a href="https://arxiv.org/abs/2607.18859">修复策略探索</a>展开。</li>
+    <li><time datetime="2026-09">2026-09</time> <a href="https://arxiv.org/abs/2609.01601">ACToR</a> 研究仓库级代码生成应当检索哪些上下文。<a href="https://arxiv.org/abs/2608.27442">MCR-Bench</a> 研究多轮代码评审，获 ISSTA 2026 录用。</li>
+    <li><time datetime="2026-07">2026-07</time> <strong>智能体与仓库级推理：</strong>关于<a href="https://doi.org/10.1145/3797119">智能体数据自动构建</a>和<a href="https://arxiv.org/abs/2607.25996">仓库级代码推理</a>的两项工作发表于 FSE 2026。</li>
+    <li><time datetime="2026-07">2026-07</time> <strong>代码大模型：</strong>四项 ACL 2026 工作研究<a href="https://aclanthology.org/2026.acl-long.1189/">高效长代码补全</a>、<a href="https://aclanthology.org/2026.findings-acl.969/">面向鸿蒙的仓库级代码补全</a>、<a href="https://aclanthology.org/2026.findings-acl.1786/">安全代码生成</a>与<a href="https://aclanthology.org/2026.findings-acl.1877/">开发知识评测</a>。</li>
+    <li><time datetime="2026-04">2026-04</time> 三项发表于 ICSE 2026 的工作分别研究<a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/182/What-to-Retrieve-for-Effective-Retrieval-Augmented-Code-Generation-An-Empirical-Stud">代码生成中的上下文检索</a>、<a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/229/Top-General-Performance-Top-Domain-Performance-DomainCodeBench-A-Multi-domain-Cod">跨领域代码生成评测</a>和<a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/241/Knowledge-Matters-Injecting-Project-and-Testing-Knowledge-into-LLM-based-Unit-Test-G">利用项目与测试知识生成单元测试</a>。</li>
+    <li><time datetime="2025-12">2025-12</time> 我们发布了关于<a href="https://arxiv.org/abs/2512.01939">开发者如何使用智能体框架</a>的实证研究。另两项工作分别用测试验证<a href="https://doi.org/10.1109/TSE.2025.3631886">代码搜索结果</a>和评测<a href="https://doi.org/10.1109/TSE.2025.3645056">仓库级代码翻译</a>。</li>
+    <li><time datetime="2025-11">2025-11</time> 三项发表于 ASE 2025 的工作聚焦仓库级代码智能，分别研究<a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">面向补全意图的检索</a>、<a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/149/DrainCode-Stealthy-Energy-Consumption-Attacks-on-Retrieval-Augmented-Code-Generation">检索上下文投毒的能耗风险</a>和<a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/143/RustRepoTrans-Repository-level-Context-Code-Translation-Benchmark-Targeting-Rust">面向 Rust 的仓库级代码翻译</a>。</li>
+    <li><time datetime="2025-06">2025-06</time> 在 ISSTA 和 FSE 2025 发表的工作研究<a href="https://arxiv.org/abs/2505.04606">多语言、多模态的 GitHub 问题解决</a>、<a href="https://conf.researchr.org/details/issta-2025/issta-2025-papers/22/LLM-Hallucinations-in-Practical-Code-Generation-Phenomena-Mechanism-and-Mitigation">实际代码生成中的幻觉</a>，以及<a href="https://arxiv.org/abs/2407.00456">生成代码的风格一致性</a>。</li>
+    <li><time datetime="2025-04">2025-04</time> 发布关于<a href="https://arxiv.org/abs/2504.08734">代码智能中上下文利用</a>的系统性研究。另一项关于<a href="https://arxiv.org/abs/2504.19444">用大模型重建代码预训练数据集</a>的工作获 ICPC 2025 的 ACM SIGSOFT 杰出论文奖。</li>
+  </ul>
+  <details class="news-archive"><summary>更早动态（2020–2024）</summary>
+    <ul class="news-list">
+      <li><time datetime="2024-12">2024-12</time> 多智能体软件开发框架 <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS</a> 发表于 NeurIPS 2024。发布面向真实仓库代码翻译的评测基准 <a href="https://arxiv.org/abs/2412.17744">RepoTransBench</a>。</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> 关于大模型代码生成加速的研究获 ISSTA 2024 的 ACM SIGSOFT 杰出论文奖。</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> 关于识别代码安全问题的研究获 ISSTA 2024 的 ACM SIGSOFT 杰出论文奖。</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> 团队论文获 Internetware 2024 的 ACM SIGSOFT 杰出论文奖。</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> 获 Internetware 2024 杰出审稿人奖。</li>
+      <li><time datetime="2024-07">2024-07</time> 通过减少多余输出加速大模型代码生成的研究获 ISSTA 2024 录用。</li>
+      <li><time datetime="2024-07">2024-07</time> 利用强化学习改进仓库级代码补全的工作 RLCoder 获 ICSE 2025 录用。</li>
+      <li><time datetime="2024-07">2024-07</time> 关于识别 Stack Overflow 代码片段中智能合约安全问题的研究获 ISSTA 2024 录用。</li>
+      <li><time datetime="2024-06">2024-06</time> 教学论文获 CCEC 2024 二等奖。</li>
+      <li><time datetime="2024-02">2024-02</time> 通过分段编码与聚合检索长代码的研究获 COLING 2024 录用。</li>
+      <li><time datetime="2024-01">2024-01</time> 关于生成代码提交消息的工作 KADEL 获 ACM TOSEM 录用。</li>
+      <li><time datetime="2023-12">2023-12</time> 关于文件级代码摘要的工作 SparseCoder 获 SANER 2024 录用。</li>
+      <li><time datetime="2023-12">2023-12</time> 关于增强大模型长期记忆的工作 MemoryBank 获 AAAI 2024 录用。</li>
+      <li><time datetime="2023-07">2023-07</time> 关于恢复软件问题间关联的论文获 ASE 2023 录用。</li>
+      <li><time datetime="2023-06">2023-06</time> 使用 ChatGPT 改进代码搜索的工作获 ICSME 2023 录用。</li>
+      <li><time datetime="2023-05">2023-05</time> 四篇研究论文获 ISSTA 2023 录用。</li>
+      <li><time datetime="2023-05">2023-05</time> 发布大模型长期记忆研究 <a href="https://arxiv.org/abs/2305.10250">MemoryBank</a>。</li>
+      <li><time datetime="2023-04">2023-04</time> 发布基础模型评测基准 <a href="https://arxiv.org/abs/2304.06364">AGIEval</a>。</li>
+      <li><time datetime="2022-12">2022-12</time> 一篇论文获 ICSE 2023 录用。</li>
+      <li><time datetime="2022-11">2022-11</time> 一篇论文获 AAAI 2023 录用。</li>
+      <li><time datetime="2022-10">2022-10</time> 一篇论文获 WSDM 2023 录用。</li>
+      <li><time datetime="2022-10">2022-10</time> 两篇论文获 EMNLP 2022 录用。</li>
+      <li><time datetime="2022-09">2022-09</time> 一篇论文获期刊 Empirical Software Engineering 录用。</li>
+      <li><time datetime="2022-05">2022-05</time> 一篇论文获 KDD 2022 应用数据科学轨道录用。</li>
+      <li><time datetime="2022-03">2022-03</time> 一篇论文获 MSR 2022 录用。</li>
+      <li><time datetime="2022-02">2022-02</time> 两篇论文获 ACL 2022 录用。</li>
+      <li><time datetime="2021-12">2021-12</time> 一篇论文获 ICSE 2022 录用。</li>
+      <li><time datetime="2021-08">2021-08</time> 论文分别获 EMNLP 2021 和 CIKM 2021 录用。</li>
+      <li><time datetime="2021-06">2021-06</time> 一篇论文获 ICSME 2021 录用。</li>
+      <li><time datetime="2020-12">2020-12</time> 一篇论文获 AAAI 2021 录用。</li>
+    </ul>
+  </details>
 </section>
-~~~
 
-
-== Recent Highlights / 最新动态
-
-~~~
-{}{raw}
-<div class="news-scroll">
-  <div class="news-list">
-    <strong>学术服务：</strong>担任 ICSE 2026、FSE 2026、ISSTA 2026 等国际会议程序委员会委员。
-    <br>
-    *2026/09.* <strong>大模型智能体：</strong>四项新工作分别研究<a href="https://arxiv.org/abs/2609.04167" target="_blank">面向代码评审约束的智能体评测</a>、<a href="https://arxiv.org/abs/2609.01603" target="_blank">轨迹感知的高效评测</a>、<a href="https://arxiv.org/abs/2608.27449" target="_blank">高质量训练轨迹选择</a>与<a href="https://arxiv.org/abs/2607.18859" target="_blank">修复策略探索</a>。
-    <br>
-    *2026/09.* <strong>仓库级代码生成：</strong>新工作 <a href="https://arxiv.org/abs/2609.01601" target="_blank">ACToR</a> 提出自适应关键 token 感知检索方法。
-    <br>
-    *2026/09.* <strong>智能代码评审：</strong><a href="https://arxiv.org/abs/2608.27442" target="_blank">MCR-Bench</a> 面向真实世界多轮代码评审开展动态评测，已被 ISSTA 2026 录用。
-    <br>
-    *2026/07.* <strong>智能体与仓库级推理：</strong>关于<a href="https://doi.org/10.1145/3797119" target="_blank">智能体数据自动构建</a>和<a href="https://arxiv.org/abs/2607.25996" target="_blank">仓库级代码推理</a>的两项工作发表于 FSE 2026。
-    <br>
-    *2026/07.* <strong>代码大模型：</strong>四项 ACL 2026 工作研究<a href="https://aclanthology.org/2026.acl-long.1189/" target="_blank">高效长代码补全</a>、<a href="https://aclanthology.org/2026.findings-acl.969/" target="_blank">面向鸿蒙的仓库级代码补全</a>、<a href="https://aclanthology.org/2026.findings-acl.1786/" target="_blank">安全代码生成</a>与<a href="https://aclanthology.org/2026.findings-acl.1877/" target="_blank">开发知识评测</a>。
-    <br>
-    *2026/04.* <strong>Repository-Level Code Generation &amp; Testing:</strong> Three works at ICSE 2026 investigate <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/182/What-to-Retrieve-for-Effective-Retrieval-Augmented-Code-Generation-An-Empirical-Stud" target="_blank" style="color: #0066cc; text-decoration: none;">effective retrieval for code generation</a>, <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/229/Top-General-Performance-Top-Domain-Performance-DomainCodeBench-A-Multi-domain-Cod" target="_blank" style="color: #0066cc; text-decoration: none;">multi-domain code generation evaluation</a>, and <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/241/Knowledge-Matters-Injecting-Project-and-Testing-Knowledge-into-LLM-based-Unit-Test-G" target="_blank" style="color: #0066cc; text-decoration: none;">knowledge-enhanced unit test generation</a>.
-    <br>
-    *2025/12.* <strong>Code Intelligence:</strong> Our 2025 journal publications cover LLM-based code quality evaluation (CodeCritic), test-driven code search (CoSQA+), <a href="https://arxiv.org/abs/2412.17744" target="_blank" style="color: #0066cc; text-decoration: none;">full-repository code translation</a>, and the <a href="https://arxiv.org/abs/2409.09030" target="_blank" style="color: #0066cc; text-decoration: none;">landscape of software engineering agents</a>.
-    <br>
-    *2025/11.* <strong>Repository-Level Code Intelligence:</strong> Three works at ASE 2025 explore <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio" target="_blank" style="color: #0066cc; text-decoration: none;">intent-aligned retrieval</a>, <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/149/DrainCode-Stealthy-Energy-Consumption-Attacks-on-Retrieval-Augmented-Code-Generation" target="_blank" style="color: #0066cc; text-decoration: none;">context-poisoning energy attacks</a>, and <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/143/RustRepoTrans-Repository-level-Context-Code-Translation-Benchmark-Targeting-Rust" target="_blank" style="color: #0066cc; text-decoration: none;">repository-level translation to Rust</a>.
-    <br>
-    *2025/06.* <strong>Software Agents &amp; Code Reliability:</strong> Our ISSTA/FSE 2025 work examines <a href="https://arxiv.org/abs/2505.04606" target="_blank" style="color: #0066cc; text-decoration: none;">multilingual and multimodal issue resolution</a>, <a href="https://conf.researchr.org/details/issta-2025/issta-2025-papers/22/LLM-Hallucinations-in-Practical-Code-Generation-Phenomena-Mechanism-and-Mitigation" target="_blank" style="color: #0066cc; text-decoration: none;">hallucinations in practical code generation</a>, and <a href="https://arxiv.org/abs/2407.00456" target="_blank" style="color: #0066cc; text-decoration: none;">coding-style inconsistencies beyond functional correctness</a>.
-    <br>
-    *2025/04.* <strong>Code Intelligence:</strong> We released a <a href="https://arxiv.org/abs/2504.08734" target="_blank" style="color: #0066cc; text-decoration: none;">systematic study of context utilization</a>, and our work on <a href="https://arxiv.org/abs/2504.19444" target="_blank" style="color: #0066cc; text-decoration: none;">rebuilding code pre-training data with LLMs</a> received an ACM SIGSOFT Distinguished Paper Award at ICPC 2025.
-    <br>
-    *2024/12.* <strong>Software Agents &amp; Code Translation:</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html" target="_blank" style="color: #0066cc; text-decoration: none;">MAGIS</a> appeared at NeurIPS 2024, and we released <a href="https://arxiv.org/abs/2412.17744" target="_blank" style="color: #0066cc; text-decoration: none;">RepoTransBench</a> for real-world repository-level code translation.
-    <br>
-    *2024-09-15.* 🏆 Our work on LLM code generation acceleration receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
-    <br>
-    *2024-09-15.* 🏆 Our work on identifying code security issues receives ACM SIGSOFT Distinguished Paper Award at ISSTA 2024!
-    <br>
-    *2024-07-24.* 🏆 Our paper receives the ACM SIGSOFT Distinguished Paper Award at Intermetware 2024.
-    <br>
-    *2024-07-24.* 🏆 I am honored to receive the Distinguished Reviewer Award of Internetware 2024. Thank you for the recognition!
-    <br>
-    *2024/07.* Our paper "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention" has been accepted by ISSTA 2024.
-    <br>
-    *2024/07.* Our paper "RLCoder: Reinforcement Learning for Repository-Level Code Completion" has been accepted by ICSE 2025.
-    <br>
-    *2024/07.* Our paper "Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow" has been accepted by ISSTA 2024.
-    <br>
-    *2024/06.* 🏆 Our paper 教学论文CCEC 2024 二等奖。
-    <br>
-    *2024/02.* Our paper Tackling Long Code Search with Splitting, Encoding, and Aggregating was accepted by COLING 2024. Congrats to Fan!
-    <br>
-    *2024/01.* Our paper KADEL was accepted by TOSEM 2024. Congrats to Wei!
-    <br>
-    *2023/12.* Our paper SparseCoder (Identifier-Aware Sparse Transformer for File-Level Code Summarization) was accepted by SANER 2024. Congrats to Yanxian!
-    <br>
-    *2023/12.* Our paper MemoryBank (enhancing LLMs with long-term memory) was accepted by AAAI 2024. Congrats to Wanjun and Lianghong!
-    <br>
-    *2023/07.* One paper on issue link recovery was accepted by ASE 2023. Congratulations to Chenyuan!
-    <br>
-    *2023/06.* One paper on code search utilizing ChatGPT was accepted by ICSME 2023. Congratulations to Lianghong!
-    <br>
-    *2023/05.* Four research papers were accepted by ISSTA 2023. Congratulations to Ensheng, Hao, Queping, and Yifan!
-    <br>
-    *2023/05.* Our research project MemoryBank for enhancing LLMs with long-term memory was released, <a href="https://arxiv.org/abs/2305.10250" target="_blank" style="color: #0066cc; text-decoration: none;">check it out</a>!
-    <br>
-    *2023/04.* Our benchmark AGIEval for accessing foundation models was released, <a href="https://arxiv.org/abs/2304.06364" target="_blank" style="color: #0066cc; text-decoration: none;">check it out</a>!
-    <br>
-    *2022/12.* New paper accepted at ICSE 2023.
-    <br>
-    *2022/11.* New paper accepted at AAAI 2023.
-    <br>
-    *2022/10.* New paper accepted at WSDM 2023.
-    <br>
-    *2022/10.* Two papers accepted at EMNLP 2022.
-    <br>
-    *2022/09.* New paper accepted at EMSE 2022.
-    <br>
-    *2022/05.* New paper accepted at KDD 2022 Applied Data Science Track.
-    <br>
-    *2022/03.* New paper accepted at MSR 2022.
-    <br>
-    *2022/02.* Two papers accepted at ACL 2022.
-    <br>
-    *2021/12.* New paper accepted at ICSE 2022.
-    <br>
-    *2021/08.* New papers accepted at EMNLP 2021 and CIKM 2021.
-    <br>
-    *2021/06.* New paper accepted at ICSME 2021.
-    <br>
-    *2020/12.* New paper accepted at AAAI 2021.
-  </div>
-</div>
-~~~
-
-
-~~~
-{}{raw}
-<section class="featured-publications" id="publications">
-  <div class="section-heading">
-    <div><p class="section-kicker">SELECTED WORK</p><h2>最新代表性成果</h2></div>
-    <p>从智能体训练与评测，到仓库级推理、多模态与可信代码生成。</p>
-  </div>
-  <div class="publication-grid">
-    <article class="publication-card publication-card-lead">
-      <div class="publication-meta"><span>LLM AGENTS</span><time>2026</time></div>
-      <h3>SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</h3>
-      <p>面向真实代码评审约束，重新审视智能体“完成任务”的评价标准。</p>
-      <a href="https://arxiv.org/abs/2609.04167" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>AGENT EVALUATION</span><time>2026</time></div>
-      <h3>Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</h3>
-      <p>利用轨迹信息提升智能体评测效率。</p>
-      <a href="https://arxiv.org/abs/2609.01603" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>AGENT LEARNING</span><time>2026</time></div>
-      <h3>SWE-Prime: Fewer Trajectories, Better Performance</h3>
-      <p>从更少但更高质量的轨迹中学习更强智能体。</p>
-      <a href="https://arxiv.org/abs/2608.27449" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>ISSTA · CCF-A</span><time>2026</time></div>
-      <h3>MCR-Bench: Benchmarking Real-World Multi-Round Code Review</h3>
-      <p>评测真实世界多轮代码评审中的动态交互能力。</p>
-      <a href="https://arxiv.org/abs/2608.27442" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>FSE · CCF-A</span><time>2026</time></div>
-      <h3>RepoReasoner: Evaluating Repository-Level Reasoning Ability of LLMs</h3>
-      <p>系统评测长上下文大模型的仓库级推理能力。</p>
-      <a href="https://arxiv.org/abs/2607.25996" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>ACL · CCF-A</span><time>2026</time></div>
-      <h3>Structure-Aware Block-Sparse Attention for Long-Code Completion</h3>
-      <p>以结构感知稀疏注意力提升长代码补全效率。</p>
-      <a href="https://aclanthology.org/2026.acl-long.1189/" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>NEURIPS · CCF-A</span><time>2024</time></div>
-      <h3>MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</h3>
-      <p>以多智能体协作完成真实 GitHub 问题解决。</p>
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-    <article class="publication-card">
-      <div class="publication-meta"><span>AAAI · CCF-A</span><time>2024</time></div>
-      <h3>MemoryBank: Enhancing Large Language Models with Long-Term Memory</h3>
-      <p>为大模型构建可持续更新的长期记忆机制。</p>
-      <a href="https://arxiv.org/abs/2305.10250" target="_blank" rel="noopener">Paper ↗</a>
-    </article>
-  </div>
+<section class="section-block" id="recruitment">
+  <h2>招生</h2>
+  <p>常年招收博士后，每年招收 1–3 名研究生（具体硕士博士数量待定）。也欢迎本科生提前加入课题组参与科研。</p>
+  <p>申请时请将简历、成绩单和感兴趣的研究问题发至 <a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>。</p>
 </section>
-<details class="publication-archive">
-  <summary><strong>完整论文列表</strong><span>84 篇 · 点击展开</span></summary>
-~~~
 
-== Full Publication List / 完整论文列表
-# Note: * for corresponding author, \# for equal contribution
-. *RSI-Prime: Training Models to Train Models* \[[https://arxiv.org/abs/2611.23138 preprint] \] \n
-  Dewu Zheng, Yang Ye, Hongyu Zhang, Jun Yu, Yanlin Wang\*.
-. *SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents* \[[https://arxiv.org/abs/2609.04167 preprint] \] \n
-  Xin He, Yanlin Wang\*, Mingwei Liu, Jiachi Chen, Hongyu Zhang, Guanbin Li.
-. *Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation* \[[https://arxiv.org/abs/2609.01603 preprint] \] \n
-  Kefeng Duan, Dewu Zheng, Yanlin Wang\*, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng.
-. *Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation* \[[https://arxiv.org/abs/2609.01601 preprint] \] \n
-  Kefeng Duan\#, Dewu Zheng\#, Yanlin Wang\*, Terry Yue Zhuo, Mingwei Liu, Jianxing Yu, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng.
-. *SWE-Prime: Fewer Trajectories, Better Performance* \[[https://arxiv.org/abs/2608.27449 preprint] \] \n
-  Dewu Zheng, Ruizhe Ye, Yanlin Wang\*, Yang Ye, Hongyu Zhang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jianxing Yu, Zibin Zheng.
-. *From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench* (*ISSTA 2026, CCF-A*) \[[https://arxiv.org/abs/2608.27442 preprint] \] \n
-  Dewu Zheng, Yanlin Wang\*, Xiwen Wang, Kefeng Duan, Hongyu Zhang, Xilin Liu, Yuchi Ma, Zibin Zheng.
-. *PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents* \[[https://arxiv.org/abs/2607.18859 preprint] \] \n
-  Tianyue Jiang, Yanlin Wang\*, Xin He, Daya Guo, Jiachi Chen, Ming Wen, Ensheng Shi, Xilin Liu, Yuchi Ma, Guanbin Li.
-. *SWE Data Construction, Automatically!* (*FSE 2026, CCF-A*) \n
-  Lianghong Guo, Yanlin Wang*, Caihua Li, Wei Tao, Pengyu Yang, Jiachi Chen, Haoyu Song, Duyu Tang, Zibin Zheng.
-. *RepoReasoner: Evaluating Repository-Level Reasoning Ability of Large Language Models* (*FSE 2026, CCF-A*) \n
-  Yanlin Wang, Suiquan Wang, Yanli Wang, Bowen Zhang, Daya Guo*, Zibin Zheng.
-. *Towards an Understanding of Context Utilization in Code Intelligence* (*ACM Computing Surveys* 2025, SCI-1) \[[https://arxiv.org/abs/2504.08734 preprint] \]\n 
-  Yanlin Wang, Kefeng Duan, Dewu Zheng, Ensheng Shi, Fengji Zhang, Yanli Wang, Jiachi Chen, Xilin Liu, Yuchi Ma, Hongyu Zhang, Qianxiang Wang, Zibin Zheng  
-. *From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion* (*ACL 2026, CCF-A*) \n
-  Yanli Wang, Yanlin Wang*, Bowen Zhang, Yiwei Zhang, Daya Guo, Jiachi Chen, Hongyu Zhang, Zibin Zheng.
-. *ArkRepoBench: A Repository-Level Code Completion Benchmark for HarmonyOS Development* (*ACL 2026 Findings*) \n
-  Yanlin Wang, Bowen Zhang, Yanli Wang, Daya Guo, Terry Yue Zhuo, Jiachi Chen, Mingwei Liu, Xingong Zhang, Zibin Zheng.
-. *RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories* (*ACL 2026 Findings*) \n
-  Yanlin Wang, Ziyao Zhang, Chong Wang*, Xinyi Xu, Mingwei Liu, Yong Wang, Jiachi Chen, Zibin Zheng.
-. *From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA* (*ACL 2026 Findings*) \n
-  Jing Zhang, Lianghong Guo, Yanlin Wang*, Terry Yue Zhuo, Yong Wang, Mingwei Liu, Jiachi Chen, Ensheng Shi, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
-. *Visually-Guided Policy Optimization for Multimodal Reasoning* (*ACL 2026, CCF-A*) \n
-  Zengbin Wang, Feng Xiong, Liang Lin, Xuecai Hu, Yong Wang, Yanlin Wang, Man Zhang, Xiangxiang Chu.
-. *Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation* (*ICSE 2026, CCF-A*) \n
-  Anji Li, Mingwei Liu, Zhenxi Chen, Zheng Pei, Zike Li, Dekun Dai, Yanlin Wang, Zibin Zheng.
-. *What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond* (*ICSE 2026, CCF-A*) \n
-  Wenchao Gu, Juntao Chen, Yanlin Wang\*, Tianyue Jiang, Xingzhe Li, Mingwei Liu, Xilin Liu, Yuchi Ma, Zibin Zheng.
-. *Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark* (*ICSE 2026, CCF-A*) \n
-  Dewu Zheng, Yanlin Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
-. *OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution* (*ISSTA 2025, CCF-A*) \n
-  Lianghong Guo, Wei Tao, Runhan Jiang, Yanlin Wang\*, Jiachi Chen, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng.
-. *AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion* (*ASE 2025, CCF-A*) \n
-  Tianyue Jiang\#, Yanli Wang\#, Yanlin Wang\*, Daya Guo, Ensheng Shi, Yuchi Ma, Jiachi Chen, Zibin Zheng.
-. *DrainCode: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning* (*ASE 2025, CCF-A*) \n
-  Yanlin Wang, Jiadong Wu, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Chong Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
-. *Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning* (*AAAI 2026, CCF-A*) \n
-  Jiayi Lin, Yanlin Wang\*, Yibiao Yang, Lei Zhang, Yutao Xie.
-. *RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust* (*ASE 2025, CCF-A*) \n
-  Guangsheng Ou, Mingwei Liu, Yuxuan Chen, Yanlin Wang, Xin Peng, Zibin Zheng.
-. *CodeCritic: Towards Effective Code Quality Evaluation with Large Language Models* (*ASE-J 2025, CCF-B*) \n 
-. *CoSQA+: Enhancing Code Search Evaluation with a Multi-Choice Benchmark and Test-Driven Agents* (*TSE 2025, CCF-A*) \n 
-  Jing Gong\#, Yanghui Wu\#, Linxi Liang\#, Yanlin Wang\*, Jiachi Chen, Mingwei Liu, and Zibin Zheng
-. *RepoTransBench: A Real-World Benchmark for Repository-Level Code Translation* (*TSE 2025, CCF-A*) \n 
-  Yanli Wang, Yanlin Wang\*, Suiquan Wang, Daya Guo, Jiachi Chen, John Grundy, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng
-. *Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks* (*ICPC 2025, CCF-B*) (*+🏆Distinguished Paper Award🏆+*) \n
-  Kang Yang, Xinjun Mao, Shangwen Wang, Yanlin Wang, Tanghaoran Zhang, Yihao Qin, Bo Lin, Zhang Zhang, Yao Lu, Kamal Al-Sabahi
-. *Agents in Software Engineering: Survey, Landscape, and Vision* (*ASE-J 2025, CCF-B*) \[[https://arxiv.org/abs/2409.09030 preprint] \] \n 
-  Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng \n
-. *LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation* (*ISSTA 2025, CCF-A*) \[[https://arxiv.org/abs/2409.20550 preprint] \] \n 
-  Ziyao Zhang, Yanlin Wang\*, Chong Wang, Jiachi Chen, Zibin Zheng
-. Towards more realistic evaluation of LLM-based code generation: an experimental study and beyond \[[https://arxiv.org/abs/2406.06918 preprint] \] \n 
-  Dewu Zheng, Yanlin Wang, Ensheng Shi, Ruikai Zhang, Yuchi Ma, Hongyu Zhang, Zibin Zheng
-. *RLCoder: Reinforcement Learning for Repository-Level Code Completion* (*ICSE 2025, CCF-A*) \n
-  Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
-. *MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution* (*NeurIPS 2024, CCF-A*) \n
-. *When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention* (*ISSTA 2024, CCF-A*) (*+🏆Distinguished Paper Award🏆+*) \n
-  Lianghong Guo, Yanlin Wang\*, Ensheng Shi, Wanjun Zhong, Hongyu Zhang, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng. \n 
-. *Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow* (*ISSTA 2024, CCF-A*) (*+🏆Distinguished Paper Award🏆+*) \n
-  Jiachi Chen, Chong Chen, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng \n
-. *RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code* (*ASE 2024, CCF-A*) \n
-  Jiachi Chen, Qingyuan Zhong, Yanlin Wang, Kaiwen Ning, Yongkun Liu, Zenan Xu, Zhe Zhao, Ting Chen, Zibin Zheng \n
-  In The 39th ACM/IEEE International Conference on Automated Software Engineering.
-. *Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models* (*FSE 2025, CCF-A*) \[[https://arxiv.org/abs/2407.00456 preprint] \] \n 
-  Yanlin Wang, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Zibin Zheng \n
-. *Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts* (*ICSE 2025, CCF-A*) \n
-  Jiashuo Zhang, Yiming Shen, Jiachi Chen, Jianzhong Su, Yanlin Wang, Ting Chen, Jianbo Gao, Zhong Chen
-. *Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution* (*ICSE 2025, CCF-A*) \n
-  Shuo Yang, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
-. *CoSQA+: Enhancing Code Search Dataset with Matching Code* \[[https://arxiv.org/abs/2406.11589 preprint] \] \n 
-  Jing Gong, Yanghui Wu, Linxi Liang, Zibin Zheng, Yanlin Wang \n
-. *Make Heterophilic Graphs Better Fit GNN:A GraphRewiring Approach* (*TKDE 2024, CCF-A*)	\n 
-  Wendong Bi, Lun Du*, Qiang Fu, Yanlin Wang, Shi Han, and Dongmei Zhang \n 
-. *YODA: Teacher-Student Progressive Learning for Language Models* \[[https://arxiv.org/abs/2401.15670 preprint]\] \n 
-  Jianqiao Lu, Wanjun Zhong, Yufei Wang, Zhijiang Guo, Qi Zhu, Wenyong Huang, Yanlin Wang, Fei Mi, Baojun Wang, Yasheng Wang, Lifeng Shang, Xin Jiang, Qun Liu \n 
-. *Tackling Long Code Search with Splitting, Encoding, and Aggregating.*  \n 
-  Fan Hu, Yanlin Wang\*, Lun Du, Hongyu Zhang, Dongmei Zhang and Xirong Li \n 
-  International Conference on Computational Linguistics, Language Resources and Evaluation. (*LREC-COLING 2024, CCF-B*) \n
-. *MoonBit: Explore the Design of an AI-Friendly Programming Language.* In LLM4Code Workshop 2024.\n 
-  Haoxiang Fei, Yu Zhang, Hongbo Zhang, Yanlin Wang, Qing Liu \n 
-. *An Empirical Study on Low Code Programming using Traditional vs Large Language Model Support.* \[[https://arxiv.org/abs/2402.01156 preprint]\]\n
-  Yongkun Liu, Jiachi Chen, Tingting Bi, John Grundy, Yanlin Wang, Ting Chen, Yutian Tang, Zibin Zheng \n
-. *KADEL: Knowledge-Aware Denoising Learning for Commit Message Generation.* \[[https://arxiv.org/abs/2401.08376 pdf] \] \n
-  Wei Tao, Yucheng Zhou, Yanlin Wang\*, Hongyu Zhang, Haofen Wang, Wenqiang Zhang\* \n 
-  ACM Transactions on Software Engineering and Methodology 2024. (*TOSEM 2024, CCF-A*) \n
-. *SparseCoder: Identifier-Aware Sparse Transformer for File-Level Code Summarization.* \[[https://arxiv.org/abs/2401.14727 pdf] \] \n 
-  Yanlin Wang, Yanxian Huang, Daya Guo, Hongyu Zhang and Zibin Zheng \n
-  The IEEE International Conference on Software Analysis, Evolution and Reengineering (*SANER 2024, CCF-B*) \n
-. *Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning* \[[https://arxiv.org/abs/2310.01446 preprint]\] \n
-  Jianpeng Zhou, Wanjun Zhong, Yanlin Wang, Jiahai Wang \n
-. *SoTaNa: The Open-Source Software Development Assistant* \[[https://arxiv.org/abs/2308.13416 preprint]\]\n
-  Ensheng Shi, Fengji Zhang, Yanlin Wang, Bei Chen, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n  
-. *A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends* \[[https://arxiv.org/abs/2311.10372 preprint]\]\n 
-  Zibin Zheng, Kaiwen Ning, Yanlin Wang, Jingwen Zhang, Dewu Zheng, Mingxi Ye, Jiachi Chen \n  
-. *Towards an Understanding of Large Language Models in Software Engineering Tasks* \[[https://arxiv.org/abs/2308.11396 preprint]\]\n 
-  Zibin Zheng, Kaiwen Ning, Jiachi Chen, Wenqing Chen, Lianghong Guo, Weicheng Wang, Yanlin Wang \n  
-. *When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?* \[[https://arxiv.org/abs/2309.05520 preprint]\]\n 
-  Chong Chen, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng \n 
-. *AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models* \[[https://arxiv.org/abs/2304.06364 preprint]\]\n 
-  Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan \n    
-. *MemoryBank: Enhancing Large Language Models with Long-Term Memory*   \[[https://arxiv.org/abs/2305.10250 preprint]\] \n  
-  Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang \n 
-  In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (*AAAI 2024*).\n
-. *Code Search Debiasing: Improve Search Results beyond Overall Ranking Performance* \n 
-  Sheng Zhang, Hui Li, Yanlin Wang, Zhao Wei, yong xu, Juhong Wang, Rongrong Ji (*EMNLP 2023 Findings, CCF-B*).\n 
-. *Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond* \[[https://dl.acm.org/doi/abs/10.1145/3597926.3598036 pdf]\] \n 
-  Ensheng Shi, Yanlin Wang, Hongyu Zhang, Lun Du, Shi Han, Dongmei Zhang, Hongbin Sun \n
-  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Re2BERT: A Two-stage Pre-trained Framework for Automatic Rename Refactoring* \[[https://arxiv.org/abs/2305.17708 pdf]\] \n
-  Hao Liu, Yanlin Wang, Zhao Wei, Yong Xu, Juhong Wang, Hui Li, Rongrong Ji \n 
-  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols* \[[https://dl.acm.org/doi/pdf/10.1145/3597926.3598124 pdf]\]\n 
-  Queping Kong, Jiachi Chen, Yanlin Wang, Zigui Jiang, Zibin Zheng \n 
-  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Toward Automated Detecting Unanticipated Price Feed in Smart Contract*\[[https://dl.acm.org/doi/abs/10.1145/3597926.3598133 pdf]\] \n 
-  Yifan Mo, Jiachi Chen, Yanlin Wang, Zibin Zheng \n 
-  In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (*ISSTA 2023, CCF-A*). \n
-. *Snippet Comment Generation Based on Code Context Expansion* \[[https://dl.acm.org/doi/10.1145/3611664 pdf]\]\n 
-  Hanyang Guo, Xiangping Chen, Yuan Huang, Yanlin Wang, Xi Ding, Zibin Zheng, Xiaocong Zhou, Hong-Ning Dai \n 
-  In ACM Transactions on Software Engineering and Methodology (*TOSEM 2023, CCF-A*) \n 
-. *CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees*\[[https://link.springer.com/article/10.1007/s10664-023-10378-9 pdf]\] \n 
-  Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
-  In Empirical Software Engineering (*EMSE 2023, CCF-B*) \n
-. *You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search* \[[papers/ChatDANCE-ICSME2023.pdf pdf]\] \n
-  Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng \n 
-  In 39th IEEE International Conference on Software Maintenance and Evolution. (*ICSME 2023, CCF-B*) \n 
-. *PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation*\[[https://dl.acm.org/doi/abs/10.1145/3580305.3599889 pdf]\] \n
-  Ruixuan Liu, Yang Cao, Yanlin Wang, Lingjuan Lyu, Yun Chen, Hong Chen \n
-  KDD 2023 Applied Data Science (*KDD 2023*). \n
-. *Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing*\[[https://ojs.aaai.org/index.php/AAAI/article/view/26572 pdf]\] \n
-  Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai \n
-  In Proceedings of the 36th AAAI Conference on Artificial Intelligence. (*AAAI 2023*).\n
-. *CoCoSoDa: Effective Contrastive Learning for Code Search* \[[https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00185 pdf]\]\n
-  Ensheng Shi, Yanlin Wang, Wenchao Gu, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
-  In proceedings of the 45th IEEE/ACM International Conference on Software Engineering (*ICSE 2023*). \n
-. *A large-scale empiricalstudy of commit message generation: models, datasets and evaluation* \n
-  Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Wenqiang Zhang \n
-  In Empirical Software Engineering. (*EMSE 2022*). \n
-  \[[https://dl.acm.org/doi/abs/10.1007/s10664-022-10219-1 pdf]\]
-. *Revisiting Code Search in a Two-Stage Paradigm* \n
-  Fan Hu, Yanlin Wang, Lun Du, Xirong Li, Hongyu Zhang, Shi Han, Dongmei Zhang \n
-  In 15th ACM International WSDM Conference. (*WSDM 2023*). \n
-  \[[https://arxiv.org/abs/2208.11274v1 pdf]\]
-. *RACE: Retrieval-Augmented Commit Message Generation* \n
-  Ensheng Shi, Yanlin Wang, Wei Tao, Lun Du, hongyu Zhang, Shi Han, Dongmei Zhang and Hongbin Sun \n
-  In The 2022 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2022*). \n
-  \[[https://arxiv.org/abs/2203.02700 pdf]\]
-. *Exploring Representation-level Augmentation for Code Search* \n
-  Haochen Li, Chunyan Miao, Yanxian Huang, Yuan Huang, Hongyu Zhang and Yanlin Wang \n
-  In The 2022 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2022*). \n
-  \[[https://arxiv.org/abs/2208.11274v1 pdf]\]
-. *An overview of Web3.0 Technology: Infrastructure, Applications, and Popularity* \[[https://arxiv.org/abs/2305.00427 preprint]\]  \n
-  Renke Huang, Jiachi Chen, Yanlin Wang, Tingting Bi, Zibin Zheng \n
-. *No One Left Behind: Inclusive Federated Learning over Heterogeneous Devices* \n
-  Ruixuan Liu, Fangzhao Wu, Chuhan Wu, Yanlin Wang, Lingjuan Lyu, Hong Chen, Xing Xie \n
-  In ACM SIGKDD 2022 Applied Data Science Track. (*KDD 2022*). \n
-  \[[https://arxiv.org/abs/2202.08036 pdf]\]
-. *Accelerating Code Search with Deep Hashing and Code Classification* \n
-  Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu \n
-  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*). \n
-  \[[https://arxiv.org/abs/2203.15287 pdf]\]
-. *UniXcoder: Unified Cross-Modal Pre-training for Code Representation* \n
-  Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin \n
-  In 60th Annual Meeting of the Association for Computational Linguistics. (*ACL 2022*). \n
-  \[[https://arxiv.org/abs/2203.03850v1 pdf]\]
-  \[[https://github.com/microsoft/CodeBERT code]\]
-. *On the Evaluation of Neural Code Summarization* \n
-  Ensheng Shi, Yanlin Wang, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun \n
-  In International Conference on Software Engineering. (*ICSE 2022*). \n
-  \[[papers/icse2022codesumeval.pdf pdf]\] 
-  \[[https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation code]\]
-. *LibDB: An Effective and Efficient Framework for Detecting Third-Party Libraries in Binaries* \n
-  Wei Tang, Yanlin Wang, Hongyu Zhang, Shi Han, Ping Luo, Dongmei Zhang \n
-  In Mining Software Repositories 2022. (*MSR 2022*). \n
-  \[[https://arxiv.org/abs/2204.10232 pdf]\] 
-  \[[https://github.com/DeepSoftwareAnalytics/LibDB code]\]
-. *CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees* \n
-  Ensheng Shi\#, Yanlin Wang\#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun \n
-  In 2021 Conference on Empirical Methods in Natural Language Processing. (*EMNLP 2021*). \n
-  \[[https://aclanthology.org/2021.emnlp-main.332.pdf pdf]\]
-  \[[https://github.com/DeepSoftwareAnalytics/CAST code]\]
-. *Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search* \n
-  Lun Du, Xiaozhou Shi, Yanlin Wang, Ensheng Shi, Shi Han, Dongmei Zhang \n
-  In 30th ACM International Conference on Information and Knowledge Management. (*CIKM 2021*). \n
-  \[[https://arxiv.org/pdf/2107.04773.pdf pdf]\]
-  \[[https://github.com/Xzh0u/MuCoS code]\]
-. *On the Evaluation of Commit Message Generation Models: An Experimental Study* \n
-  Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang and Wenqiang Zhang \n  
-  In 37th International Conference on Software Maintenance and Evolution. (*ICSME 2021*). \n
-  \[[https://arxiv.org/pdf/2107.05373.pdf pdf]\]
-  \[[https://github.com/DeepSoftwareAnalytics/CommitMsgEmpirical code]\]
-. *Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs.* \n
-  Yanlin Wang and Hui Li \n 
-  In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (*AAAI 2021*).\n
-   \[[https://arxiv.org/pdf/2103.09499.pdf pdf]\]
-. CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network (*ASE-J 2025, CCF-B*)\n
-  Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang \n
-  \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
-. *Multi-task Learning for Recommendation over Heterogeneous Information Network.*\n
-  Hui Li, Yanlin Wang, Ziyu Lyu and Jieming Shi \n  
-  In IEEE Transactions on Knowledge and Data Engineering (*TKDE 2020*).\n
-  \[[https://ieeexplore.ieee.org/document/9051843 link]\]
-. *FHJ: A Formal Model for Hierarchical Dispatching and Overriding.* \n
-  Yanlin Wang, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto \n 
-  In Proceedings of the 32nd European Conference on Object-Oriented Programming. (*ECOOP 2018*).\n
-  \[[https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf pdf]\]
-. *Classless Java.* \n
-  Yanlin Wang, Haoyuan Zhang, Marco Servetto and Bruno C. d. S. Oliveira \n 
-  In International Conference on Generative Programming: Concepts and Experiences. (*GPCE 2016*).\n
-  \[[https://i.cs.hku.hk/~bruno/papers/gpce2016.pdf pdf]\] 
-  \[[https://github.com/YanlinWang/classless-java code]\]
-. *The Expression Problem, Trivially!* \n
-  Yanlin Wang, Bruno C. d. S. Oliveira \n 
-  In Proceedings of the 15th International Conference on Modularity. (*Modularity 2016*, *Best Paper Award*).\n
-  \[[https://dl.acm.org/doi/10.1145/2889443.2889448 link]\]
-  \[[https://i.cs.hku.hk/~bruno/papers/Modularity2016.pdf pdf]\]
-. *Product Lines of Interpreters Using Truffle with Object Algebras.* \n
-  Yanlin Wang, Tomas Tauber and Bruno C. d. S. Oliveira \n 
-  In Proceedings of the 1st Truffle/Graal Languages Workshop, 29th European Conference on Object-Oriented Programming. (*Truffle@ECOOP 2015*).
-
-~~~
-{}{raw}
-</details>
-~~~
-
-#=== Preprints
-#. CoCoSUM: Contextual Code Summarization with Multi-Relational Graph Neural Network \n
-#  Yanlin Wang, Ensheng Shi, Lun Du, Xiaodi Yang, Yuxuan Hu, Shi Han, Hongyu Zhang, Dongmei Zhang \n
-#  \[[https://arxiv.org/pdf/2107.01933.pdf pdf]\]
-#. AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models \n 
-#  Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan \n   
-#  \[ [https://arxiv.org/abs/2304.06364 pdf] \] \n 
-#. MemoryBank: Enhancing Large Language Models with Long-Term Memory \n 
-#  Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang \n 
-#  \[ [https://arxiv.org/abs/2305.10250 pdf]\] \n 
-
-
-~~~
-{}{raw}
 <section class="section-block" id="projects">
-  <div class="section-heading">
-    <div><p class="section-kicker">PROJECTS</p><h2>代表性科研项目</h2></div>
-    <p>围绕大模型、智能系统与产学研应用开展持续研究。</p>
-  </div>
-  <div class="project-list">
-    <article><time>2023—2024</time><div><h3>CCF—华为胡杨林基金</h3><p>项目负责人 · 产学研合作项目</p></div><span>主持</span></article>
-    <article><time>2023—2024</time><div><h3>中山大学青年教师培育项目</h3><p>面向青年教师科研能力提升与前沿探索</p></div><span>主持</span></article>
-    <article><time>2023</time><div><h3>智能审计系统</h3><p>面向真实业务场景的人工智能系统研发</p></div><span>主持</span></article>
-  </div>
+  <h2>科研项目</h2>
+  <ul>
+    <li>国家自然科学基金面上项目 · 软件演化历史驱动的缺陷自动修复研究（2027–2030），项目负责人。</li>
+    <li>国家自然科学基金重大研究计划 · 神经符号融合的高可信程序代码自动生成优化关键技术（2026–2029），中山大学方负责人。</li>
+    <li>CCF–华为胡杨林基金 · 面向研发任务的高效长上下文大模型技术（2024–2025），项目负责人。</li>
+    <li>CCF–华为胡杨林基金 · 自我反馈的代码大模型提示工程技术研究（2023–2024），项目负责人。</li>
+    <li>中山大学青年教师培育项目（2023–2024），项目负责人。</li>
+  </ul>
 </section>
 
-<section class="section-block team-section" id="team">
-  <div class="section-heading">
-    <div><p class="section-kicker">PEOPLE</p><h2>团队与人才培养</h2></div>
-    <p>开放、协作、重视学生成长；研究成果发表于 ICSE、ASE、ACL、AAAI、FSE、ISSTA 等会议与期刊。</p>
-  </div>
-  <div class="cohort-grid">
-    <article><span>2025</span><p>欧荣怡 · 张菁 · 李彩桦 · 张博文 · 徐昕怡</p></article>
-    <article><span>2024</span><p><a href="https://jty1128.github.io/" target="_blank" rel="noopener">江天玥</a> · <a href="https://2164962995.github.io/ZhangZiyao.github.io/" target="_blank" rel="noopener">张梓垚</a></p></article>
-    <article><span>2023</span><p><a href="https://wangyanli3630.github.io/" target="_blank" rel="noopener">王岩立</a> · <a href="https://gnohgnailoug.github.io/" target="_blank" rel="noopener">郭亮宏</a> · <a href="https://zhengdewu.github.io/" target="_blank" rel="noopener">郑德武</a> · <a href="https://dingzhen778.github.io/" target="_blank" rel="noopener">江润汉</a></p></article>
-    <article><span>2022</span><p><a href="https://huangyx316.github.io/YanxianHuang.github.io/" target="_blank" rel="noopener">黄炎贤</a> · <a href="https://jiadwu2.github.io/" target="_blank" rel="noopener">伍嘉栋</a></p></article>
-  </div>
-  <div class="mentoring-note"><strong>联合指导与长期合作</strong><span><a href="https://enshengshi.github.io/" target="_blank" rel="noopener">石恩升</a> · <a href="https://itaowe.com/" target="_blank" rel="noopener">陶玮</a> 等</span></div>
-</section>
+<section class="section-block" id="service">
+  <h2>学术服务</h2>
 ~~~
+#include{service-roles.jemdoc}
 
-== Academic Service / 学术服务
-- Chair/Co-chair: 
-  -- [https://conf.researchr.org/home/fse-2025 FSE 2025, Organizing Committee, Proceeding Co-chair]
-  -- [https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee Internetware 2024, Tool Demonstration Track Co-Chair]
-  -- [https://www.aiahpc.org/gflgptex AIAHPC 2024, Program Co-chair]
-  -- [https://conf.researchr.org/track/apsec-2024/apsec-2024-doctoral-symposium APSEC 2024, Doctoral Symposium Co-chair]
-  -- Workshop Co-Chair in Organizing Committee for APSEC 2025
-  -- Publicity Co-Chair for Internetware 2025
-- Program Committee: 
-  -- ICSE 2024, 2025, 2026 
-  -- ASE 2025
-  -- ISSTA 2024, 2025, 2026.
-  -- FSE 2025, 2026
-  -- FSE Industry Track 2022, 2023, 2024, 2025
-  -- Internetware 2024
-  -- ICSME 2022 industry track
-  -- COLING 2022
-  -- Others: LLMapp 2025, SWGeno25@FSE, Scala 2022, LLM4Code 2024 Workshop, FSE 2021 IVR, ECOOP 2019 Doc Symposium
-#- Reviewer: NeurIPS 2024 Track Datasets and Benchmarks, TKDE, TNNLS, CSUR, JSS, JCST, AUSE, ICML, AAAI, ECOOP, ESOP, GPCE, Modularity, etc.
+~~~
+{}{raw}
+</section>
 
+<section class="section-block" id="teaching">
+  <h2>教学</h2>
+  <ul>
+    <li>编译原理，中山大学本科生课程（2023 春、2023 秋、2024 秋、2025 秋）。</li>
+    <li>AI 革命：解码大模型，中山大学本科生通识课（2023 秋）。</li>
+    <li>软件源代码分析，中山大学本科生课程（2022 秋）。</li>
+  </ul>
+  <p class="meta">此前在香港大学担任程序设计、函数式编程和面向对象编程课程助教（2014–2016）。</p>
+</section>
 
-#== SCI Group
-#SCI for Source Code Intelligence. I am very fortunate to work with my talented students and collaborators:
+<section class="section-block" id="publications">
+  <h2>论文</h2>
+  <p class="meta">* 表示通讯作者，# 表示共同第一作者。</p>
+  <details class="publication-archive">
+    <summary>更多论文</summary>
+~~~
+#include{publications.jemdoc}
 
-#- Master Students: 
-#  -- 2025: 欧荣怡，张菁，李彩桦，张博文，徐昕怡
-#  -- 2024: [https://jty1128.github.io/ Tianyue Jiang(江天玥)],
-#           [https://2164962995.github.io/ZhangZiyao.github.io/ Ziyao Zhang(张梓垚)]
-#  -- 2023: [https://wangyanli3630.github.io/ Yanli Wang (王岩立)],
-#           [https://gnohgnailoug.github.io/ Lianghong Guo(郭亮宏)], 
-#           [https://zhengdewu.github.io/ Dewu Zheng(郑德武)], 
-#           [https://dingzhen778.github.io/ Runhan Jiang(江润汉)]
-#  -- 2022: [https://huangyx316.github.io/YanxianHuang.github.io/ Yanxian Huang(黄炎贤)], 
-#           [https://jiadwu2.github.io/ Jiadong Wu(伍嘉栋)]
+~~~
+{}{raw}
+  </details>
+</section>
 
-#- MSRA Students: [https://enshengshi.github.io/ Ensheng Shi(石恩升)], [https://itaowe.com/ Wei Tao(陶玮)], etc (There are some more, not added yet...)
-
-
-== Teaching / 教学活动
-- Principles of Compilers (编译原理), Sun Yat-sen University. 2023 Spring, 2023 Fall, 2024 Fall, 2025 Fall.
-- AI Revolution: Decoding Large Models (AI革命：解码大模型), Sun Yat-sen University. 2023 Fall.
-- Software Source Codes Analysis (软件源代码分析), Sun Yat-sen University. 2022 Fall.
-- (TA) Computer Programming, The University of Hong Kong. 2016, 2014
-- (TA) Functional Programming, The University of Hong Kong. 2016
-- (TA) Object-Oriented Programming and Java, The University of Hong Kong. 2015
-
-# == Projects，胡杨林2023、2024、开发项目、招联子课题、培育项目
-
-#== Awards
-#SocialMeta 2023 Distinguished TPC 
-
-== Useful Links / 常用链接
-Deadlines: [https://ccfddl.github.io/ ddl-all] \n # [https://ddl.yanlin.info ddl-ours], 
-CCF list: [https://ccf.atom.im/ ccf.atom.im]
-
-# [cv.pdf A brief cv].
+<footer>
+  <p class="meta">学术资源　<a href="https://ccfddl.github.io/">会议截稿日期</a> · <a href="https://ccf.atom.im/">CCF 推荐目录</a></p>
+</footer>
+~~~

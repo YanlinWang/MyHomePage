@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Yanlin Wang, Associate Professor at Sun Yat-sen University. Research on language model agents, trustworthy AI, embodied intelligence and AI for science." />
+<meta name="theme-color" content="#ffffff" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Yanlin Wang | Sun Yat-sen University" />
+<meta property="og:description" content="Research interests, publications, projects, academic service and opportunities for prospective students." />
+<meta property="og:url" content="https://yanlin.info/" />
+<meta property="og:image" content="https://yanlin.info/pic/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="canonical" href="https://yanlin.info/" />
+<link rel="alternate" hreflang="zh-CN" href="https://yanlin.info/zh.html" />
+<link rel="alternate" hreflang="en" href="https://yanlin.info/" />
+<link rel="alternate" hreflang="x-default" href="https://yanlin.info/" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Yanlin Wang | Sun Yat-sen University</title>
+</head>
+<body>
+<a class="skip-link" href="#research">Skip to research interests</a>
+<div id="layout-content">
+<nav class="site-nav" aria-label="Main navigation">
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#news">News</a>
+  <a href="#projects">Projects</a>
+  <a href="#recruitment">Prospective students</a>
+  <a href="#service">Service</a>
+  <a class="language-switch" href="zh.html" lang="zh-CN" hreflang="zh-CN">中文</a>
+</nav>
+
+<header class="profile" id="top">
+  <div>
+    <h1>Yanlin Wang <span lang="zh-CN">王焱林</span></h1>
+    <p>Associate Professor and PhD Supervisor, School of Software Engineering, Sun Yat-sen University</p>
+    <p>My research on large language models, agents and trustworthy AI explores how intelligent systems can reason, remember, use tools and collaborate autonomously in settings such as software engineering, question answering and embodied interaction.</p>
+    <p class="meta">I received my bachelor's degree from Zhejiang University and my PhD in computer science from the University of Hong Kong, advised by Bruno C. d. S. Oliveira. At Microsoft Research Asia (2019–2022), my research mentors were <a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">Dongmei Zhang</a> and <a href="https://www.microsoft.com/en-us/research/people/shihan/">Shi Han</a>. I joined Sun Yat-sen University in 2022.</p>
+    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a> · <a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a> · <a href="https://sse.sysu.edu.cn/teacher/329">Faculty profile (Chinese)</a></p>
+  </div>
+  <img src="pic/bio2.png" width="806" height="462" alt="Yanlin Wang" />
+</header>
+
+<section class="section-block" id="research">
+  <h2>Research interests</h2>
+  <details class="research-theme" id="agents">
+    <summary>Large Language Model Agents and Autonomous Learning</summary>
+    <div class="subtopics">
+      <h3>Memory, collaboration and software repair</h3>
+      <p>Resolving a software issue can take several attempts. We study how agents retain useful experience, divide the work of locating and repairing a defect, and explore another repair strategy when the first one fails.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2305.10250">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a> <small>(AAAI 2024)</small></li>
+        <li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</a> <small>(NeurIPS 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2607.18859">PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Repository-level code generation and retrieval</h3>
+      <p>The information needed to complete a line of code may live in another file. We study how to retrieve context that matches the intended completion, when to retrieve it during generation, and how to process long code efficiently.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2407.19487">RLCoder: Reinforcement Learning for Repository-Level Code Completion</a> <small>(ICSE 2025)</small></li>
+        <li><a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion</a> <small>(ASE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.acl-long.1189/">From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01601">Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Learning from tasks and execution trajectories</h3>
+      <p>Training a software agent starts with turning repository issues into tasks that can be run and checked. Once an agent has attempted them, we ask which trajectories and which individual steps are worth learning from.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://doi.org/10.1145/3797119">SWE Data Construction, Automatically!</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27449">SWE-Prime: Fewer Trajectories, Better Performance</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="trustworthy-models">
+    <summary>Large Language Model Training, Evaluation, Trustworthiness and Safety</summary>
+    <div class="subtopics">
+      <h3>Code representations, training data and curricula</h3>
+      <p>Source code, syntax and natural-language comments offer different signals for pretraining. In related work, we study how to rebuild code pretraining datasets and how a teacher model can introduce progressively harder problems.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2022.acl-long.499/">UniXcoder: Unified Cross-Modal Pre-training for Code Representation</a> <small>(ACL 2022)</small></li>
+        <li><a href="https://arxiv.org/abs/2401.15670">YODA: Teacher-Student Progressive Learning for Language Models</a> <small>(arXiv 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2504.19444">Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks</a> <small>(ICPC 2025)</small></li>
+      </ul>
+      <h3>Evaluating model capabilities and agent trajectories</h3>
+      <p>Human exams, cross-file reasoning and multi-round code review place different demands on a model. We build benchmarks for these settings and investigate how execution traces can reduce the cost of evaluating agents.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2024.findings-naacl.149/">AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</a> <small>(Findings of NAACL 2024)</small></li>
+        <li><a href="https://doi.org/10.1145/3808131">RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27442">From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench</a> <small>(ISSTA 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01603">Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Reliability and security of generated code</h3>
+      <p>A patch that passes tests can still miss a review requirement, depart from project conventions or introduce a security flaw. We study how these failures and code hallucinations arise in practice and how evaluations can detect them.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2409.20550">LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation</a> <small>(ISSTA 2025)</small></li>
+        <li><a href="https://arxiv.org/abs/2407.00456">Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models</a> <small>(FSE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.findings-acl.1786/">RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories</a> <small>(Findings of ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.04167">SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="embodied-science">
+    <summary>Embodied Intelligence and AI for Science</summary>
+    <div class="subtopics">
+      <h3>Visual grounding and multimodal reasoning</h3>
+      <p>Acting on an observation requires keeping track of its evidence during reasoning. VGPO studies how vision-language models stay grounded in an image over multiple steps. OmniGIRL tests whether software agents can use images supplied in GitHub issues.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2026.acl-long.301/">Visually-Guided Policy Optimization for Multimodal Reasoning</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2505.04606">OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution</a> <small>(ISSTA 2025)</small></li>
+      </ul>
+      <h3>Experimental feedback and autonomous decisions</h3>
+      <p>How can an agent use an experimental result to revise a hypothesis and choose its next experiment? RSI-Prime starts with machine-learning experiments, identifying individual decisions within model-training runs. Extending this approach to embodied interaction and scientific experiments is an open research question for us.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2611.23138">RSI-Prime: Training Models to Train Models</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+</section>
+<section class="section-block" id="news">
+  <h2>Recent news</h2>
+  <ul class="news-list">
+    <li><time datetime="2026-11">2026-11</time> We released <a href="https://arxiv.org/abs/2611.23138">RSI-Prime</a>, a dataset of 350 model-training trajectories across seven task categories, to study how models learn from experimental decisions.</li>
+    <li><time datetime="2026-09">2026-09</time> Four studies of software agents examine <a href="https://arxiv.org/abs/2609.04167">code review requirements</a>, <a href="https://arxiv.org/abs/2609.01603">trajectory-aware evaluation</a>, <a href="https://arxiv.org/abs/2608.27449">training trajectory selection</a>, and <a href="https://arxiv.org/abs/2607.18859">repair strategies</a>.</li>
+    <li><time datetime="2026-09">2026-09</time> <a href="https://arxiv.org/abs/2609.01601">ACToR</a> studies which context to retrieve for repository-level code generation. ISSTA 2026 accepted <a href="https://arxiv.org/abs/2608.27442">MCR-Bench</a>, our benchmark for multi-round code review.</li>
+    <li><time datetime="2026-07">2026-07</time> Two FSE 2026 papers examine <a href="https://doi.org/10.1145/3797119">automated construction of training data for software agents</a> and <a href="https://arxiv.org/abs/2607.25996">how well models reason about code across a repository</a>.</li>
+    <li><time datetime="2026-07">2026-07</time> Our ACL 2026 papers cover <a href="https://aclanthology.org/2026.acl-long.1189/">efficient long-code completion</a>, <a href="https://aclanthology.org/2026.findings-acl.969/">repository-level code completion for HarmonyOS</a>, <a href="https://aclanthology.org/2026.findings-acl.1786/">secure code generation</a>, and <a href="https://aclanthology.org/2026.findings-acl.1877/">evaluation of software development knowledge</a>.</li>
+    <li><time datetime="2026-04">2026-04</time> Three ICSE 2026 papers study <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/182/What-to-Retrieve-for-Effective-Retrieval-Augmented-Code-Generation-An-Empirical-Stud">retrieval for code generation</a>, <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/229/Top-General-Performance-Top-Domain-Performance-DomainCodeBench-A-Multi-domain-Cod">how code generation varies across application domains</a>, and <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/241/Knowledge-Matters-Injecting-Project-and-Testing-Knowledge-into-LLM-based-Unit-Test-G">the role of project and testing knowledge in unit test generation</a>.</li>
+    <li><time datetime="2025-12">2025-12</time> We released an empirical study of <a href="https://arxiv.org/abs/2512.01939">how developers use agent frameworks</a>. Two other studies use tests to evaluate <a href="https://doi.org/10.1109/TSE.2025.3631886">code search results</a> and <a href="https://doi.org/10.1109/TSE.2025.3645056">repository-level code translation</a>.</li>
+    <li><time datetime="2025-11">2025-11</time> Three ASE 2025 papers investigate <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">retrieval aligned with code completion intent</a>, <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/149/DrainCode-Stealthy-Energy-Consumption-Attacks-on-Retrieval-Augmented-Code-Generation">the effects of poisoned context on energy consumption</a>, and <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/143/RustRepoTrans-Repository-level-Context-Code-Translation-Benchmark-Targeting-Rust">repository-level code translation to Rust</a>.</li>
+    <li><time datetime="2025-06">2025-06</time> Our ISSTA and FSE 2025 papers examine <a href="https://arxiv.org/abs/2505.04606">multilingual and multimodal GitHub issue resolution</a>, <a href="https://conf.researchr.org/details/issta-2025/issta-2025-papers/22/LLM-Hallucinations-in-Practical-Code-Generation-Phenomena-Mechanism-and-Mitigation">hallucinations in code generation</a>, and <a href="https://arxiv.org/abs/2407.00456">coding style in functionally correct code</a>.</li>
+    <li><time datetime="2025-04">2025-04</time> We released a <a href="https://arxiv.org/abs/2504.08734">systematic study of how code models use context</a>. Our paper on <a href="https://arxiv.org/abs/2504.19444">rebuilding code pretraining datasets with LLMs</a> received an ACM SIGSOFT Distinguished Paper Award at ICPC 2025.</li>
+  </ul>
+  <details class="news-archive">
+    <summary>Earlier news (2020–2024)</summary>
+    <ul class="news-list">
+      <li><time datetime="2024-12">2024-12</time> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS</a> appeared at NeurIPS 2024. We released <a href="https://arxiv.org/abs/2412.17744">RepoTransBench</a> to evaluate code translation across entire repositories.</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> Our paper on accelerating code generation received an ACM SIGSOFT Distinguished Paper Award at ISSTA 2024.</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> Our paper on identifying security issues in code snippets received an ACM SIGSOFT Distinguished Paper Award at ISSTA 2024.</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> Our paper received an ACM SIGSOFT Distinguished Paper Award at Internetware 2024.</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> I received a Distinguished Reviewer Award at Internetware 2024.</li>
+      <li><time datetime="2024-07">2024-07</time> ISSTA 2024 accepted our paper on when language models should stop generating code.</li>
+      <li><time datetime="2024-07">2024-07</time> ICSE 2025 accepted RLCoder, our work on reinforcement learning for repository-level code completion.</li>
+      <li><time datetime="2024-07">2024-07</time> ISSTA 2024 accepted our paper on identifying smart contract security issues in code snippets from Stack Overflow.</li>
+      <li><time datetime="2024-06">2024-06</time> Our teaching paper received second prize at CCEC 2024.</li>
+      <li><time datetime="2024-02">2024-02</time> COLING 2024 accepted our paper on long code search through splitting, encoding, and aggregation.</li>
+      <li><time datetime="2024-01">2024-01</time> ACM Transactions on Software Engineering and Methodology accepted KADEL, our work on commit message generation.</li>
+      <li><time datetime="2023-12">2023-12</time> SANER 2024 accepted SparseCoder, our identifier-aware sparse Transformer for file-level code summarization.</li>
+      <li><time datetime="2023-12">2023-12</time> AAAI 2024 accepted MemoryBank, our work on long-term memory for large language models.</li>
+      <li><time datetime="2023-07">2023-07</time> ASE 2023 accepted our paper on issue link recovery.</li>
+      <li><time datetime="2023-06">2023-06</time> ICSME 2023 accepted our paper on using ChatGPT for code search.</li>
+      <li><time datetime="2023-05">2023-05</time> ISSTA 2023 accepted four of our research papers.</li>
+      <li><time datetime="2023-05">2023-05</time> We released <a href="https://arxiv.org/abs/2305.10250">MemoryBank</a> to investigate long-term memory in large language models.</li>
+      <li><time datetime="2023-04">2023-04</time> We released <a href="https://arxiv.org/abs/2304.06364">AGIEval</a>, a benchmark for evaluating foundation models on human examinations.</li>
+      <li><time datetime="2022-12">2022-12</time> ICSE 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-11">2022-11</time> AAAI 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-10">2022-10</time> WSDM 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-10">2022-10</time> EMNLP 2022 accepted two of our papers.</li>
+      <li><time datetime="2022-09">2022-09</time> Empirical Software Engineering accepted one of our papers.</li>
+      <li><time datetime="2022-05">2022-05</time> KDD 2022 accepted one of our papers.</li>
+      <li><time datetime="2022-03">2022-03</time> MSR 2022 accepted one of our papers.</li>
+      <li><time datetime="2022-02">2022-02</time> ACL 2022 accepted two of our papers.</li>
+      <li><time datetime="2021-12">2021-12</time> ICSE 2022 accepted one of our papers.</li>
+      <li><time datetime="2021-08">2021-08</time> EMNLP 2021 and CIKM 2021 accepted papers from our group.</li>
+      <li><time datetime="2021-06">2021-06</time> ICSME 2021 accepted one of our papers.</li>
+      <li><time datetime="2020-12">2020-12</time> AAAI 2021 accepted one of our papers.</li>
+    </ul>
+  </details>
+</section>
+<section class="section-block" id="recruitment">
+  <h2>Postdoctoral and student opportunities</h2>
+  <p>I welcome postdoctoral applications year-round and recruit 1–3 graduate students each year. The number of places at the master’s and doctoral levels has yet to be determined. Undergraduates are also welcome to join the group early in their studies and take part in research.</p>
+  <p>To apply, email your CV, transcript and a research question that interests you to <a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>.</p>
+</section>
+
+<section class="section-block" id="projects">
+  <h2>Research projects</h2>
+  <ul>
+    <li>National Natural Science Foundation of China (NSFC), General Program · Software Evolution History-Driven Automated Defect Repair (2027–2030), Principal Investigator.</li>
+    <li>NSFC Major Research Plan · Neurosymbolic High-Confidence Code Generation and Optimization (2026–2029), Sun Yat-sen University lead.</li>
+    <li>CCF–Huawei Populus Euphratica Fund · Efficient Long-Context Language Models for Software Development Tasks (2024–2025), Principal Investigator.</li>
+    <li>CCF–Huawei Populus Euphratica Fund · Self-Feedback for Prompt Engineering in Large Code Models (2023–2024), Principal Investigator.</li>
+    <li>Sun Yat-sen University Young Faculty Development Project (2023–2024), Principal Investigator.</li>
+  </ul>
+</section>
+
+<section class="section-block" id="service">
+  <h2>Academic service</h2>
+<div lang="en">
+<h3>Conference leadership</h3>
+<ul>
+  <li><a href="https://conf.researchr.org/profile/icse-2027/yanlinwang">ICSE 2027</a> · Publicity Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/fse-2027/fse-2027-organizing-committee">FSE 2027</a> · Tutorial Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/ease-2027/ease-2027-workshops-workshops">EASE 2027</a> · Workshops Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/icsme-2026/icsme-2026-organizing-committee">ICSME 2026</a> · Social Media &amp; Publicity Co-Chair</li>
+  <li>ACL 2026 · Area Chair</li>
+  <li><a href="https://conf.researchr.org/committee/fse-2025/fse-2025-organizing-committee">FSE 2025</a> · Proceedings Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/apsec-2025/apsec-2025-organizing-committee">APSEC 2025</a> · Workshop Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/internetware-2025/internetware-2025-organization-committee">Internetware 2025</a> · Publicity Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee">Internetware 2024</a> · Tool Demonstration Track Co-Chair</li>
+  <li><a href="https://conf.researchr.org/track/apsec-2024/apsec-2024-doctoral-symposium">APSEC 2024</a> · Doctoral Symposium Co-Chair</li>
+  <li><a href="https://www.aiahpc.org/gflgptex">AIAHPC 2024</a> · Program Co-Chair</li>
+</ul>
+<h3>Program committees and conference reviewing</h3>
+<ul>
+  <li>Program Committee Member · ISSTA 2027, ICSE 2027, FSE 2027 and The Web Conference 2027.</li>
+  <li>Program Committee Member · ICSE (2024–2026), FSE (2025–2026), ISSTA (2024–2026), ASE (2025–2026), EASE (2026), APSEC (2024) and Internetware (2023, 2024, 2026).</li>
+  <li>Program Committee Member · AAAI (2026), ICSS (2026), AIware (2025), CCF ChinaSoft (2025), SocialMeta (2023) and Scala (2022).</li>
+  <li>Track Program Committee Member · FSE Industry (2022–2026), ICSME Industry (2022), <a href="https://2021.esec-fse.org/track/fse-2021-ideas-visions-and-reflections">ESEC/FSE Ideas, Visions and Reflections</a> (2021) and ECOOP Doctoral Symposium (2019).</li>
+  <li>Reviewer · <a href="https://aclanthology.org/2022.coling-1.0.pdf#page=23">COLING 2022</a>.</li>
+</ul>
+<h3>Editorial and journal service</h3>
+<ul>
+  <li>Editorial Board Member · <a href="https://www.techscience.com/cmc/editors">Computers, Materials &amp; Continua</a>.</li>
+  <li>Journal Reviewer · ACM TOSEM, IEEE TSE, ACM Computing Surveys, Automated Software Engineering, Journal of Systems and Software, IEEE TKDE, IEEE TNNLS, JCST and JOS.</li>
+</ul>
+<h3>China Computer Federation</h3>
+<ul>
+  <li>Executive Committee Member · Technical Committee on Services Computing (since 2023) and Technical Committee on Natural Language Processing (since 2022).</li>
+  <li>Executive Co-Chair · <a href="https://sse.sysu.edu.cn/article/1106">CCF Technical Committee on Software Engineering Youth Forum on Software Agents and Trustworthy Software Engineering</a> (2026).</li>
+  <li>Expert Committee Member · CCF Big Data &amp; Computing Intelligence Contest (2023).</li>
+</ul>
+</div>
+</section>
+
+<section class="section-block" id="teaching">
+  <h2>Teaching</h2>
+  <ul>
+    <li>Principles of Compilers, Sun Yat-sen University (spring and fall 2023, fall 2024 and fall 2025).</li>
+    <li>The AI Revolution: Decoding Large Models, undergraduate general education, Sun Yat-sen University (fall 2023).</li>
+    <li>Software Source Code Analysis, Sun Yat-sen University (fall 2022).</li>
+  </ul>
+  <p class="meta">At the University of Hong Kong, I was a teaching assistant for courses in computer programming, functional programming and object-oriented programming (2014–2016).</p>
+</section>
+
+<section class="section-block" id="publications">
+  <h2>Publications</h2>
+  <p class="meta">* indicates the corresponding author. # indicates equal contribution.</p>
+  <ol>
+<li><p><b>RSI-Prime: Training Models to Train Models</b> [<a href="https://arxiv.org/abs/2611.23138" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Dewu Zheng, Yang Ye, Hongyu Zhang, Jun Yu, Yanlin Wang*.
+</p>
+</li>
+<li><p><b>Knowledge-Centric Automated Issue Resolution: A Systematic Survey and Taxonomy</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2611.18569" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Zhenxi Chen, Mingwei Liu, Zihao Wang, Zhanhui Ren, Leyan Hu, Xueying Du, Ying Wang, Chenxi Zhang, Chong Wang, Zhenchang Xing, Haofen Wang, Xin Peng, Yanlin Wang.
+</p>
+</li>
+<li><p><b>Req2Rust: A Requirements-Guided Agent Harness for Project-Level C++-to-Rust Migration</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2611.07442" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Shengbo Wang, Mingwei Liu, Yuwen Chen, Yanlin Wang.
+</p>
+</li>
+<li><p><b>EvoGuard: Mitigating Degradation in Online Skill Evolution</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2611.06444" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanli Wang, Zichen Bai, Tianyue Jiang, Kunming Shao, Junhao Shi, Xueqin Liu, Jinguo Sun, Muye Li, Tingting Bi, Yanlin Wang, Shaoqiang Zheng, Xuefei Diao, Zhuwei Zeng, Nan Duan, Peng Cao.
+</p>
+</li>
+<li><p><b>MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2610.11727" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yuxuan Chen, Mingwei Liu, Guangsheng Ou, Zekai Zhang, Zike Li, Yanlin Wang, Pelin Zheng.
+</p>
+</li>
+<li><p><b>Who Broke Me? Execution-Guided Repair of Behavioral Dependency Breaks</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2610.09267" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Juntao Chen, Tingting Bi, Yanlin Wang, Patanamon Thongtanunam.
+</p>
+</li>
+<li><p><b>SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</b> [<a href="https://arxiv.org/abs/2609.04167" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Xin He, Yanlin Wang*, Mingwei Liu, Jiachi Chen, Hongyu Zhang, Guanbin Li.
+</p>
+</li>
+<li><p><b>Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</b> [<a href="https://arxiv.org/abs/2609.01603" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Kefeng Duan, Dewu Zheng, Yanlin Wang*, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</b> [<a href="https://arxiv.org/abs/2609.01601" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Kefeng Duan#, Dewu Zheng#, Yanlin Wang*, Terry Yue Zhuo, Mingwei Liu, Jianxing Yu, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>SWE-Prime: Fewer Trajectories, Better Performance</b> [<a href="https://arxiv.org/abs/2608.27449" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Dewu Zheng, Ruizhe Ye, Yanlin Wang*, Yang Ye, Hongyu Zhang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jianxing Yu, Zibin Zheng.
+</p>
+</li>
+<li><p><b>From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench</b> (<b>ISSTA 2026, CCF-A</b>) [<a href="https://doi.org/10.1145/3832219" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2608.27442" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Dewu Zheng, Yanlin Wang*, Xiwen Wang, Kefeng Duan, Hongyu Zhang, Xilin Liu, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</b> [<a href="https://arxiv.org/abs/2607.18859" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Tianyue Jiang, Yanlin Wang*, Xin He, Daya Guo, Jiachi Chen, Ming Wen, Ensheng Shi, Xilin Liu, Yuchi Ma, Guanbin Li.
+</p>
+</li>
+<li><p><b>WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2607.10621" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Zheng Pei, Mingwei Liu, Zhenxi Chen, Zihao Wang, Yanlin Wang.
+</p>
+</li>
+<li><p><b>Hawk: Harnessing Hardware-Aware Knowledge for High-Performance NPU Kernel Generation</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2607.01590" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Junyi Wen, Ruiyan Zhuang, Yongjia Xu, Pengtu Li, Rui Zou, Hongyi Chen, Chingman Wan, Puxu Yang, Wuhui Chen, Yanlin Wang.
+</p>
+</li>
+<li><p><b>The Ghosts of Polymarket: When Off-Chain Matches Meet On-Chain Reverts</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2606.16852" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yiming Shen, Yuhan Jin, Shuohan Wu, Yanlin Wang, Jiachi Chen.
+</p>
+</li>
+<li><p><b>Breaking Changes in Software Ecosystems: A Systematic Literature Review</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2605.24397" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Juntao Chen, Tingting Bi, Yanlin Wang, Patanamon Thongtanunam.
+</p>
+</li>
+<li><p><b>Bridging Generation and Training: A Systematic Review of Quality Issues in LLMs for Code</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2605.05267" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Kaifeng He, Xiaojun Zhang, Peiliang Cai, Mingwei Liu, Yanlin Wang, Chong Wang, Kaifeng Huang, Bihuan Chen, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>AnomalyGen: Enhancing Log-Based Anomaly Detection with Code-Guided Data Augmentation</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2604.11107" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Xinyu Li, Yintong Huo, Chenxi Mao, Shiwen Shan, Yuxin Su, Yanlin Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Yet Even Less Is Even Better For Agentic, Reasoning, and Coding LLMs</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2604.00824" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+CodeArts Model Team, Yang Ye, Jingyuan Tan, Tianyue Jiang, Ruizhe Ye, Qiankun He, Jiarui Yang, Jian Dong, Sicong Liang, Chongjian Yue, Peibai Xu, Lufan Lu, Shiguan Pang, Taotao Qian, Junbao Hu, Yuechan Hao, Ensheng Shi, Qi Zhang, Yi Hao, Na Fan, Xin Tan, Shuai Yao, Zhiwei Shen, Zongchen Li, Yanlin Wang, Chong Chen, Yuchi Ma.
+</p>
+</li>
+<li><p><b>Dynamic analysis enhances issue resolution</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2603.22048" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Mingwei Liu, Zihao Wang, Zhenxi Chen, Zheng Pei, Yanlin Wang, Zibin Zheng.
+</p>
+</li>
+</ol>
+<details class="publication-archive">
+    <summary>More publications</summary>
+<ol start="21">
+<li><p><b>His2Trans: A Knowledge-Guided Agentic Framework for Project-Level C-to-Rust Migration</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2603.02617" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Shengbo Wang, Mingwei Liu, Guangsheng Ou, Yuwen Chen, Zike Li, Yanlin Wang.
+</p>
+</li>
+<li><p><b>Architecture-Aware Multi-Design Generation for Repository-Level Feature Addition</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2603.01814" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Mingwei Liu, Zhenxi Chen, Zheng Pei, Zihao Wang, Yanlin Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>MCGMark: An Encodable and Robust Online Watermark for Tracing LLM-Generated Malicious Code</b> (<b>ACM TOSEM 2026</b>) [<a href="https://doi.org/10.1145/3846177" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Kaiwen Ning, Jiachi Chen, Qingyuan Zhong, Tao Zhang, Yanlin Wang, Wei Li, Jingwen Zhang, Jianxing Yu, Yuming Feng, Weizhe Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>MicroAgent: Context-Augmented Multi-agent Framework for Automatic Microservice Decomposition</b> (<b>ASE 2026</b>, ACM SIGSOFT Distinguished Paper Award) [<a href="https://doi.org/10.1145/3832783.3834441" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Zishan Su, Junjie Huang, Shiwen Shan, Xingyan Chen, Hui Zeng, Yuxin Su, Yanlin Wang, Michael R. Lyu.
+</p>
+</li>
+<li><p><b>SPDZCoder: Combining Expert Knowledge with LLMs for Generating Privacy-Computing Code</b> (<b>ACM TOSEM 2026</b>) [<a href="https://doi.org/10.1145/3845985" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Xiaoning Dong, Peilin Xin, Ling Huang, Yanlin Wang, Jia Li, Wei Xu.
+</p>
+</li>
+<li><p><b>EquivSage: LLM-assisted Detection of EVM-Inequivalent Code Smells in Multi-chain Reuse Contracts</b> (<b>ACM TOSEM 2026</b>) [<a href="https://doi.org/10.1145/3841635" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Zexu Wang, Jiachi Chen, Yanlin Wang, Kaiwen Ning, Zewei Lin, Jingwen Zhang, Daoyuan Wu, Zibin Zheng.
+</p>
+</li>
+<li><p><b>EffiReasonTrans: RL-Optimized Reasoning for Code Translation</b> (<b>IEEE TSE 2026</b>) [<a href="https://doi.org/10.1109/tse.2026.3693795" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yanlin Wang, Rongyi Ou, Yanli Wang, Mingwei Liu*, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact</b> (<b>USENIX Security 2026</b>) [<a href="https://www.usenix.org/conference/usenixsecurity26/presentation/shao-zhenzhe" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Zhenzhe Shao, Jiashuo Zhang, Zihao Li, Daoyuan Wu, Chong Chen, Yiming Shen, Lingfeng Bao, Yanlin Wang, Jiachi Chen*.
+</p>
+</li>
+<li><p><b>BCUpdater: Leveraging Large Language Models for Efficient Smart Contract Version Updates</b> (<b>ACM TOSEM 2026</b>) <br />
+Jiachi Chen, Yongkun Liu, Yihua Chen, Tingting Bi, Yanlin Wang, Zhenyu Shan, Cheng Chi, Ting Chen, Guangqiang Yin, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Knowledge-Graph-Driven Data Synthesis for Low-Resource Software Development: A HarmonyOS Case Study</b> (<b>FSE 2026</b>) [<a href="https://doi.org/10.1145/3808133" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Mingwei Liu, Zheng Pei, Yanlin Wang*, Zihao Wang, Zikang Li, Enci Lin, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>AdaDec: A Uncertainty-Guided Lookahead Decoding Framework for LLM-Based Code Generation</b> (<b>FSE 2026</b>) [<a href="https://doi.org/10.1145/3808142" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Kaifeng He, Mingwei Liu, Chong Wang, Zike Li, Yanlin Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Detecting Code-Comment Inconsistencies in Smart Contracts by Combining LLM and Program Analysis</b> (<b>FSE 2026</b>) [<a href="https://doi.org/10.1145/3808112" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiashuo Zhang, Jiachi Chen, Ting Zhang, Yue Li, Daoyuan Wu, Yanlin Wang, Jianbo Gao, Ting Chen, Zhong Chen.
+</p>
+</li>
+<li><p><b>Weakly Supervised Vulnerability Localization via Multiple Instance Learning</b> (<b>ACM TOSEM 2026</b>) [<a href="https://doi.org/10.1145/3768572" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2509.11312" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Wenchao Gu, Yupan Chen, Yanlin Wang, Hongyu Zhang, Cuiyun Gao, Michael R. Lyu.
+</p>
+</li>
+<li><p><b>SPENCER: Self-Adaptive Model Distillation for Efficient Code Retrieval</b> (<b>ACM TOSEM 2026</b>) [<a href="https://doi.org/10.1145/3765748" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Wenchao Gu, Zongyi Lyu, Yanlin Wang, Hongyu Zhang, Cuiyun Gao*, Michael R. Lyu.
+</p>
+</li>
+<li><p><b>GraphProbe: Knowledge Probing for Graph Representation Learning</b> (<b>Pattern Recognition 2026</b>) [<a href="https://doi.org/10.1016/j.patcog.2025.112518" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2408.03877" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Mingyu Zhao#, Xingyu Huang#, Songming Zhang, Anqi Liu, Ziyu Lyu, Yanlin Wang, Lixin Cui, Lu Bai.
+</p>
+</li>
+<li><p><b>Are Decoder-Only Large Language Models the Silver Bullet for Code Search?</b> (<b>IEEE TSE 2026</b>) [<a href="https://doi.org/10.1109/tse.2026.3657353" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yuxuan Chen, Mingwei Liu, Guangsheng Ou, Anji Li, Dekun Dai, Yanlin Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Trace: Securing Smart Contract Repository Against Access Control Vulnerability</b> (<b>IEEE TSE 2026</b>) [<a href="https://doi.org/10.1109/tse.2026.3660900" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Chong Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng, Jiachi Chen.
+</p>
+</li>
+<li><p><b>FORGE: An LLM-driven Framework for Large-Scale Smart Contract Vulnerability Dataset Construction</b> (<b>ICSE 2026</b>) [<a href="https://doi.org/10.1145/3744916.3764529" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiachi Chen, Yiming Shen, Jiashuo Zhang, Zihao Li, John Grundy, Zhenzhe Shao, Yanlin Wang, Jiashui Wang, Ting Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Advances and Frontiers of LLM-based Issue Resolution in Software Engineering: A Comprehensive Survey</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2601.11655" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Caihua Li, Lianghong Guo, Yanlin Wang*, Daya Guo, Wei Tao*, Zhenyu Shan, Mingwei Liu, Jiachi Chen, Haoyu Song, Duyu Tang, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation</b> (<b>arXiv 2026</b>) [<a href="https://arxiv.org/abs/2601.09703" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Sicong Liu, Yanxian Huang, Mingwei Liu, Jiachi Chen, Ensheng Shi, Yuchi Ma, Hongyu Zhang, Yin Zhang, Yanlin Wang.
+</p>
+</li>
+<li><p><b>SWE Data Construction, Automatically!</b> (<b>FSE 2026, CCF-A</b>) [<a href="https://doi.org/10.1145/3797119" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2506.10954" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Lianghong Guo, Yanlin Wang*, Caihua Li, Wei Tao, Pengyu Yang, Jiachi Chen, Haoyu Song, Duyu Tang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models</b> (<b>FSE 2026, CCF-A</b>) [<a href="https://doi.org/10.1145/3808131" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2607.25996" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanlin Wang, Suiquan Wang, Yanli Wang, Bowen Zhang, Daya Guo*, Jiachi Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Towards an Understanding of Context Utilization in Code Intelligence</b> (<b>ACM Computing Surveys 2026, SCI-1</b>) [<a href="https://doi.org/10.1145/3797261" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2504.08734" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanlin Wang, Kefeng Duan, Dewu Zheng, Ensheng Shi, Fengji Zhang, Yanli Wang, Jiachi Chen, Xilin Liu, Yuchi Ma, Hongyu Zhang, Qianxiang Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion</b> (<b>ACL 2026, CCF-A</b>) <br />
+Yanli Wang, Yanlin Wang*, Bowen Zhang, Yiwei Zhang, Daya Guo, Jiachi Chen, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>ArkRepoBench: A Repository-Level Code Completion Benchmark for HarmonyOS Development</b> (<b>ACL 2026 Findings</b>) <br />
+Yanlin Wang, Bowen Zhang, Yanli Wang, Daya Guo, Terry Yue Zhuo, Jiachi Chen, Mingwei Liu, Xingong Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories</b> (<b>ACL 2026 Findings</b>) <br />
+Yanlin Wang, Ziyao Zhang, Chong Wang*, Xinyi Xu, Mingwei Liu, Yong Wang, Jiachi Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA</b> (<b>ACL 2026 Findings</b>) <br />
+Jing Zhang, Lianghong Guo, Yanlin Wang*, Terry Yue Zhuo, Yong Wang, Mingwei Liu, Jiachi Chen, Ensheng Shi, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Visually-Guided Policy Optimization for Multimodal Reasoning</b> (<b>ACL 2026, CCF-A</b>) <br />
+Zengbin Wang, Feng Xiong, Liang Lin, Xuecai Hu, Yong Wang, Yanlin Wang, Man Zhang, Xiangxiang Chu.
+</p>
+</li>
+<li><p><b>Knowledge Matters: Injecting Project and Testing Knowledge into LLM-based Unit Test Generation</b> (<b>ICSE 2026, CCF-A</b>) <br />
+Anji Li, Mingwei Liu, Zhenxi Chen, Zheng Pei, Zike Li, Dekun Dai, Yanlin Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond</b> (<b>ICSE 2026, CCF-A</b>) [<a href="https://doi.org/10.1145/3744916.3773224" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Wenchao Gu, Juntao Chen, Yanlin Wang*, Tianyue Jiang, Xingzhe Li, Mingwei Liu, Xilin Liu, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark</b> (<b>ICSE 2026, CCF-A</b>) <br />
+Dewu Zheng, Yanlin Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>An Empirical Study of Agent Developer Practices in AI Agent Frameworks</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2512.01939" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanlin Wang, Xinyi Xu, Jiachi Chen, Tingting Bi, Wenchao Gu, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2510.17235" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Chong Chen, Ze Liu, Lingfeng Bao, Yanlin Wang, Ting Chen, Daoyuan Wu, Jiachi Chen.
+</p>
+</li>
+<li><p><b>Generating High-Quality Datasets for Code Editing via Open-Source Language Models</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2509.25203" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Zekai Zhang, Mingwei Liu, Zhenxi Chen, Linxi Liang, Yuxuan Chen, Guangsheng Ou, Yanlin Wang, Dan Li, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>EvolMathEval: Towards Evolvable Benchmarks for Mathematical Reasoning via Evolutionary Testing</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2508.13003" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Shengbo Wang, Mingwei Liu, Zike Li, Anji Li, Yanlin Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Web3 x AI Agents: Landscape, Integrations, and Foundational Challenges</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2508.02773" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yiming Shen, Jiashuo Zhang, Zhenzhe Shao, Wenxuan Luo, Yanlin Wang, Ting Chen, Lingfeng Bao, Jiachi Chen.
+</p>
+</li>
+<li><p><b>A Hierarchical and Evolvable Benchmark for Fine-Grained Code Instruction Following with Multi-Turn Feedback</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2507.00699" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Guoliang Duan, Mingwei Liu, Yanlin Wang, Chong Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2504.06939" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Dekun Dai, MingWei Liu, Anji Li, Jialun Cao, Yanlin Wang, Chong Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>A Preliminary Study on the Robustness of Code Generation by Large Language Models</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2503.20197" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Zike Li, Mingwei Liu, Anji Li, Kaifeng He, Yanlin Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RustEvo²: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation</b> (<b>arXiv 2025</b>) [<a href="https://arxiv.org/abs/2503.16922" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Linxi Liang, Jing Gong, Mingwei Liu, Chong Wang, Guangsheng Ou, Yanlin Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>MidPO: Dual Preference Optimization for Safety and Helpfulness in Large Language Models via a Mixture of Experts Framework</b> (<b>Findings of EMNLP 2025</b>) [<a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1037" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yupeng Qi, Ziyu Lyu, Min Yang, Yanlin Wang, Lu Bai, Lixin Cui.
+</p>
+</li>
+<li><p><b>AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent</b> (<b>ISSTA 2025</b>) [<a href="https://doi.org/10.1145/3728939" target=&ldquo;blank&rdquo;>paper</a>] <br />
+He Ye, Aidan Z.H. Yang, Chang Hu, Yanlin Wang, Tao Zhang, Claire Le Goues.
+</p>
+</li>
+<li><p><b>SECRET: Towards Scalable and Efficient Code Retrieval via Segmented Deep Hashing</b> (<b>ICSE 2025</b>) [<a href="https://doi.org/10.1109/icse55347.2025.00154" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Wenchao Gu, Ensheng Shi, Yanlin Wang*, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Michael R. Lyu.
+</p>
+</li>
+<li><p><b>When Crypto Fails: Demystifying Cryptographic Defects in Ethereum Smart Contracts</b> (<b>IEEE TSE 2025</b>) [<a href="https://doi.org/10.1109/tse.2025.3551776" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiashuo Zhang, Jiachi Chen, Yiming Shen, Tao Zhang, Yanlin Wang, Ting Chen, Jianbo Gao, Zhong Chen.
+</p>
+</li>
+<li><p><b>NumScout: Unveiling Numerical Defects in Smart Contracts Using LLM-Pruning Symbolic Execution</b> (<b>IEEE TSE 2025</b>) [<a href="https://doi.org/10.1109/tse.2025.3555622" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiachi Chen, Zhenzhe Shao, Shuo Yang, Yiming Shen, Yanlin Wang, Ting Chen, Zhenyu Shan, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Automated Test Generation For Smart Contracts via On-Chain Test Case Augmentation and Migration</b> (<b>ICSE 2025</b>) [<a href="https://doi.org/10.1109/icse55347.2025.00096" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiashuo Zhang, Jiachi Chen, John Grundy, Jianbo Gao, Yanlin Wang, Ting Chen, Zhi Guan, Zhong Chen.
+</p>
+</li>
+<li><p><b>OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution</b> (<b>ISSTA 2025, CCF-A</b>) <br />
+Lianghong Guo, Wei Tao, Runhan Jiang, Yanlin Wang*, Jiachi Chen, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion</b> (<b>ASE 2025, CCF-A</b>) <br />
+Tianyue Jiang#, Yanli Wang#, Yanlin Wang*, Daya Guo, Ensheng Shi, Yuchi Ma, Jiachi Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>DrainCode: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning</b> (<b>ASE 2025, CCF-A</b>) <br />
+Yanlin Wang, Jiadong Wu, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Chong Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning</b> (<b>AAAI 2026, CCF-A</b>) <br />
+Jiayi Lin, Yanlin Wang*, Yibiao Yang, Lei Zhang, Yutao Xie.
+</p>
+</li>
+<li><p><b>RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust</b> (<b>ASE 2025, CCF-A</b>) <br />
+Guangsheng Ou, Mingwei Liu, Yuxuan Chen, Yanlin Wang, Xin Peng, Zibin Zheng.
+</p>
+</li>
+<li><p><b>CodeCritic: towards effective code quality evaluation with large language models</b> (<b>Automated Software Engineering 2026, CCF-B</b>) [<a href="https://doi.org/10.1007/s10515-026-00632-x" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yanlin Wang, Yanxian Huang, Sida Xu, Ensheng Shi, Jiachi Chen, Wanjun Zhong, Zibin Zheng.
+</p>
+</li>
+<li><p><b>CoSQA+: Enhancing Code Search Evaluation With a Multi-Choice Benchmark and Test-Driven Agents</b> (<b>IEEE TSE 2026, CCF-A</b>) [<a href="https://doi.org/10.1109/tse.2025.3631886" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2406.11589" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Jing Gong#, Yanghui Wu#, Linxi Liang#, Yanlin Wang*, Jiachi Chen, Mingwei Liu, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RepoTransBench: A Real-World Multilingual Benchmark for Repository-Level Code Translation</b> (<b>IEEE TSE 2026, CCF-A</b>) [<a href="https://doi.org/10.1109/tse.2025.3645056" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2412.17744" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanli Wang, Yanlin Wang*, Suiquan Wang, Daya Guo, Jiachi Chen, John Grundy, Xilin Liu, Yuchi Ma, Mingzhi Mao, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks</b> (<b>ICPC 2025, CCF-B</b>) (<b><tt>🏆Distinguished Paper Award🏆</tt></b>) <br />
+Kang Yang, Xinjun Mao, Shangwen Wang, Yanlin Wang, Tanghaoran Zhang, Yihao Qin, Bo Lin, Zhang Zhang, Yao Lu, Kamal Al-Sabahi
+</p>
+</li>
+<li><p><b>Agents in Software Engineering: Survey, Landscape, and Vision</b> (<b>ASE-J 2025, CCF-B</b>) [<a href="https://arxiv.org/abs/2409.09030" target=&ldquo;blank&rdquo;>preprint</a> ] <br />
+Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng <br />
+</p>
+</li>
+<li><p><b>LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation</b> (<b>ISSTA 2025, CCF-A</b>) [<a href="https://doi.org/10.1145/3728894" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2409.20550" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Ziyao Zhang, Chong Wang, Yanlin Wang*, Ensheng Shi, Yuchi Ma, Wanjun Zhong, Jiachi Chen, Mingzhi Mao, Zibin Zheng.
+</p>
+</li>
+<li><p><b>HumanEvo: An Evolution-Aware Benchmark for More Realistic Evaluation of Repository-Level Code Generation</b> (<b>ICSE 2025</b>) [<a href="https://doi.org/10.1109/icse55347.2025.00228" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2406.06918" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Dewu Zheng, Yanlin Wang*, Ensheng Shi, Ruikai Zhang, Yuchi Ma, Hongyu Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RLCoder: Reinforcement Learning for Repository-Level Code Completion</b> (<b>ICSE 2025, CCF-A</b>) <br />
+Yanlin Wang, Yanli Wang, Daya Guo, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</b> (<b>NeurIPS 2024, CCF-A</b>) [<a href="https://doi.org/10.52202/079017-1647" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Wei Tao, Yucheng Zhou, Yanlin Wang, Wenqiang Zhang, Hongyu Zhang, Yu Cheng.
+</p>
+</li>
+<li><p><b>AI大模型技术在编译原理课程教学中的设计与实践</b> (<b>CCEC 2024</b>) <br />
+Yanlin Wang, Mingzhi Mao, Yanxian Huang, Leqiu Wang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Improving Code Search with Hard Negative Sampling Based on Fine-tuning</b> (<b>APSEC 2024</b>) [<a href="https://doi.org/10.1109/apsec65559.2024.00033" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Hande Dong, Jiayi Lin, Yanlin Wang*, Yichong Leng, Jiawei Chen, Yutao Xie.
+</p>
+</li>
+<li><p><b>CoSTV: Accelerating Code Search with Two-Stage Paradigm and Vector Retrieval</b> (<b>APSEC 2024, SEIP Track</b>) [<a href="https://doi.org/10.1109/apsec65559.2024.00049" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Dewu Zheng, Yanlin Wang*, Wenqing Chen, Jiachi Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening</b> (<b>Internetware 2024</b>) [<a href="https://doi.org/10.1145/3671016.3674819" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yifan Li, Ensheng Shi, Dewu Zheng, Kefeng Duan, Jiachi Chen, Yanlin Wang*.
+</p>
+</li>
+<li><p><b>Efficiently Detecting Reentrancy Vulnerabilities in Complex Smart Contracts</b> (<b>FSE 2024</b>) [<a href="https://doi.org/10.1145/3643734" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Zexu Wang, Jiachi Chen, Yanlin Wang, Yu Zhang, Weizhe Zhang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>The Dark Side of NFTs: A Large-Scale Empirical Study of Wash Trading</b> (<b>Internetware 2024</b>) [<a href="https://doi.org/10.1145/3671016.3674808" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Shijian Chen, Jiachi Chen, Jiangshan Yu, Xiapu Luo, Yanlin Wang.
+</p>
+</li>
+<li><p><b>When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention</b> (<b>ISSTA 2024, CCF-A</b>) (<b><tt>🏆Distinguished Paper Award🏆</tt></b>) <br />
+Lianghong Guo, Yanlin Wang*, Ensheng Shi, Wanjun Zhong, Hongyu Zhang, Jiachi Chen, Ruikai Zhang, Yuchi Ma, Zibin Zheng. <br />
+</p>
+</li>
+<li><p><b>Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow</b> (<b>ISSTA 2024, CCF-A</b>) (<b><tt>🏆Distinguished Paper Award🏆</tt></b>) <br />
+Jiachi Chen, Chong Chen, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng <br />
+</p>
+</li>
+<li><p><b>RMCBench: Benchmarking Large Language Models&rsquo; Resistance to Malicious Code</b> (<b>ASE 2024, CCF-A</b>) <br />
+Jiachi Chen, Qingyuan Zhong, Yanlin Wang, Kaiwen Ning, Yongkun Liu, Zenan Xu, Zhe Zhao, Ting Chen, Zibin Zheng <br />
+In The 39th ACM/IEEE International Conference on Automated Software Engineering.
+</p>
+</li>
+<li><p><b>Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models</b> (<b>FSE 2025, CCF-A</b>) [<a href="https://doi.org/10.1145/3715749" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2407.00456" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanlin Wang, Tianyue Jiang, Mingwei Liu, Jiachi Chen, Mingzhi Mao, Xilin Liu, Yuchi Ma, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts</b> (<b>ICSE 2025, CCF-A</b>) <br />
+Jiashuo Zhang, Yiming Shen, Jiachi Chen, Jianzhong Su, Yanlin Wang, Ting Chen, Jianbo Gao, Zhong Chen
+</p>
+</li>
+<li><p><b>Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution</b> (<b>ICSE 2025, CCF-A</b>) <br />
+Shuo Yang, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
+</p>
+</li>
+<li><p><b>Make Heterophilic Graphs Better Fit GNN:A GraphRewiring Approach</b> (<b>TKDE 2024, CCF-A</b>)	<br />
+Wendong Bi, Lun Du*, Qiang Fu, Yanlin Wang, Shi Han, and Dongmei Zhang <br />
+</p>
+</li>
+<li><p><b>YODA: Teacher-Student Progressive Learning for Language Models</b> [<a href="https://arxiv.org/abs/2401.15670" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Jianqiao Lu, Wanjun Zhong, Yufei Wang, Zhijiang Guo, Qi Zhu, Wenyong Huang, Yanlin Wang, Fei Mi, Baojun Wang, Yasheng Wang, Lifeng Shang, Xin Jiang, Qun Liu <br />
+</p>
+</li>
+<li><p><b>Tackling Long Code Search with Splitting, Encoding, and Aggregating.</b>  <br />
+Fan Hu, Yanlin Wang*, Lun Du, Hongyu Zhang, Dongmei Zhang and Xirong Li <br />
+International Conference on Computational Linguistics, Language Resources and Evaluation. (<b>LREC-COLING 2024, CCF-B</b>) <br />
+</p>
+</li>
+<li><p><b>MoonBit: Explore the Design of an AI-Friendly Programming Language.</b> In LLM4Code Workshop 2024.<br />
+Haoxiang Fei, Yu Zhang, Hongbo Zhang, Yanlin Wang, Qing Liu <br />
+</p>
+</li>
+<li><p><b>An empirical study on low-code programming using traditional vs large language model support</b> (<b>Journal of Systems and Software 2026</b>) [<a href="https://doi.org/10.1016/j.jss.2025.112727" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2402.01156" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yongkun Liu, Jiachi Chen, Tingting Bi, John Grundy, Yanlin Wang, Jianxing Yu, Ting Chen, Yutian Tang, Zibin Zheng.
+</p>
+</li>
+<li><p><b>KADEL: Knowledge-Aware Denoising Learning for Commit Message Generation.</b> [<a href="https://arxiv.org/abs/2401.08376" target=&ldquo;blank&rdquo;>pdf</a> ] <br />
+Wei Tao, Yucheng Zhou, Yanlin Wang*, Hongyu Zhang, Haofen Wang, Wenqiang Zhang* <br />
+ACM Transactions on Software Engineering and Methodology 2024. (<b>TOSEM 2024, CCF-A</b>) <br />
+</p>
+</li>
+<li><p><b>SparseCoder: Identifier-Aware Sparse Transformer for File-Level Code Summarization.</b> [<a href="https://arxiv.org/abs/2401.14727" target=&ldquo;blank&rdquo;>pdf</a> ] <br />
+Yanlin Wang, Yanxian Huang, Daya Guo, Hongyu Zhang and Zibin Zheng <br />
+The IEEE International Conference on Software Analysis, Evolution and Reengineering (<b>SANER 2024, CCF-B</b>) <br />
+</p>
+</li>
+<li><p><b>Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning</b> (<b>Information Processing &amp; Management 2025</b>) [<a href="https://doi.org/10.1016/j.ipm.2024.104052" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2310.01446" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Jianpeng Zhou, Wanjun Zhong, Yanlin Wang, Jiahai Wang.
+</p>
+</li>
+<li><p><b>SoTaNa: An Open-Source Software Engineering Instruction-Tuned Model</b> (<b>FORGE 2025</b>) [<a href="https://doi.org/10.1109/forge66646.2025.00010" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2308.13416" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Ensheng Shi, Yanlin Wang, Fengji Zhang, Bei Chen, Hongyu Zhang, Yanli Wang, Daya Guo, Lun Du, Shi Han, Dongmei Zhang, Hongbin Sun.
+</p>
+</li>
+<li><p><b>A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends</b> [<a href="https://arxiv.org/abs/2311.10372" target=&ldquo;blank&rdquo;>preprint</a>]<br />
+Zibin Zheng, Kaiwen Ning, Yanlin Wang, Jingwen Zhang, Dewu Zheng, Mingxi Ye, Jiachi Chen <br />
+</p>
+</li>
+<li><p><b>Towards an understanding of large language models in software engineering tasks</b> (<b>Empirical Software Engineering 2025</b>) [<a href="https://doi.org/10.1007/s10664-024-10602-0" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2308.11396" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Zibin Zheng, Kaiwen Ning, Qingyuan Zhong, Jiachi Chen, Wenqing Chen, Lianghong Guo, Weicheng Wang, Yanlin Wang.
+</p>
+</li>
+<li><p><b>When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?</b> (<b>ACM TOSEM 2025</b>) [<a href="https://doi.org/10.1145/3702973" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2309.05520" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Chong Chen, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Jianxing Yu, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</b> (<b>Findings of NAACL 2024</b>) [<a href="https://doi.org/10.18653/v1/2024.findings-naacl.149" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2304.06364" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, Nan Duan.
+</p>
+</li>
+<li><p><b>MemoryBank: Enhancing Large Language Models with Long-Term Memory</b>   [<a href="https://arxiv.org/abs/2305.10250" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang <br />
+In Proceedings of the 37th AAAI Conference on Artificial Intelligence. (<b>AAAI 2024</b>).<br />
+</p>
+</li>
+<li><p><b>Code Search Debiasing: Improve Search Results beyond Overall Ranking Performance</b> <br />
+Sheng Zhang, Hui Li, Yanlin Wang, Zhao Wei, yong xu, Juhong Wang, Rongrong Ji (<b>EMNLP 2023 Findings, CCF-B</b>).<br />
+</p>
+</li>
+<li><p><b>A Systematic Literature Review on Smart Contract Vulnerability Detection by Symbolic Execution</b> (<b>BlockSys 2023</b>) [<a href="https://doi.org/10.1007/978-981-99-8101-4_16" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Yanli Wang, Sifei Sheng, Yanlin Wang*.
+</p>
+</li>
+<li><p><b>Who Needs the Most Research Effort? Investigating the Importance of Smart Contract Weaknesses</b> (<b>BlockSys 2023</b>) [<a href="https://doi.org/10.1007/978-981-99-8101-4_14" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Shijian Chen, Yanlin Wang*, Zibin Zheng.
+</p>
+</li>
+<li><p><b>Can Neural Networks Help Smart Contract Testing? An Empirical Study</b> (<b>Internetware 2023</b>) [<a href="https://doi.org/10.1145/3609437.3609455" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Jiadong Wu, Yanlin Wang*, Ruixin Wang, Jiachi Chen, Zibin Zheng.
+</p>
+</li>
+<li><p><b>EALink: An Efficient and Accurate Pre-Trained Framework for Issue-Commit Link Recovery</b> (<b>ASE 2023</b>) [<a href="https://doi.org/10.1109/ase56229.2023.00059" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Chenyuan Zhang, Yanlin Wang, Zhao Wei, Yong Xu, Juhong Wang, Hui Li, Rongrong Ji.
+</p>
+</li>
+<li><p><b>Modeling Orders of User Behaviors via Differentiable Sorting: A Multi-task Framework to Predicting User Post-click Conversion</b> (<b>SIGIR 2023</b>) [<a href="https://doi.org/10.1145/3539618.3592023" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Menghan Wang, Jinming Yang, Yuchen Guo, Yuming Shen, Mengying Zhu, Yanlin Wang.
+</p>
+</li>
+<li><p><b>MM-GNN: Mix-Moment Graph Neural Network towards Modeling Neighborhood Feature Distribution</b> (<b>WSDM 2023</b>) [<a href="https://doi.org/10.1145/3539597.3570457" target=&ldquo;blank&rdquo;>paper</a>] <br />
+Wendong Bi, Lun Du, Qiang Fu, Yanlin Wang, Shi Han, Dongmei Zhang.
+</p>
+</li>
+<li><p><b>Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond</b> [<a href="https://dl.acm.org/doi/abs/10.1145/3597926.3598036" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Ensheng Shi, Yanlin Wang, Hongyu Zhang, Lun Du, Shi Han, Dongmei Zhang, Hongbin Sun <br />
+In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (<b>ISSTA 2023, CCF-A</b>). <br />
+</p>
+</li>
+<li><p><b>RefBERT: A Two-Stage Pre-trained Framework for Automatic Rename Refactoring</b> (<b>ISSTA 2023, CCF-A</b>) [<a href="https://doi.org/10.1145/3597926.3598092" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2305.17708" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Hao Liu, Yanlin Wang, Zhao Wei, Yong Xu, Juhong Wang, Hui Li, Rongrong Ji.
+</p>
+</li>
+<li><p><b>DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols</b> [<a href="https://dl.acm.org/doi/pdf/10.1145/3597926.3598124" target=&ldquo;blank&rdquo;>pdf</a>]<br />
+Queping Kong, Jiachi Chen, Yanlin Wang, Zigui Jiang, Zibin Zheng <br />
+In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (<b>ISSTA 2023, CCF-A</b>). <br />
+</p>
+</li>
+<li><p><b>Toward Automated Detecting Unanticipated Price Feed in Smart Contract</b>[<a href="https://dl.acm.org/doi/abs/10.1145/3597926.3598133" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Yifan Mo, Jiachi Chen, Yanlin Wang, Zibin Zheng <br />
+In The ACM SIGSOFT International Symposium on Software Testing and Analysis. (<b>ISSTA 2023, CCF-A</b>). <br />
+</p>
+</li>
+<li><p><b>Snippet Comment Generation Based on Code Context Expansion</b> [<a href="https://dl.acm.org/doi/10.1145/3611664" target=&ldquo;blank&rdquo;>pdf</a>]<br />
+Hanyang Guo, Xiangping Chen, Yuan Huang, Yanlin Wang, Xi Ding, Zibin Zheng, Xiaocong Zhou, Hong-Ning Dai <br />
+In ACM Transactions on Software Engineering and Methodology (<b>TOSEM 2023, CCF-A</b>) <br />
+</p>
+</li>
+<li><p><b>CoCoAST: Representing Source Code via Hierarchical Splitting and Reconstruction of Abstract Syntax Trees</b>[<a href="https://link.springer.com/article/10.1007/s10664-023-10378-9" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Ensheng Shi#, Yanlin Wang#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun <br />
+In Empirical Software Engineering (<b>EMSE 2023, CCF-B</b>) <br />
+</p>
+</li>
+<li><p><b>You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search</b> [<a href="papers/ChatDANCE-ICSME2023.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, Ziyu Lyu, Hongyu Zhang and Zibin Zheng <br />
+In 39th IEEE International Conference on Software Maintenance and Evolution. (<b>ICSME 2023, CCF-B</b>) <br />
+</p>
+</li>
+<li><p><b>PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation</b>[<a href="https://dl.acm.org/doi/abs/10.1145/3580305.3599889" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Ruixuan Liu, Yang Cao, Yanlin Wang, Lingjuan Lyu, Yun Chen, Hong Chen <br />
+KDD 2023 Applied Data Science (<b>KDD 2023</b>). <br />
+</p>
+</li>
+<li><p><b>Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing</b>[<a href="https://ojs.aaai.org/index.php/AAAI/article/view/26572" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Lunyiu Nie, Jiuding Sun, Yanlin Wang, Lun Du, Lei Hou, Juanzi Li, Shi Han, Dongmei Zhang, Jidong Zhai <br />
+In Proceedings of the 36th AAAI Conference on Artificial Intelligence. (<b>AAAI 2023</b>).<br />
+</p>
+</li>
+<li><p><b>CoCoSoDa: Effective Contrastive Learning for Code Search</b> [<a href="https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00185" target=&ldquo;blank&rdquo;>pdf</a>]<br />
+Ensheng Shi, Yanlin Wang, Wenchao Gu, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun <br />
+In proceedings of the 45th IEEE/ACM International Conference on Software Engineering (<b>ICSE 2023</b>). <br />
+</p>
+</li>
+<li><p><b>A large-scale empiricalstudy of commit message generation: models, datasets and evaluation</b> <br />
+Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang, Wenqiang Zhang <br />
+In Empirical Software Engineering. (<b>EMSE 2022</b>). <br />
+[<a href="https://dl.acm.org/doi/abs/10.1007/s10664-022-10219-1" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Revisiting Code Search in a Two-Stage Paradigm</b> <br />
+Fan Hu, Yanlin Wang, Lun Du, Xirong Li, Hongyu Zhang, Shi Han, Dongmei Zhang <br />
+In 15th ACM International WSDM Conference. (<b>WSDM 2023</b>). <br />
+[<a href="https://arxiv.org/abs/2208.11274v1" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>RACE: Retrieval-Augmented Commit Message Generation</b> <br />
+Ensheng Shi, Yanlin Wang, Wei Tao, Lun Du, hongyu Zhang, Shi Han, Dongmei Zhang and Hongbin Sun <br />
+In The 2022 Conference on Empirical Methods in Natural Language Processing. (<b>EMNLP 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2203.02700" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Exploring Representation-level Augmentation for Code Search</b> <br />
+Haochen Li, Chunyan Miao, Yanxian Huang, Yuan Huang, Hongyu Zhang and Yanlin Wang <br />
+In The 2022 Conference on Empirical Methods in Natural Language Processing. (<b>EMNLP 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2208.11274v1" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>An overview of Web3 technology: Infrastructure, applications, and popularity</b> (<b>Blockchain: Research and Applications 2024</b>) [<a href="https://doi.org/10.1016/j.bcra.2023.100173" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2305.00427" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Renke Huang, Jiachi Chen, Yanlin Wang, Tingting Bi, Liming Nie, Zibin Zheng.
+</p>
+</li>
+<li><p><b>No One Left Behind: Inclusive Federated Learning over Heterogeneous Devices</b> <br />
+Ruixuan Liu, Fangzhao Wu, Chuhan Wu, Yanlin Wang, Lingjuan Lyu, Hong Chen, Xing Xie <br />
+In ACM SIGKDD 2022 Applied Data Science Track. (<b>KDD 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2202.08036" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Accelerating Code Search with Deep Hashing and Code Classification</b> <br />
+Wenchao Gu, Yanlin Wang, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Michael Lyu <br />
+In 60th Annual Meeting of the Association for Computational Linguistics. (<b>ACL 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2203.15287" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>UniXcoder: Unified Cross-Modal Pre-training for Code Representation</b> <br />
+Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, Jian Yin <br />
+In 60th Annual Meeting of the Association for Computational Linguistics. (<b>ACL 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2203.03850v1" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/microsoft/CodeBERT" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>On the Evaluation of Neural Code Summarization</b> <br />
+Ensheng Shi, Yanlin Wang, Lun Du, Junjie Chen, Shi Han, Hongyu Zhang, Dongmei Zhang, Hongbin Sun <br />
+In International Conference on Software Engineering. (<b>ICSE 2022</b>). <br />
+[<a href="papers/icse2022codesumeval.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/DeepSoftwareAnalytics/CodeSumEvaluation" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>LibDB: An Effective and Efficient Framework for Detecting Third-Party Libraries in Binaries</b> <br />
+Wei Tang, Yanlin Wang, Hongyu Zhang, Shi Han, Ping Luo, Dongmei Zhang <br />
+In Mining Software Repositories 2022. (<b>MSR 2022</b>). <br />
+[<a href="https://arxiv.org/abs/2204.10232" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/DeepSoftwareAnalytics/LibDB" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>CAST: Enhancing Code Summarization with Hierarchical Splitting and Reconstruction of Abstract Syntax Trees</b> <br />
+Ensheng Shi#, Yanlin Wang#, Lun Du, Hongyu Zhang, Shi Han, Dongmei Zhang, Hongbin Sun <br />
+In 2021 Conference on Empirical Methods in Natural Language Processing. (<b>EMNLP 2021</b>). <br />
+[<a href="https://aclanthology.org/2021.emnlp-main.332.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/DeepSoftwareAnalytics/CAST" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>Is a Single Model Enough? MuCoS: A Multi-Model Ensemble Learning for Semantic Code Search</b> <br />
+Lun Du, Xiaozhou Shi, Yanlin Wang, Ensheng Shi, Shi Han, Dongmei Zhang <br />
+In 30th ACM International Conference on Information and Knowledge Management. (<b>CIKM 2021</b>). <br />
+[<a href="https://arxiv.org/pdf/2107.04773.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/Xzh0u/MuCoS" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>On the Evaluation of Commit Message Generation Models: An Experimental Study</b> <br />
+Wei Tao, Yanlin Wang, Ensheng Shi, Lun Du, Shi Han, Hongyu Zhang, Dongmei Zhang and Wenqiang Zhang <br />
+In 37th International Conference on Software Maintenance and Evolution. (<b>ICSME 2021</b>). <br />
+[<a href="https://arxiv.org/pdf/2107.05373.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/DeepSoftwareAnalytics/CommitMsgEmpirical" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>Code Completion by Modeling Flattened Abstract Syntax Trees as Graphs.</b> <br />
+Yanlin Wang and Hui Li <br />
+In Proceedings of the 35th AAAI Conference on Artificial Intelligence. (<b>AAAI 2021</b>).<br />
+[<a href="https://arxiv.org/pdf/2103.09499.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Context-aware code summarization with multi-relational graph neural network</b> (<b>Automated Software Engineering 2025, CCF-B</b>) [<a href="https://doi.org/10.1007/s10515-025-00490-z" target=&ldquo;blank&rdquo;>paper</a>] [<a href="https://arxiv.org/abs/2107.01933" target=&ldquo;blank&rdquo;>preprint</a>] <br />
+Yanlin Wang, Ensheng Shi*, Lun Du, Xiaodi Yang, Yuxuan Hu, Yanli Wang, Daya Guo, Shi Han, Hongyu Zhang, Dongmei Zhang.
+</p>
+</li>
+<li><p><b>Multi-task Learning for Recommendation over Heterogeneous Information Network.</b><br />
+Hui Li, Yanlin Wang, Ziyu Lyu and Jieming Shi <br />
+In IEEE Transactions on Knowledge and Data Engineering (<b>TKDE 2020</b>).<br />
+[<a href="https://ieeexplore.ieee.org/document/9051843" target=&ldquo;blank&rdquo;>link</a>]
+</p>
+</li>
+<li><p><b>FHJ: A Formal Model for Hierarchical Dispatching and Overriding.</b> <br />
+Yanlin Wang, Haoyuan Zhang, Bruno C. d. S. Oliveira and Marco Servetto <br />
+In Proceedings of the 32nd European Conference on Object-Oriented Programming. (<b>ECOOP 2018</b>).<br />
+[<a href="https://drops.dagstuhl.de/opus/volltexte/2018/9225/pdf/LIPIcs-ECOOP-2018-20.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Classless Java.</b> <br />
+Yanlin Wang, Haoyuan Zhang, Marco Servetto and Bruno C. d. S. Oliveira <br />
+In International Conference on Generative Programming: Concepts and Experiences. (<b>GPCE 2016</b>).<br />
+[<a href="https://i.cs.hku.hk/~bruno/papers/gpce2016.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+[<a href="https://github.com/YanlinWang/classless-java" target=&ldquo;blank&rdquo;>code</a>]
+</p>
+</li>
+<li><p><b>The Expression Problem, Trivially!</b> <br />
+Yanlin Wang, Bruno C. d. S. Oliveira <br />
+In Proceedings of the 15th International Conference on Modularity. (<b>Modularity 2016</b>, <b>Best Paper Award</b>).<br />
+[<a href="https://dl.acm.org/doi/10.1145/2889443.2889448" target=&ldquo;blank&rdquo;>link</a>]
+[<a href="https://i.cs.hku.hk/~bruno/papers/Modularity2016.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+</li>
+<li><p><b>Product Lines of Interpreters Using Truffle with Object Algebras.</b> <br />
+Yanlin Wang, Tomas Tauber and Bruno C. d. S. Oliveira <br />
+In Proceedings of the 1st Truffle/Graal Languages Workshop, 29th European Conference on Object-Oriented Programming. (<b>Truffle@ECOOP 2015</b>).
+</p>
+</li>
+</ol>
+</details>
+</section>
+
+<footer>
+  <p class="meta">Academic resources · <a href="https://ccfddl.github.io/">Conference deadlines</a> · <a href="https://ccf.atom.im/">CCF venue list</a></p>
+</footer>
+</div>
+</body>
+</html>

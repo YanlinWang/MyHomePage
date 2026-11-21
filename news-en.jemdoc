@@ -1,0 +1,54 @@
+# English news archive. Include from the English homepage.
+~~~
+{}{raw}
+<section class="section-block" id="news">
+  <h2>Recent news</h2>
+  <ul class="news-list">
+    <li><time datetime="2026-11">2026-11</time> We released <a href="https://arxiv.org/abs/2611.23138">RSI-Prime</a>, a dataset of 350 model-training trajectories across seven task categories, to study how models learn from experimental decisions.</li>
+    <li><time datetime="2026-09">2026-09</time> Four studies of software agents examine <a href="https://arxiv.org/abs/2609.04167">code review requirements</a>, <a href="https://arxiv.org/abs/2609.01603">trajectory-aware evaluation</a>, <a href="https://arxiv.org/abs/2608.27449">training trajectory selection</a>, and <a href="https://arxiv.org/abs/2607.18859">repair strategies</a>.</li>
+    <li><time datetime="2026-09">2026-09</time> <a href="https://arxiv.org/abs/2609.01601">ACToR</a> studies which context to retrieve for repository-level code generation. ISSTA 2026 accepted <a href="https://arxiv.org/abs/2608.27442">MCR-Bench</a>, our benchmark for multi-round code review.</li>
+    <li><time datetime="2026-07">2026-07</time> Two FSE 2026 papers examine <a href="https://doi.org/10.1145/3797119">automated construction of training data for software agents</a> and <a href="https://arxiv.org/abs/2607.25996">how well models reason about code across a repository</a>.</li>
+    <li><time datetime="2026-07">2026-07</time> Our ACL 2026 papers cover <a href="https://aclanthology.org/2026.acl-long.1189/">efficient long-code completion</a>, <a href="https://aclanthology.org/2026.findings-acl.969/">repository-level code completion for HarmonyOS</a>, <a href="https://aclanthology.org/2026.findings-acl.1786/">secure code generation</a>, and <a href="https://aclanthology.org/2026.findings-acl.1877/">evaluation of software development knowledge</a>.</li>
+    <li><time datetime="2026-04">2026-04</time> Three ICSE 2026 papers study <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/182/What-to-Retrieve-for-Effective-Retrieval-Augmented-Code-Generation-An-Empirical-Stud">retrieval for code generation</a>, <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/229/Top-General-Performance-Top-Domain-Performance-DomainCodeBench-A-Multi-domain-Cod">how code generation varies across application domains</a>, and <a href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/241/Knowledge-Matters-Injecting-Project-and-Testing-Knowledge-into-LLM-based-Unit-Test-G">the role of project and testing knowledge in unit test generation</a>.</li>
+    <li><time datetime="2025-12">2025-12</time> We released an empirical study of <a href="https://arxiv.org/abs/2512.01939">how developers use agent frameworks</a>. Two other studies use tests to evaluate <a href="https://doi.org/10.1109/TSE.2025.3631886">code search results</a> and <a href="https://doi.org/10.1109/TSE.2025.3645056">repository-level code translation</a>.</li>
+    <li><time datetime="2025-11">2025-11</time> Three ASE 2025 papers investigate <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">retrieval aligned with code completion intent</a>, <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/149/DrainCode-Stealthy-Energy-Consumption-Attacks-on-Retrieval-Augmented-Code-Generation">the effects of poisoned context on energy consumption</a>, and <a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/143/RustRepoTrans-Repository-level-Context-Code-Translation-Benchmark-Targeting-Rust">repository-level code translation to Rust</a>.</li>
+    <li><time datetime="2025-06">2025-06</time> Our ISSTA and FSE 2025 papers examine <a href="https://arxiv.org/abs/2505.04606">multilingual and multimodal GitHub issue resolution</a>, <a href="https://conf.researchr.org/details/issta-2025/issta-2025-papers/22/LLM-Hallucinations-in-Practical-Code-Generation-Phenomena-Mechanism-and-Mitigation">hallucinations in code generation</a>, and <a href="https://arxiv.org/abs/2407.00456">coding style in functionally correct code</a>.</li>
+    <li><time datetime="2025-04">2025-04</time> We released a <a href="https://arxiv.org/abs/2504.08734">systematic study of how code models use context</a>. Our paper on <a href="https://arxiv.org/abs/2504.19444">rebuilding code pretraining datasets with LLMs</a> received an ACM SIGSOFT Distinguished Paper Award at ICPC 2025.</li>
+  </ul>
+  <details class="news-archive">
+    <summary>Earlier news (2020–2024)</summary>
+    <ul class="news-list">
+      <li><time datetime="2024-12">2024-12</time> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS</a> appeared at NeurIPS 2024. We released <a href="https://arxiv.org/abs/2412.17744">RepoTransBench</a> to evaluate code translation across entire repositories.</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> Our paper on accelerating code generation received an ACM SIGSOFT Distinguished Paper Award at ISSTA 2024.</li>
+      <li><time datetime="2024-09-15">2024-09-15</time> Our paper on identifying security issues in code snippets received an ACM SIGSOFT Distinguished Paper Award at ISSTA 2024.</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> Our paper received an ACM SIGSOFT Distinguished Paper Award at Internetware 2024.</li>
+      <li><time datetime="2024-07-24">2024-07-24</time> I received a Distinguished Reviewer Award at Internetware 2024.</li>
+      <li><time datetime="2024-07">2024-07</time> ISSTA 2024 accepted our paper on when language models should stop generating code.</li>
+      <li><time datetime="2024-07">2024-07</time> ICSE 2025 accepted RLCoder, our work on reinforcement learning for repository-level code completion.</li>
+      <li><time datetime="2024-07">2024-07</time> ISSTA 2024 accepted our paper on identifying smart contract security issues in code snippets from Stack Overflow.</li>
+      <li><time datetime="2024-06">2024-06</time> Our teaching paper received second prize at CCEC 2024.</li>
+      <li><time datetime="2024-02">2024-02</time> COLING 2024 accepted our paper on long code search through splitting, encoding, and aggregation.</li>
+      <li><time datetime="2024-01">2024-01</time> ACM Transactions on Software Engineering and Methodology accepted KADEL, our work on commit message generation.</li>
+      <li><time datetime="2023-12">2023-12</time> SANER 2024 accepted SparseCoder, our identifier-aware sparse Transformer for file-level code summarization.</li>
+      <li><time datetime="2023-12">2023-12</time> AAAI 2024 accepted MemoryBank, our work on long-term memory for large language models.</li>
+      <li><time datetime="2023-07">2023-07</time> ASE 2023 accepted our paper on issue link recovery.</li>
+      <li><time datetime="2023-06">2023-06</time> ICSME 2023 accepted our paper on using ChatGPT for code search.</li>
+      <li><time datetime="2023-05">2023-05</time> ISSTA 2023 accepted four of our research papers.</li>
+      <li><time datetime="2023-05">2023-05</time> We released <a href="https://arxiv.org/abs/2305.10250">MemoryBank</a> to investigate long-term memory in large language models.</li>
+      <li><time datetime="2023-04">2023-04</time> We released <a href="https://arxiv.org/abs/2304.06364">AGIEval</a>, a benchmark for evaluating foundation models on human examinations.</li>
+      <li><time datetime="2022-12">2022-12</time> ICSE 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-11">2022-11</time> AAAI 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-10">2022-10</time> WSDM 2023 accepted one of our papers.</li>
+      <li><time datetime="2022-10">2022-10</time> EMNLP 2022 accepted two of our papers.</li>
+      <li><time datetime="2022-09">2022-09</time> Empirical Software Engineering accepted one of our papers.</li>
+      <li><time datetime="2022-05">2022-05</time> KDD 2022 accepted one of our papers.</li>
+      <li><time datetime="2022-03">2022-03</time> MSR 2022 accepted one of our papers.</li>
+      <li><time datetime="2022-02">2022-02</time> ACL 2022 accepted two of our papers.</li>
+      <li><time datetime="2021-12">2021-12</time> ICSE 2022 accepted one of our papers.</li>
+      <li><time datetime="2021-08">2021-08</time> EMNLP 2021 and CIKM 2021 accepted papers from our group.</li>
+      <li><time datetime="2021-06">2021-06</time> ICSME 2021 accepted one of our papers.</li>
+      <li><time datetime="2020-12">2020-12</time> AAAI 2021 accepted one of our papers.</li>
+    </ul>
+  </details>
+</section>
+~~~

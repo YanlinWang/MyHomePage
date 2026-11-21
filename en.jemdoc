@@ -1,0 +1,157 @@
+# jemdoc: {index.html}, nofooter, title{Yanlin Wang | Sun Yat-sen University}
+# make
+
+~~~
+{}{raw}
+<nav class="site-nav" aria-label="Main navigation">
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#news">News</a>
+  <a href="#projects">Projects</a>
+  <a href="#recruitment">Prospective students</a>
+  <a href="#service">Service</a>
+  <a class="language-switch" href="zh.html" lang="zh-CN" hreflang="zh-CN">中文</a>
+</nav>
+
+<header class="profile" id="top">
+  <div>
+    <h1>Yanlin Wang <span lang="zh-CN">王焱林</span></h1>
+    <p>Associate Professor and PhD Supervisor, School of Software Engineering, Sun Yat-sen University</p>
+    <p>My research on large language models, agents and trustworthy AI explores how intelligent systems can reason, remember, use tools and collaborate autonomously in settings such as software engineering, question answering and embodied interaction.</p>
+    <p class="meta">I received my bachelor's degree from Zhejiang University and my PhD in computer science from the University of Hong Kong, advised by Bruno C. d. S. Oliveira. At Microsoft Research Asia (2019–2022), my research mentors were <a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">Dongmei Zhang</a> and <a href="https://www.microsoft.com/en-us/research/people/shihan/">Shi Han</a>. I joined Sun Yat-sen University in 2022.</p>
+    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a> · <a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a> · <a href="https://sse.sysu.edu.cn/teacher/329">Faculty profile (Chinese)</a></p>
+  </div>
+  <img src="pic/bio2.png" width="806" height="462" alt="Yanlin Wang" />
+</header>
+
+<section class="section-block" id="research">
+  <h2>Research interests</h2>
+  <details class="research-theme" id="agents">
+    <summary>Large Language Model Agents and Autonomous Learning</summary>
+    <div class="subtopics">
+      <h3>Memory, collaboration and software repair</h3>
+      <p>Resolving a software issue can take several attempts. We study how agents retain useful experience, divide the work of locating and repairing a defect, and explore another repair strategy when the first one fails.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2305.10250">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a> <small>(AAAI 2024)</small></li>
+        <li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</a> <small>(NeurIPS 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2607.18859">PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Repository-level code generation and retrieval</h3>
+      <p>The information needed to complete a line of code may live in another file. We study how to retrieve context that matches the intended completion, when to retrieve it during generation, and how to process long code efficiently.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2407.19487">RLCoder: Reinforcement Learning for Repository-Level Code Completion</a> <small>(ICSE 2025)</small></li>
+        <li><a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion</a> <small>(ASE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.acl-long.1189/">From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01601">Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Learning from tasks and execution trajectories</h3>
+      <p>Training a software agent starts with turning repository issues into tasks that can be run and checked. Once an agent has attempted them, we ask which trajectories and which individual steps are worth learning from.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://doi.org/10.1145/3797119">SWE Data Construction, Automatically!</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27449">SWE-Prime: Fewer Trajectories, Better Performance</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="trustworthy-models">
+    <summary>Large Language Model Training, Evaluation, Trustworthiness and Safety</summary>
+    <div class="subtopics">
+      <h3>Code representations, training data and curricula</h3>
+      <p>Source code, syntax and natural-language comments offer different signals for pretraining. In related work, we study how to rebuild code pretraining datasets and how a teacher model can introduce progressively harder problems.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2022.acl-long.499/">UniXcoder: Unified Cross-Modal Pre-training for Code Representation</a> <small>(ACL 2022)</small></li>
+        <li><a href="https://arxiv.org/abs/2401.15670">YODA: Teacher-Student Progressive Learning for Language Models</a> <small>(arXiv 2024)</small></li>
+        <li><a href="https://arxiv.org/abs/2504.19444">Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks</a> <small>(ICPC 2025)</small></li>
+      </ul>
+      <h3>Evaluating model capabilities and agent trajectories</h3>
+      <p>Human exams, cross-file reasoning and multi-round code review place different demands on a model. We build benchmarks for these settings and investigate how execution traces can reduce the cost of evaluating agents.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2024.findings-naacl.149/">AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</a> <small>(Findings of NAACL 2024)</small></li>
+        <li><a href="https://doi.org/10.1145/3808131">RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models</a> <small>(FSE 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2608.27442">From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench</a> <small>(ISSTA 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.01603">Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</a> <small>(arXiv 2026)</small></li>
+      </ul>
+      <h3>Reliability and security of generated code</h3>
+      <p>A patch that passes tests can still miss a review requirement, depart from project conventions or introduce a security flaw. We study how these failures and code hallucinations arise in practice and how evaluations can detect them.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2409.20550">LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation</a> <small>(ISSTA 2025)</small></li>
+        <li><a href="https://arxiv.org/abs/2407.00456">Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models</a> <small>(FSE 2025)</small></li>
+        <li><a href="https://aclanthology.org/2026.findings-acl.1786/">RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories</a> <small>(Findings of ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2609.04167">SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+  <details class="research-theme" id="embodied-science">
+    <summary>Embodied Intelligence and AI for Science</summary>
+    <div class="subtopics">
+      <h3>Visual grounding and multimodal reasoning</h3>
+      <p>Acting on an observation requires keeping track of its evidence during reasoning. VGPO studies how vision-language models stay grounded in an image over multiple steps. OmniGIRL tests whether software agents can use images supplied in GitHub issues.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://aclanthology.org/2026.acl-long.301/">Visually-Guided Policy Optimization for Multimodal Reasoning</a> <small>(ACL 2026)</small></li>
+        <li><a href="https://arxiv.org/abs/2505.04606">OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution</a> <small>(ISSTA 2025)</small></li>
+      </ul>
+      <h3>Experimental feedback and autonomous decisions</h3>
+      <p>How can an agent use an experimental result to revise a hypothesis and choose its next experiment? RSI-Prime starts with machine-learning experiments, identifying individual decisions within model-training runs. Extending this approach to embodied interaction and scientific experiments is an open research question for us.</p>
+      <ul class="research-papers" lang="en">
+        <li><a href="https://arxiv.org/abs/2611.23138">RSI-Prime: Training Models to Train Models</a> <small>(arXiv 2026)</small></li>
+      </ul>
+    </div>
+  </details>
+</section>
+~~~
+#include{news-en.jemdoc}
+
+~~~
+{}{raw}
+<section class="section-block" id="recruitment">
+  <h2>Postdoctoral and student opportunities</h2>
+  <p>I welcome postdoctoral applications year-round and recruit 1–3 graduate students each year. The number of places at the master’s and doctoral levels has yet to be determined. Undergraduates are also welcome to join the group early in their studies and take part in research.</p>
+  <p>To apply, email your CV, transcript and a research question that interests you to <a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>.</p>
+</section>
+
+<section class="section-block" id="projects">
+  <h2>Research projects</h2>
+  <ul>
+    <li>National Natural Science Foundation of China (NSFC), General Program · Software Evolution History-Driven Automated Defect Repair (2027–2030), Principal Investigator.</li>
+    <li>NSFC Major Research Plan · Neurosymbolic High-Confidence Code Generation and Optimization (2026–2029), Sun Yat-sen University lead.</li>
+    <li>CCF–Huawei Populus Euphratica Fund · Efficient Long-Context Language Models for Software Development Tasks (2024–2025), Principal Investigator.</li>
+    <li>CCF–Huawei Populus Euphratica Fund · Self-Feedback for Prompt Engineering in Large Code Models (2023–2024), Principal Investigator.</li>
+    <li>Sun Yat-sen University Young Faculty Development Project (2023–2024), Principal Investigator.</li>
+  </ul>
+</section>
+
+<section class="section-block" id="service">
+  <h2>Academic service</h2>
+~~~
+#include{service-roles.jemdoc}
+
+~~~
+{}{raw}
+</section>
+
+<section class="section-block" id="teaching">
+  <h2>Teaching</h2>
+  <ul>
+    <li>Principles of Compilers, Sun Yat-sen University (spring and fall 2023, fall 2024 and fall 2025).</li>
+    <li>The AI Revolution: Decoding Large Models, undergraduate general education, Sun Yat-sen University (fall 2023).</li>
+    <li>Software Source Code Analysis, Sun Yat-sen University (fall 2022).</li>
+  </ul>
+  <p class="meta">At the University of Hong Kong, I was a teaching assistant for courses in computer programming, functional programming and object-oriented programming (2014–2016).</p>
+</section>
+
+<section class="section-block" id="publications">
+  <h2>Publications</h2>
+  <p class="meta">* indicates the corresponding author. # indicates equal contribution.</p>
+  <details class="publication-archive">
+    <summary>More publications</summary>
+~~~
+#include{publications.jemdoc}
+
+~~~
+{}{raw}
+  </details>
+</section>
+
+<footer>
+  <p class="meta">Academic resources · <a href="https://ccfddl.github.io/">Conference deadlines</a> · <a href="https://ccf.atom.im/">CCF venue list</a></p>
+</footer>
+~~~
