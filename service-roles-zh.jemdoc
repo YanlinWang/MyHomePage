@@ -1,0 +1,32 @@
+# Chinese service labels with customary English conference role titles.
+~~~
+{}{raw}
+<div>
+<h3>会议组织</h3>
+<ul>
+  <li><a href="https://conf.researchr.org/profile/icse-2027/yanlinwang">ICSE 2027</a>: Publicity Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/fse-2027/fse-2027-organizing-committee">FSE 2027</a>: Tutorial Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/ease-2027/ease-2027-workshops-workshops">EASE 2027</a>: Workshops Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/icsme-2026/icsme-2026-organizing-committee">ICSME 2026</a>: Social Media &amp; Publicity Co-Chair</li>
+  <li>ACL 2026: Area Chair</li>
+  <li><a href="https://conf.researchr.org/committee/fse-2025/fse-2025-organizing-committee">FSE 2025</a>: Proceedings Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/apsec-2025/apsec-2025-organizing-committee">APSEC 2025</a>: Workshop Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/internetware-2025/internetware-2025-organization-committee">Internetware 2025</a>: Publicity Co-Chair</li>
+  <li><a href="https://conf.researchr.org/committee/internetware-2024/internetware-2024-tool-demonstration-track-program-commttee">Internetware 2024</a>: Tool Demonstration Track Co-Chair</li>
+  <li><a href="https://conf.researchr.org/track/apsec-2024/apsec-2024-doctoral-symposium">APSEC 2024</a>: Doctoral Symposium Co-Chair</li>
+  <li><a href="https://www.aiahpc.org/gflgptex">AIAHPC 2024</a>: Program Co-Chair</li>
+</ul>
+<h3>程序委员会</h3>
+<p>ICSE（2024–2027）；FSE（2025–2027； Industry： 2022–2026； Ideas, Visions and Reflections： 2021）；ISSTA（2024–2027）；ASE（2025–2026）；The Web Conference（2027）；AAAI（2026）；EASE（2026）；APSEC（2024）；Internetware（2023, 2024, 2026）；ICSME Industry（2022）；ICSS（2026）；AIware（2025）；CCF ChinaSoft（2025）；SocialMeta（2023）；Scala（2022）；COLING（2022）；ECOOP Doctoral Symposium（2019）。</p>
+<h3>期刊编委与审稿</h3>
+<ul>
+  <li>编委： <a href="https://www.techscience.com/cmc/editors">Computers, Materials &amp; Continua</a>.</li>
+  <li>期刊审稿： ACM TOSEM, IEEE TSE, ACM Computing Surveys, Automated Software Engineering, Journal of Systems and Software, IEEE TKDE, IEEE TNNLS, JCST and JOS.</li>
+</ul>
+<h3>学术团体</h3>
+<ul>
+  <li>中国计算机学会（CCF）软件工程专委会、服务计算专委会、自然语言处理专委会执行委员。</li>
+  <li>CCF 高级会员，IEEE、ACM 会员。</li>
+</ul>
+</div>
+~~~

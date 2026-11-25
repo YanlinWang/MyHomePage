@@ -18,8 +18,15 @@
     <h1>王焱林 <span lang="en">Yanlin Wang</span></h1>
     <p>中山大学软件工程学院副教授、博士生导师</p>
     <p>聚焦大模型、智能体与可信人工智能，探索具备推理、记忆、工具使用和自主协作能力的新一代智能系统，应用场景为软件智能体、问答、具身智能等。</p>
-    <p class="meta">本科毕业于浙江大学，在香港大学师从 <a href="https://i.cs.hku.hk/~bruno/">Bruno C. d. S. Oliveira</a> 教授，获计算机科学博士学位。2019 至 2022 年在微软亚洲研究院工作，合作导师为<a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">张冬梅</a>和<a href="https://www.microsoft.com/en-us/research/people/shihan/">韩石</a>。2022 年加入中山大学软件工程学院。</p>
-    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>：<a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a>：<a href="https://sse.sysu.edu.cn/teacher/329">学院主页</a></p>
+    <p class="meta">本科毕业于浙江大学，在香港大学师从 <a href="https://i.cs.hku.hk/~bruno/">Bruno C. d. S. Oliveira</a> 教授，获计算机科学博士学位。2019 至 2022 年在微软工作，合作导师为<a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">张冬梅</a>和<a href="https://www.microsoft.com/en-us/research/people/shihan/">韩石</a>。2022 年加入中山大学软件工程学院。</p>
+<p>邮箱: <a href="mailto:yanlin-wang@outlook.com">yanlin-wang@outlook.com</a></p>
+<p>其他：<a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a>（总引用量 9,532）　<a href="https://sse.sysu.edu.cn/teacher/329">学院主页</a>　<a href="https://dblp.org/pid/41/3458-1.html">DBLP</a>　<a href="https://orcid.org/0000-0001-7761-7269">ORCID</a></p>
+<!--
+<a href="https://dl.acm.org/profile/99658990559">ACM Digital Library</a>
+<a href="https://ieeexplore.ieee.org/author/37089156604">IEEE Xplore</a>
+<a href="https://www.semanticscholar.org/search?q=Yanlin%20Wang&amp;sort=relevance&amp;fos%5B0%5D=computer-science">Semantic Scholar（作者检索）</a>
+<a href="https://conf.researchr.org/profile/icse-2027/yanlinwang">Researchr</a>
+-->
   </div>
   <img src="pic/bio2.png" width="806" height="462" alt="王焱林近照" />
 </header>
@@ -166,7 +173,7 @@
 <section class="section-block" id="recruitment">
   <h2>招生</h2>
   <p>常年招收博士后，每年招收 1–3 名研究生（具体硕士博士数量待定）。也欢迎本科生提前加入课题组参与科研。</p>
-  <p>申请时请将简历、成绩单和感兴趣的研究问题发至 <a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>。</p>
+  <p>申请时请将简历、成绩单和感兴趣的研究问题发至 <a href="mailto:yanlin-wang@outlook.com">yanlin-wang@outlook.com</a>。</p>
 </section>
 
 <section class="section-block" id="projects">
@@ -183,7 +190,7 @@
 <section class="section-block" id="service">
   <h2>学术服务</h2>
 ~~~
-#include{service-roles.jemdoc}
+#include{service-roles-zh.jemdoc}
 
 ~~~
 {}{raw}
