@@ -18,84 +18,99 @@
     <h1>Yanlin Wang <span lang="zh-CN">王焱林</span></h1>
     <p>Associate Professor and PhD Supervisor, School of Software Engineering, Sun Yat-sen University</p>
     <p>My research on large language models, agents and trustworthy AI explores how intelligent systems can reason, remember, use tools and collaborate autonomously in settings such as software engineering, question answering and embodied interaction.</p>
-    <p class="meta">I received my bachelor's degree from Zhejiang University and my PhD in computer science from the University of Hong Kong, advised by Bruno C. d. S. Oliveira. At Microsoft Research Asia (2019–2022), my research mentors were <a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">Dongmei Zhang</a> and <a href="https://www.microsoft.com/en-us/research/people/shihan/">Shi Han</a>. I joined Sun Yat-sen University in 2022.</p>
-    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a> · <a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a> · <a href="https://sse.sysu.edu.cn/teacher/329">Faculty profile (Chinese)</a></p>
+    <p class="meta">I received my bachelor's degree from Zhejiang University and my PhD in computer science from the University of Hong Kong, advised by <a href="https://i.cs.hku.hk/~bruno/">Bruno C. d. S. Oliveira</a>. At Microsoft Research Asia (2019–2022), my research mentors were <a href="https://www.microsoft.com/en-us/research/people/dongmeiz/">Dongmei Zhang</a> and <a href="https://www.microsoft.com/en-us/research/people/shihan/">Shi Han</a>. I joined Sun Yat-sen University in 2022.</p>
+    <p class="contact"><a href="mailto:wangylin36@mail.sysu.edu.cn">wangylin36@mail.sysu.edu.cn</a>: <a href="https://scholar.google.com/citations?hl=en&amp;user=xSCoImAAAAAJ">Google Scholar</a>: <a href="https://sse.sysu.edu.cn/teacher/329">Faculty profile (Chinese)</a></p>
   </div>
   <img src="pic/bio2.png" width="806" height="462" alt="Yanlin Wang" />
 </header>
 
 <section class="section-block" id="research">
   <h2>Research interests</h2>
-  <details class="research-theme" id="agents">
-    <summary>Large Language Model Agents and Autonomous Learning</summary>
-    <div class="subtopics">
-      <h3>Memory, collaboration and software repair</h3>
-      <p>Resolving a software issue can take several attempts. We study how agents retain useful experience, divide the work of locating and repairing a defect, and explore another repair strategy when the first one fails.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://arxiv.org/abs/2305.10250">MemoryBank: Enhancing Large Language Models with Long-Term Memory</a> <small>(AAAI 2024)</small></li>
-        <li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d1f02132ef51602adf07000ca5b6138-Abstract-Conference.html">MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</a> <small>(NeurIPS 2024)</small></li>
-        <li><a href="https://arxiv.org/abs/2607.18859">PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents</a> <small>(arXiv 2026)</small></li>
-      </ul>
-      <h3>Repository-level code generation and retrieval</h3>
-      <p>The information needed to complete a line of code may live in another file. We study how to retrieve context that matches the intended completion, when to retrieve it during generation, and how to process long code efficiently.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://arxiv.org/abs/2407.19487">RLCoder: Reinforcement Learning for Repository-Level Code Completion</a> <small>(ICSE 2025)</small></li>
-        <li><a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio">AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion</a> <small>(ASE 2025)</small></li>
-        <li><a href="https://aclanthology.org/2026.acl-long.1189/">From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion</a> <small>(ACL 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2609.01601">Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation</a> <small>(arXiv 2026)</small></li>
-      </ul>
-      <h3>Learning from tasks and execution trajectories</h3>
-      <p>Training a software agent starts with turning repository issues into tasks that can be run and checked. Once an agent has attempted them, we ask which trajectories and which individual steps are worth learning from.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://doi.org/10.1145/3797119">SWE Data Construction, Automatically!</a> <small>(FSE 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2608.27449">SWE-Prime: Fewer Trajectories, Better Performance</a> <small>(arXiv 2026)</small></li>
-      </ul>
-    </div>
-  </details>
-  <details class="research-theme" id="trustworthy-models">
-    <summary>Large Language Model Training, Evaluation, Trustworthiness and Safety</summary>
-    <div class="subtopics">
-      <h3>Code representations, training data and curricula</h3>
-      <p>Source code, syntax and natural-language comments offer different signals for pretraining. In related work, we study how to rebuild code pretraining datasets and how a teacher model can introduce progressively harder problems.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://aclanthology.org/2022.acl-long.499/">UniXcoder: Unified Cross-Modal Pre-training for Code Representation</a> <small>(ACL 2022)</small></li>
-        <li><a href="https://arxiv.org/abs/2401.15670">YODA: Teacher-Student Progressive Learning for Language Models</a> <small>(arXiv 2024)</small></li>
-        <li><a href="https://arxiv.org/abs/2504.19444">Large Language Models are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks</a> <small>(ICPC 2025)</small></li>
-      </ul>
-      <h3>Evaluating model capabilities and agent trajectories</h3>
-      <p>Human exams, cross-file reasoning and multi-round code review place different demands on a model. We build benchmarks for these settings and investigate how execution traces can reduce the cost of evaluating agents.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://aclanthology.org/2024.findings-naacl.149/">AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</a> <small>(Findings of NAACL 2024)</small></li>
-        <li><a href="https://doi.org/10.1145/3808131">RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models</a> <small>(FSE 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2608.27442">From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench</a> <small>(ISSTA 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2609.01603">Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation</a> <small>(arXiv 2026)</small></li>
-      </ul>
-      <h3>Reliability and security of generated code</h3>
-      <p>A patch that passes tests can still miss a review requirement, depart from project conventions or introduce a security flaw. We study how these failures and code hallucinations arise in practice and how evaluations can detect them.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://arxiv.org/abs/2409.20550">LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation</a> <small>(ISSTA 2025)</small></li>
-        <li><a href="https://arxiv.org/abs/2407.00456">Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models</a> <small>(FSE 2025)</small></li>
-        <li><a href="https://aclanthology.org/2026.findings-acl.1786/">RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories</a> <small>(Findings of ACL 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2609.04167">SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents</a> <small>(arXiv 2026)</small></li>
+  <article class="direction" id="agents">
+    <img alt="" class="direction-art" height="80" src="pic/research/agents.webp" width="80"/>
+    <div class="direction-text">
+      <h3>LLM Agents and Autonomous Learning</h3>
+      <ul class="topic-list">
+        <li>
+          <strong class="subtopic">Memory, collaboration and repair</strong>
+          <a aria-label="MemoryBank: Enhancing Large Language Models with Long-Term Memory (AAAI'24)" class="short-ref" href="https://arxiv.org/abs/2305.10250" title="MemoryBank: Enhancing Large Language Models with Long-Term Memory (AAAI'24)">[MemoryBank, AAAI'24]</a>
+          <a aria-label="MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution (NeurIPS'24)" class="short-ref" href="https://doi.org/10.52202/079017-1647" title="MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution (NeurIPS'24)">[MAGIS, NeurIPS'24]</a>
+          <a aria-label="MicroAgent: Context-Augmented Multi-agent Framework for Automatic Microservice Decomposition (ASE'26)" class="short-ref" href="https://doi.org/10.1145/3832783.3834441" title="MicroAgent: Context-Augmented Multi-agent Framework for Automatic Microservice Decomposition (ASE'26)">[MicroAgent, ASE'26]</a>
+          <a aria-label="AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent (ISSTA'25)" class="short-ref" href="https://doi.org/10.1145/3728939" title="AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent (ISSTA'25)">[AdverIntent-Agent, ISSTA'25]</a>
+          <a aria-label="PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2607.18859" title="PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents (arXiv'26)">[PhoenixRepair, arXiv'26]</a>
+        </li>
+        <li>
+          <strong class="subtopic">Repository-level generation and retrieval</strong>
+          <a aria-label="RLCoder: Reinforcement Learning for Repository-Level Code Completion (ICSE'25)" class="short-ref" href="https://arxiv.org/abs/2407.19487" title="RLCoder: Reinforcement Learning for Repository-Level Code Completion (ICSE'25)">[RLCoder, ICSE'25]</a>
+          <a aria-label="AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion (ASE'25)" class="short-ref" href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/34/AlignCoder-Aligning-Retrieval-with-Target-Intent-for-Repository-Level-Code-Completio" title="AlignCoder: Aligning Retrieval with Target Intent for Repository-Level Code Completion (ASE'25)">[AlignCoder, ASE'25]</a>
+          <a aria-label="RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening (Internetware'24)" class="short-ref" href="https://doi.org/10.1145/3671016.3674819" title="RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening (Internetware'24)">[RepoMinCoder, Internetware'24]</a>
+          <a aria-label="From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion (ACL'26)" class="short-ref" href="https://aclanthology.org/2026.acl-long.1189/" title="From Logical to Computational Sparsity: Structure-Aware Block-Sparse Attention for Long-Code Completion (ACL'26)">[SabreCoder, ACL'26]</a>
+          <a aria-label="Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2609.01601" title="Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation (arXiv'26)">[ACToR, arXiv'26]</a>
+          <a aria-label="WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2607.10621" title="WebDesignIter: Co-Evolving Design Knowledge for Repository-Level Front-End Code Generation (arXiv'26)">[WebDesignIter, arXiv'26]</a>
+        </li>
+        <li>
+          <strong class="subtopic">Learning from experience and training agents</strong>
+          <a aria-label="SWE Data Construction, Automatically! (FSE'26)" class="short-ref" href="https://doi.org/10.1145/3797119" title="SWE Data Construction, Automatically! (FSE'26)">[SWE-Factory, FSE'26]</a>
+          <a aria-label="SWE-Prime: Fewer Trajectories, Better Performance (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2608.27449" title="SWE-Prime: Fewer Trajectories, Better Performance (arXiv'26)">[SWE-Prime, arXiv'26]</a>
+          <a aria-label="EvoGuard: Mitigating Degradation in Online Skill Evolution (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2611.06444" title="EvoGuard: Mitigating Degradation in Online Skill Evolution (arXiv'26)">[EvoGuard, arXiv'26]</a>
+          <a aria-label="RSI-Prime: Training Models to Train Models (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2611.23138" title="RSI-Prime: Training Models to Train Models (arXiv'26)">[RSI-Prime, arXiv'26]</a>
+        </li>
       </ul>
     </div>
-  </details>
-  <details class="research-theme" id="embodied-science">
-    <summary>Embodied Intelligence and AI for Science</summary>
-    <div class="subtopics">
-      <h3>Visual grounding and multimodal reasoning</h3>
-      <p>Acting on an observation requires keeping track of its evidence during reasoning. VGPO studies how vision-language models stay grounded in an image over multiple steps. OmniGIRL tests whether software agents can use images supplied in GitHub issues.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://aclanthology.org/2026.acl-long.301/">Visually-Guided Policy Optimization for Multimodal Reasoning</a> <small>(ACL 2026)</small></li>
-        <li><a href="https://arxiv.org/abs/2505.04606">OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution</a> <small>(ISSTA 2025)</small></li>
-      </ul>
-      <h3>Experimental feedback and autonomous decisions</h3>
-      <p>How can an agent use an experimental result to revise a hypothesis and choose its next experiment? RSI-Prime starts with machine-learning experiments, identifying individual decisions within model-training runs. Extending this approach to embodied interaction and scientific experiments is an open research question for us.</p>
-      <ul class="research-papers" lang="en">
-        <li><a href="https://arxiv.org/abs/2611.23138">RSI-Prime: Training Models to Train Models</a> <small>(arXiv 2026)</small></li>
+  </article>
+  <article class="direction" id="trustworthy-models">
+    <img alt="" class="direction-art" height="80" src="pic/research/evaluation.webp" width="80"/>
+    <div class="direction-text">
+      <h3>LLM Training, Evaluation, Trustworthiness and Safety</h3>
+      <ul class="topic-list">
+        <li>
+          <strong class="subtopic">Code representations and training</strong>
+          <a aria-label="UniXcoder: Unified Cross-Modal Pre-training for Code Representation (ACL'22)" class="short-ref" href="https://aclanthology.org/2022.acl-long.499/" title="UniXcoder: Unified Cross-Modal Pre-training for Code Representation (ACL'22)">[UniXcoder, ACL'22]</a>
+          <a aria-label="CoCoSoDa: Effective Contrastive Learning for Code Search (ICSE'23)" class="short-ref" href="https://dl.acm.org/doi/abs/10.1109/ICSE48619.2023.00185" title="CoCoSoDa: Effective Contrastive Learning for Code Search (ICSE'23)">[CoCoSoDa, ICSE'23]</a>
+          <a aria-label="YODA: Teacher-Student Progressive Learning for Language Models (arXiv'24)" class="short-ref" href="https://arxiv.org/abs/2401.15670" title="YODA: Teacher-Student Progressive Learning for Language Models (arXiv'24)">[YODA, arXiv'24]</a>
+          <a aria-label="Large Language Models Are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks (ICPC'25)" class="short-ref" href="https://doi.org/10.1109/ICPC66645.2025.00038" title="Large Language Models Are Qualified Benchmark Builders: Rebuilding Pre-Training Datasets for Advancing Code Intelligence Tasks (ICPC'25)">[Benchmark Builders, ICPC'25]</a>
+          <a aria-label="Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning (AAAI'26)" class="short-ref" href="https://doi.org/10.1609/aaai.v40i38.40471" title="Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning (AAAI'26)">[CL4D, AAAI'26]</a>
+          <a aria-label="EffiReasonTrans: RL-Optimized Reasoning for Code Translation (TSE'26)" class="short-ref" href="https://doi.org/10.1109/tse.2026.3693795" title="EffiReasonTrans: RL-Optimized Reasoning for Code Translation (TSE'26)">[EffiReasonTrans, TSE'26]</a>
+        </li>
+        <li>
+          <strong class="subtopic">Capability and process evaluation</strong>
+          <a aria-label="AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models (NAACL Findings'24)" class="short-ref" href="https://doi.org/10.18653/v1/2024.findings-naacl.149" title="AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models (NAACL Findings'24)">[AGIEval, NAACL Findings'24]</a>
+          <a aria-label="Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark (ICSE'26)" class="short-ref" href="https://conf.researchr.org/details/icse-2026/icse-2026-research-track/229/Top-General-Performance-Top-Domain-Performance-DomainCodeBench-A-Multi-domain-Cod" title="Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark (ICSE'26)">[DomainCodeBench, ICSE'26]</a>
+          <a aria-label="From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA (ACL Findings'26)" class="short-ref" href="https://aclanthology.org/2026.findings-acl.1877/" title="From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA (ACL Findings'26)">[SimpleDevQA, ACL Findings'26]</a>
+          <a aria-label="RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models (FSE'26)" class="short-ref" href="https://doi.org/10.1145/3808131" title="RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models (FSE'26)">[RepoReasoner, FSE'26]</a>
+          <a aria-label="From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench (ISSTA'26)" class="short-ref" href="https://doi.org/10.1145/3832219" title="From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench (ISSTA'26)">[MCR-Bench, ISSTA'26]</a>
+          <a aria-label="Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2609.01603" title="Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation (arXiv'26)">[PTA-IRT, arXiv'26]</a>
+          <a aria-label="FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks (arXiv'25)" class="short-ref" href="https://arxiv.org/abs/2504.06939" title="FeedbackEval: A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks (arXiv'25)">[FeedbackEval, arXiv'25]</a>
+        </li>
+        <li>
+          <strong class="subtopic">Code reliability and security</strong>
+          <a aria-label="LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation (ISSTA'25)" class="short-ref" href="https://doi.org/10.1145/3728894" title="LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation (ISSTA'25)">[Code Hallucinations, ISSTA'25]</a>
+          <a aria-label="Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models (FSE'25)" class="short-ref" href="https://doi.org/10.1145/3715749" title="Beyond Functional Correctness: Investigating Coding Style Inconsistencies in Large Language Models (FSE'25)">[Coding Style, FSE'25]</a>
+          <a aria-label="RMCBench: Benchmarking Large Language Models’ Resistance to Malicious Code (ASE'24)" class="short-ref" href="https://doi.org/10.1145/3691620.3695480" title="RMCBench: Benchmarking Large Language Models’ Resistance to Malicious Code (ASE'24)">[RMCBench, ASE'24]</a>
+          <a aria-label="RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories (ACL Findings'26)" class="short-ref" href="https://aclanthology.org/2026.findings-acl.1786/" title="RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories (ACL Findings'26)">[RealSec-bench, ACL Findings'26]</a>
+          <a aria-label="MCGMark: An Encodable and Robust Online Watermark for Tracing LLM-Generated Malicious Code (TOSEM'26)" class="short-ref" href="https://doi.org/10.1145/3846177" title="MCGMark: An Encodable and Robust Online Watermark for Tracing LLM-Generated Malicious Code (TOSEM'26)">[MCGMark, TOSEM'26]</a>
+          <a aria-label="SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents (arXiv'26)" class="short-ref" href="https://arxiv.org/abs/2609.04167" title="SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents (arXiv'26)">[SWE-Gate, arXiv'26]</a>
+        </li>
       </ul>
     </div>
-  </details>
+  </article>
+  <article class="direction" id="embodied-intelligence">
+    <img alt="" class="direction-art" height="80" src="pic/research/embodied.webp" width="80"/>
+    <div class="direction-text">
+      <h3 id="embodied-science">Embodied Intelligence</h3>
+      <ul class="topic-list">
+        <li>
+          <strong class="subtopic">Foundations in visual grounding and multimodal reasoning</strong>
+          <a aria-label="Visually-Guided Policy Optimization for Multimodal Reasoning (ACL'26)" class="short-ref" href="https://aclanthology.org/2026.acl-long.301/" title="Visually-Guided Policy Optimization for Multimodal Reasoning (ACL'26)">[VGPO, ACL'26]</a>
+          <a aria-label="OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution (ISSTA'25)" class="short-ref" href="https://arxiv.org/abs/2505.04606" title="OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution (ISSTA'25)">[OmniGIRL, ISSTA'25]</a>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <aside class="explore" id="ai-for-science" aria-labelledby="explore-title">
+    <h3 id="explore-title">Exploratory direction</h3>
+    <span class="explore-name">AI for Science</span>
+  </aside>
 </section>
 ~~~
 #include{news-en.jemdoc}
@@ -111,11 +126,11 @@
 <section class="section-block" id="projects">
   <h2>Research projects</h2>
   <ul>
-    <li>National Natural Science Foundation of China (NSFC), General Program · Software Evolution History-Driven Automated Defect Repair (2027–2030), Principal Investigator.</li>
-    <li>NSFC Major Research Plan · Neurosymbolic High-Confidence Code Generation and Optimization (2026–2029), Sun Yat-sen University lead.</li>
-    <li>CCF–Huawei Populus Euphratica Fund · Efficient Long-Context Language Models for Software Development Tasks (2024–2025), Principal Investigator.</li>
-    <li>CCF–Huawei Populus Euphratica Fund · Self-Feedback for Prompt Engineering in Large Code Models (2023–2024), Principal Investigator.</li>
-    <li>Sun Yat-sen University Young Faculty Development Project (2023–2024), Principal Investigator.</li>
+    <li>National Natural Science Foundation of China (NSFC), General Program: Software Evolution History-Driven Automated Defect Repair (2027–2030), PI.</li>
+    <li>NSFC Major Research Plan: Neurosymbolic High-Confidence Code Generation and Optimization (2026–2029), Subproject PI.</li>
+    <li>CCF–Huawei Populus Euphratica Fund: Efficient Long-Context Language Models for Software Development Tasks (2024–2025), PI.</li>
+    <li>CCF–Huawei Populus Euphratica Fund: Self-Feedback for Prompt Engineering in Large Code Models (2023–2024), PI.</li>
+    <li>Sun Yat-sen University Young Faculty Development Project (2023–2024), PI.</li>
   </ul>
 </section>
 
@@ -140,18 +155,30 @@
 
 <section class="section-block" id="publications">
   <h2>Publications</h2>
-  <p class="meta">* indicates the corresponding author. # indicates equal contribution.</p>
-  <details class="publication-archive">
-    <summary>More publications</summary>
+  <div class="publication-tabs" aria-label="Publication views">
+    <a id="highlight-tab" href="#highlights"><span aria-hidden="true">🔥</span>Highlight</a>
+    <a id="papers-tab" href="#papers">Papers</a>
+  </div>
+  <section id="highlights" aria-labelledby="highlight-tab">
+    <h3 class="publication-view-heading">Highlight</h3>
+    <!-- publication highlights -->
+  </section>
+  <section id="papers" aria-labelledby="papers-tab">
+    <h3 class="publication-view-heading">Papers</h3>
+    <p class="meta">* indicates the corresponding author. # indicates equal contribution.</p>
+    <details class="publication-archive">
+      <summary>More publications</summary>
 ~~~
 #include{publications.jemdoc}
 
 ~~~
 {}{raw}
-  </details>
+    </details>
+  </section>
 </section>
+<script src="publication-tabs.js"></script>
 
 <footer>
-  <p class="meta">Academic resources · <a href="https://ccfddl.github.io/">Conference deadlines</a> · <a href="https://ccf.atom.im/">CCF venue list</a></p>
+  <p class="meta">Academic resources: <a href="https://ccfddl.github.io/">Conference deadlines</a>: <a href="https://ccf.atom.im/">CCF venue list</a></p>
 </footer>
 ~~~

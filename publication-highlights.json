@@ -1,0 +1,172 @@
+{
+  "citation_date": "2026-11-25",
+  "groups": [
+    {
+      "en": "Software agents and repository-level development",
+      "zh": "软件智能体与仓库级开发",
+      "papers": [
+        {
+          "paper": "SWE Data Construction, Automatically!",
+          "venue": "FSE 2026",
+          "url": "https://doi.org/10.1145/3797119",
+          "en": "SWE-Factory turns GitHub issues into training and evaluation tasks by building test environments and checking that each fix makes a failing test pass.",
+          "zh": "SWE-Factory 自动搭建测试环境，验证修复前失败的测试能否在修复后通过，把真实 GitHub issue 转化为软件智能体的训练和评测任务。"
+        },
+        {
+          "paper": "OmniGIRL:",
+          "venue": "ISSTA 2025",
+          "url": "https://doi.org/10.1145/3728871",
+          "en": "OmniGIRL tests issue resolution across four programming languages, including cases where a screenshot helps explain what went wrong.",
+          "zh": "OmniGIRL 用四种编程语言的 GitHub issue 评测智能体的修复能力，覆盖需要结合截图理解的问题。"
+        },
+        {
+          "paper": "MicroAgent:",
+          "venue": "ASE 2026",
+          "url": "https://doi.org/10.1145/3832783.3834441",
+          "en": "Five agents use code context and analysis tools to identify service boundaries and split a monolithic application into microservices.",
+          "zh": "五个智能体结合代码上下文和分析工具识别服务边界，将单体应用拆分为微服务。"
+        },
+        {
+          "paper": "RLCoder:",
+          "venue": "ICSE 2025",
+          "url": "https://doi.org/10.1109/ICSE55347.2025.00014",
+          "en": "RLCoder learns which snippets to retrieve from other files by measuring how much they help a model predict the missing code.",
+          "zh": "RLCoder 用强化学习训练检索器，以代码片段对补全的实际帮助为反馈，学习从仓库的其他文件中选择上下文。",
+          "citations": {
+            "count": 143,
+            "url": "https://scholar.google.com/scholar?cites=17122525463737921023"
+          }
+        },
+        {
+          "paper": "RepoReasoner:",
+          "venue": "FSE 2026",
+          "url": "https://doi.org/10.1145/3808131",
+          "en": "RepoReasoner tests whether a model can trace execution across files by asking it to predict program outputs and function call chains.",
+          "zh": "RepoReasoner 让模型预测程序输出和函数调用链，检验它能否跨越多个文件追踪代码的执行过程。"
+        },
+        {
+          "paper": "HumanEvo:",
+          "venue": "ICSE 2025",
+          "url": "https://doi.org/10.1109/ICSE55347.2025.00228",
+          "en": "HumanEvo reconstructs the repository as it stood when a function was written to measure how later commits can inflate code-generation scores.",
+          "zh": "HumanEvo 还原开发者编写函数时的仓库版本，衡量后续提交中的信息会让代码生成得分虚高多少。"
+        }
+      ]
+    },
+    {
+      "en": "Reliability and efficiency of generated code",
+      "zh": "代码生成的可靠性与效率",
+      "papers": [
+        {
+          "paper": "LLM Hallucinations in Practical Code Generation:",
+          "venue": "ISSTA 2025",
+          "url": "https://doi.org/10.1145/3728894",
+          "en": "This study classifies the hallucinations that arise when models generate code within a repository and tests whether retrieving relevant context reduces them.",
+          "zh": "研究归纳了大模型在仓库级代码生成中出现的幻觉类型，并检验检索相关上下文能否减少这些错误。",
+          "citations": {
+            "count": 374,
+            "url": "https://scholar.google.com/scholar?cites=9314563279130477957"
+          }
+        },
+        {
+          "paper": "Beyond Functional Correctness:",
+          "venue": "FSE 2025",
+          "url": "https://doi.org/10.1145/3715749",
+          "en": "A comparison of code written by developers and by language models reveals differences in readability, conciseness and robustness.",
+          "zh": "通过对照开发者和大模型编写的代码，研究分析了两者在可读性、简洁性和健壮性上的差异。"
+        },
+        {
+          "paper": "When to Stop?",
+          "venue": "ISSTA 2024",
+          "url": "https://doi.org/10.1145/3650212.3680343",
+          "en": "CodeFast uses a lightweight classifier to recognize when a code answer is complete and stop the model from generating unnecessary tokens.",
+          "zh": "CodeFast 用轻量分类器判断模型是否已写完所需代码，及时停止生成，省去输出多余 token 的推理开销。"
+        },
+        {
+          "paper": "EffiReasonTrans:",
+          "venue": "IEEE TSE 2026",
+          "url": "https://doi.org/10.1109/TSE.2026.3693795",
+          "en": "EffiReasonTrans trains a code translation model on verified examples, then uses reinforcement learning to reward translations that pass tests with fewer reasoning tokens.",
+          "zh": "EffiReasonTrans 先用经过验证的样例训练代码翻译模型，再用强化学习奖励通过测试且推理开销较低的翻译结果。"
+        }
+      ]
+    },
+    {
+      "en": "Code representation, training and evaluation",
+      "zh": "代码表示、训练与评测",
+      "papers": [
+        {
+          "paper": "UniXcoder:",
+          "venue": "ACL 2022",
+          "url": "https://aclanthology.org/2022.acl-long.499/",
+          "en": "UniXcoder learns from source code, comments and abstract syntax trees in a single model that supports both code understanding and generation.",
+          "zh": "UniXcoder 联合源代码、注释和抽象语法树进行预训练，让同一个模型支持代码理解与生成。",
+          "citations": {
+            "count": 1511,
+            "url": "https://scholar.google.com/scholar?cites=1206419703297717913"
+          }
+        },
+        {
+          "paper": "CoCoSoDa:",
+          "venue": "ICSE 2023",
+          "url": "https://doi.org/10.1109/ICSE48619.2023.00185",
+          "en": "CoCoSoDa masks or replaces tokens in code and queries, then uses contrastive learning to bring a query closer to its matching code.",
+          "zh": "CoCoSoDa 遮盖或替换代码和查询中的词元来构造训练样例，再用对比学习拉近自然语言查询与相关代码的表示。"
+        },
+        {
+          "paper": "Large Language Models Are Qualified Benchmark Builders:",
+          "venue": "ICPC 2025",
+          "url": "https://doi.org/10.1109/ICPC66645.2025.00038",
+          "en": "Replacing CodeSearchNet comments with model-written descriptions improved a retrained CodeT5 model on code summarization, generation and translation.",
+          "zh": "用大模型重写 CodeSearchNet 中的代码注释后，重新预训练的 CodeT5 在代码摘要、生成和翻译任务上均有提升。"
+        },
+        {
+          "paper": "On the evaluation of neural code summarization",
+          "venue": "ICSE 2022",
+          "url": "https://doi.org/10.1145/3510003.3510060",
+          "en": "Choices as small as the BLEU variant, preprocessing steps or dataset split can change the scores and rankings of code summarization models.",
+          "zh": "即使评测同一批代码摘要模型，BLEU 的计算方式、代码预处理和数据集划分也会影响得分与排名。",
+          "citations": {
+            "count": 189,
+            "url": "https://scholar.google.com/scholar?cites=5451500051021519060,603434050006244887"
+          }
+        }
+      ]
+    },
+    {
+      "en": "Memory and reasoning in foundation models",
+      "zh": "基础模型的记忆与推理",
+      "papers": [
+        {
+          "paper": "MemoryBank:",
+          "venue": "AAAI 2024",
+          "url": "https://doi.org/10.1609/aaai.v38i17.29946",
+          "en": "MemoryBank lets a language model recall earlier conversations and update its memories as time passes and topics recur.",
+          "zh": "MemoryBank 让语言模型在新对话中回忆以往的交流，并根据时间间隔和记忆的再次唤起更新记忆强度。",
+          "citations": {
+            "count": 1814,
+            "url": "https://scholar.google.com/scholar?cites=17031517181097075"
+          }
+        },
+        {
+          "paper": "AGIEval:",
+          "venue": "Findings of NAACL 2024",
+          "url": "https://aclanthology.org/2024.findings-naacl.149/",
+          "en": "AGIEval uses Chinese and English exams, including university entrance tests and math competitions, to probe foundation models’ knowledge and reasoning.",
+          "zh": "AGIEval 用中英文标准化考试题评测基础模型的知识与推理能力，题目涵盖高考、法律考试和数学竞赛。",
+          "citations": {
+            "count": 982,
+            "url": "https://scholar.google.com/scholar?cites=14184664955165273207"
+          }
+        },
+        {
+          "paper": "Visually-Guided Policy Optimization",
+          "venue": "ACL 2026",
+          "url": "https://aclanthology.org/2026.acl-long.301/",
+          "en": "VGPO gives more training weight to reasoning steps and trajectories that stay grounded in the image.",
+          "zh": "VGPO 在训练中提高持续关注图像线索的推理步骤和轨迹的权重，缓解多模态模型在长推理中逐渐忽略图像的问题。"
+        }
+      ]
+    }
+  ]
+}
