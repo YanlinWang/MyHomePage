@@ -6,7 +6,7 @@
 . *Req2Rust: A Requirements-Guided Agent Harness for Project-Level C\+\+-to-Rust Migration* (*arXiv 2026*) \[[https://arxiv.org/abs/2611.07442 preprint]\] \n
   Shengbo Wang, Mingwei Liu, Yuwen Chen, Yanlin Wang.
 . *EvoGuard: Mitigating Degradation in Online Skill Evolution* (*arXiv 2026*) \[[https://arxiv.org/abs/2611.06444 preprint]\] \n
-  Yanli Wang, Zichen Bai, Tianyue Jiang, Kunming Shao, Junhao Shi, Xueqin Liu, Jinguo Sun, Muye Li, Tingting Bi, Yanlin Wang, Shaoqiang Zheng, Xuefei Diao, Zhuwei Zeng, Nan Duan, Peng Cao.
+  Yanli Wang, Zichen Bai, Tianyue Jiang, Kunming Shao, Junhao Shi, Xueqin Liu, Jinguo Sun, Muye Li, Tingting Bi, Yanlin Wang, Shaoqiang Zheng\*, Xuefei Diao, Zhuwei Zeng, Nan Duan, Peng Cao.
 . *MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning* (*arXiv 2026*) \[[https://arxiv.org/abs/2610.11727 preprint]\] \n
   Yuxuan Chen, Mingwei Liu, Guangsheng Ou, Zekai Zhang, Zike Li, Yanlin Wang, Pelin Zheng.
 . *Who Broke Me? Execution-Guided Repair of Behavioral Dependency Breaks* (*arXiv 2026*) \[[https://arxiv.org/abs/2610.09267 preprint]\] \n
